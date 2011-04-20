@@ -1,0 +1,3 @@
+version=3
+
+http://ftp.fusiondirectory.org/pub/fusiondirectory/fusiondirectory-(.*)\.tar\.gz
