@@ -1,4 +1,3 @@
 opsi/admin			/usr/share/fusiondirectory/plugins
-opsi/help/guide.xml		/usr/share/fusiondirectory/doc/plugins/opsi
 opsi/locale			/usr/share/fusiondirectory/locale/plugins/opsi
 opsi/html/images		/usr/share/fusiondirectory/html/plugins/opsi
