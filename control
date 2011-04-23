@@ -33,16 +33,6 @@ Description: FusionDirectory development utilities
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-desktop
-Architecture: all
-Depends: ${misc:Depends}, konqueror | iceweasel | mozilla | firefox, debconf
-Description: Desktop integration for FusionDirectory
- This package includes a FusionDirectory menu definition for your desktop
- environment.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-schema
 Architecture: all
 Depends: ${misc:Depends}
