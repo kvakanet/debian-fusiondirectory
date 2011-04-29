@@ -2,7 +2,10 @@ core/update-fusiondirectory			/usr/sbin
 core/bin/fusiondirectory-encrypt-passwords	/usr/sbin
 core/html					/usr/share/fusiondirectory
 core/ihtml					/usr/share/fusiondirectory
-core/include					/usr/share/fusiondirectory
+core/include/exporter				/usr/share/fusiondirectory
+core/include/password-methods			/usr/share/fusiondirectory
+core/include/utils				/usr/share/fusiondirectory
+core/include/*.inc				/usr/share/fusiondirectory
 core/locale					/usr/share/fusiondirectory
 core/plugins					/usr/share/fusiondirectory
 core/setup					/usr/share/fusiondirectory
