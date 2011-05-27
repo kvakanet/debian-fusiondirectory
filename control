@@ -332,7 +332,7 @@ Description: LDAP schema for FusionDirectory nagios plugin
 Package: fusiondirectory-plugin-netatalk
 Conflicts: gosa-plugin-netatalk
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-goto
 Breaks: gosa (<<2.6)
 Description: netatalk plugin for FusionDirectory
  Netatalk account management plugin
