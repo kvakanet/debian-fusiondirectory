@@ -44,42 +44,6 @@ Description: LDAP schema for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-help-en
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Description: English online help for FusionDirectory
- This package includes the English online documentation for FusionDirectory
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-help-de
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Description: German online help for FusionDirectory
- This package includes the German online documentation for FusionDirectory
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-help-fr
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Description: French online help for FusionDirectory
- This package includes the French online documentation for FusionDirectory
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-help-nl
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Description: Dutch online help for FusionDirectory
- This package includes the Dutch online documentation for FusionDirectory
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: smarty-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty
