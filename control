@@ -338,17 +338,6 @@ Description: LDAP schema for FusionDirectory openxchange plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-opsi
-Conflicts: gosa-plugin-opsi
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-fai, fusiondirectory-plugin-goto
-Breaks: gosa (<<2.6)
-Description: opsi plugin for FusionDirectory
- opsi plugin for managing windows system and software deployment
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-phpgw
 Conflicts: gosa-plugin-phpgw
 Architecture: all

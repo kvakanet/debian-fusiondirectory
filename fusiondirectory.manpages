@@ -1,4 +1,7 @@
-core/contrib/fusiondirectory.conf.5
-core/fusiondirectory-encrypt-passwords.1
-core/update-fusiondirectory.1
+core/contrib/man/fusiondirectory.conf.5
+core/contrib/man/fusiondirectory-encrypt-passwords.1
+core/contrib/man/fusiondirectory-setup.1
+core/contrib/man/mkntpasswd.1
+core/contrib/man/schema2ldif.1
+
 
