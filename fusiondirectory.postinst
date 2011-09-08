@@ -13,7 +13,8 @@ case "$1" in
       ;;
 
   triggered)
-      update-fusiondirectory
+      fusiondirectory-setup --update-cache
+      fusiondirectory-setup --update-lang
       exit 0
       ;;
 
@@ -100,12 +101,8 @@ for source in /usr/bin/convert /usr/bin/lpstat; do
   fi
 done
 
-# Fix permission in /var/(spool|cache)/fusiondirectory
-chown root.$WEBGROUP -R /var/spool/fusiondirectory
-chmod 770 -R /var/spool/fusiondirectory
-chown root.$WEBGROUP -R /var/cache/fusiondirectory
-chmod 770 -R /var/cache/fusiondirectory
+fusiondirectory-setup --update-cache
+fusiondirectory-setup --update-lang
 
-update-fusiondirectory
 
 exit 0

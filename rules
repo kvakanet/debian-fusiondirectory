@@ -3,7 +3,7 @@
 %:
 	dh $@
 
-override_dh_compress:
-	dh_compress
-	gzip -d debian/fusiondirectory/usr/share/doc/fusiondirectory/fusiondirectory.conf.gz
+#override_dh_compress:
+#	dh_compress
+#	gzip -d debian/fusiondirectory/usr/share/doc/fusiondirectory/fusiondirectory.conf.gz
 
