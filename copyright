@@ -196,6 +196,11 @@ Licence: MIT
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
 
+Files: overlib.js
+Copyright:      Copyright (C) Erik Bosrup 1998-2004
+Licence: Artistic
+
+
 SIEVE-PHP.LIB VERSION 0.0.8:
 	Copyright (C) 2001 Dan Ellis <danellis@rushmore.com>
 
