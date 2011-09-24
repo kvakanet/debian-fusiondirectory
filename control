@@ -34,7 +34,6 @@ Description: LDAP schema for FusionDirectory
  interface, designed to handle LDAP based network infrastructures.
 
 Package: fusiondirectory-smarty-acl-render
-Conflicts: smarty-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty | smarty3
 Conflicts: smarty-acl-render
