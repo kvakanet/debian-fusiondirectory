@@ -1,6 +1,6 @@
 core/contrib/bin/fusiondirectory-setup			/usr/sbin
 core/contrib/bin/fusiondirectory-encrypt-passwords	/usr/sbin
-core/contrib/bin/mkntpasswd				/usr/sbin
+core/contrib/bin/fusiondirectory-mkntpassword		/usr/sbin
 core/contrib/bin/fusiondirectory-schema2ldif		/usr/sbin
 core/html					/usr/share/fusiondirectory
 core/ihtml					/usr/share/fusiondirectory
