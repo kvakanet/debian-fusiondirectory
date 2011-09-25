@@ -1,0 +1,13 @@
+Index: pkg/core/include/php_setup.inc
+===================================================================
+--- pkg.orig/core/include/php_setup.inc	2011-09-25 11:37:54.000000000 +0200
++++ pkg/core/include/php_setup.inc	2011-09-25 11:42:45.000000000 +0200
+@@ -20,7 +20,7 @@
+   Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ */
+ 
+-define("SMARTY_PATH", "smarty/Smarty.class.php");
++define("SMARTY_PATH", "smarty/libs/Smarty.class.php");
+ 
+ function gosaRaiseError($errno, $errstr, $errfile, $errline)
+ {
