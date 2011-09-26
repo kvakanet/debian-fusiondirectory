@@ -13,8 +13,7 @@ case "$1" in
       ;;
 
   triggered)
-      fusiondirectory-setup --update-cache
-      fusiondirectory-setup --update-lang
+      fusiondirectory-setup --update-cache --update-locale
       exit 0
       ;;
 
@@ -101,8 +100,6 @@ for source in /usr/bin/convert /usr/bin/lpstat; do
   fi
 done
 
-fusiondirectory-setup --update-cache
-fusiondirectory-setup --update-lang
-
+fusiondirectory-setup --update-cache --update-locale
 
 exit 0
