@@ -204,29 +204,6 @@ Description: ldapmanager plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-log
-Conflicts: gosa-plugin-log
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<<2.6)
-Description: log plugin for FusionDirectory
- Syslog and FusionDirectory logging management plugin
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-log-schema
-Conflicts: gosa-plugin-log-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Description: LDAP schema for fusiondirectory² log plugin
- This package includes the LDAP schema needed by the FusionDirectory
- log plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-mail
 Conflicts: gosa-plugin-mail
 Architecture: all
