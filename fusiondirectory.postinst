@@ -7,14 +7,14 @@ set -e
 
 case "$1" in
   configure)
-      fusiondirectory-setup -y --check-dirs --update-cache --update-locale
+      fusiondirectory-setup -y --check-dirs --update-cache --update-locales
       ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
       ;;
 
   triggered)
-      fusiondirectory-setup --update-cache --update-locale
+      fusiondirectory-setup --update-cache --update-locales
       exit 0
       ;;
 
@@ -101,6 +101,6 @@ for source in /usr/bin/convert /usr/bin/lpstat; do
   fi
 done
 
-fusiondirectory-setup -y --check-dirs --update-cache --update-locale
+fusiondirectory-setup -y --check-dirs --update-cache --update-locales
 
 exit 0
