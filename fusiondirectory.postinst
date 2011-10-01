@@ -65,33 +65,6 @@ if [ -d /etc/apache2/conf.d ]; then
   fi
 fi
 
-if [ -d /etc/lighttpd/conf-available ]; then
-
-  # Copy FusionDirectory configuration to conf-available directories /etc/lighttpd/conf-available
-  if [ ! -L /etc/lighttpd/conf-enabled/99fusiondirectory-lighttpd.conf ]; then
-
-    # Remove old instances of this file
-    if [ -f /etc/lighttpd/conf-enabled/99fusiondirectory-lighttpd.conf ]; then
-      echo "Found old fusiondirectory apache configuration in /etc/lighttpd/conf-enabled - moving it to orig.fusiondirectory-lighttpd.conf ..."
-      echo "Please check for changes in /etc/lighttpd/conf-available/orig.99fusiondirectory-lighttpd.conf if you modified this file!"
-      mv /etc/lighttpd/conf-enabled/99fusiondirectory-lighttpd.conf /etc/lighttpd/conf-available/orig.fusiondirectory-lighttpd.conf
-    fi
-
-    echo "Making /fusiondirectory available in /etc/lighttpd/conf-enabled/"
-
-    # Add FusionDirectory include file
-    ln -s /etc/fusiondirectory/fusiondirectory-lighttpd.conf /etc/lighttpd/conf-enabled/99fusiondirectory-lighttpd.conf
-  fi
-
-  # Finally restart servers
-  if [ -x /usr/sbin/invoke-rc.d ]; then
-    invoke-rc.d lighttpd reload
-  else
-    /etc/init.d/lighttpd reload
-  fi
-
-fi
-
 # Add links for safe mode
 [ ! -d /usr/share/fusiondirectory/bin ] && mkdir -p /usr/share/fusiondirectory/bin
 for source in /usr/bin/convert /usr/bin/lpstat; do
