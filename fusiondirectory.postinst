@@ -26,10 +26,6 @@ esac
 
 #DEBHELPER#
 
-# Set ID's
-WEBUSER="www-data"
-WEBGROUP="www-data"
-
 # Create empty inclusion file for apache
 if [ ! -f /etc/fusiondirectory/fusiondirectory.secrets ]; then
     touch /etc/fusiondirectory/fusiondirectory.secrets
