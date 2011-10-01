@@ -13,9 +13,9 @@ core/include/jsonRPCClient.php			/usr/share/fusiondirectory/include
 core/locale					/usr/share/fusiondirectory
 core/plugins					/usr/share/fusiondirectory
 core/setup					/usr/share/fusiondirectory
-debian/fusiondirectory-apache.conf		/etc/fusiondirectory
-core/contrib/shells				/etc/fusiondirectory
-core/contrib/encodings				/etc/fusiondirectory
+core/contrib/apache/fusiondirectory-apache.conf	/etc/fusiondirectory
+core/contrib/etc/shells				/etc/fusiondirectory
+core/contrib/etc/encodings			/etc/fusiondirectory
 core/contrib/openldap/slapd.conf		/usr/share/doc/fusiondirectory/slapd.conf-example
 core/contrib/fusiondirectory.conf		/var/cache/fusiondirectory/template
 core/contrib/fusiondirectory.conf		/usr/share/doc/fusiondirectory
