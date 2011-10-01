@@ -66,12 +66,12 @@ if [ -d /etc/apache2/conf.d ]; then
 fi
 
 # Add links for safe mode
-[ ! -d /usr/share/fusiondirectory/bin ] && mkdir -p /usr/share/fusiondirectory/bin
-for source in /usr/bin/convert /usr/bin/lpstat; do
-  if [ -e $source ]; then
-    target=/usr/share/fusiondirectory/bin/${source##*/}
-    [ ! -L $target ] && ln -sf $source $target
-  fi
-done
+#[ ! -d /usr/share/fusiondirectory/bin ] && mkdir -p /usr/share/fusiondirectory/bin
+#for source in /usr/bin/convert /usr/bin/lpstat; do
+#  if [ -e $source ]; then
+#    target=/usr/share/fusiondirectory/bin/${source##*/}
+#    [ ! -L $target ] && ln -sf $source $target
+#  fi
+#done
 
 exit 0
