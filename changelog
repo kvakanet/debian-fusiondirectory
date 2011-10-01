@@ -1,3 +1,10 @@
+fusiondirectory (1.0.1-15) stable; urgency=low
+
+  [Benoit Mortier]
+  * internal dev release
+
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Sat, 01 Sept 2011 09:54:00 +0200
+
 fusiondirectory (1.0.1-14) stable; urgency=low
 
   [Benoit Mortier]
