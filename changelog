@@ -1,93 +1,16 @@
-fusiondirectory (1.0.1-15) stable; urgency=low
+fusiondirectory (1.0.2-1) stable; urgency=low
 
   [Benoit Mortier]
-  * internal dev release
+  * New Upstream release
 
- -- Benoit Mortier <benoit.mortier@opensides.be>  Sat, 01 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-14) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Fri, 30 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-13) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Thu, 29 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-12) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Wed, 28 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-11) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 26 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-10) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 24 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-7) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 15 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-6) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 14 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-5) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 13 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-4) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 12 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-3) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Fri, 09 Sept 2011 09:54:00 +0200
-
-fusiondirectory (1.0.1-2) stable; urgency=low
-
-  [Benoit Mortier]
-  * internal dev release
-
- -- Benoit Mortier <benoit.mortier@opensides.be>  Wed, 07 Sept 2011 22:15:19 +0200
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Sun, 02 Octobre 2011 12:00:00 +0100
 
 fusiondirectory (1.0.1-1) stable; urgency=low
 
   [Benoit Mortier]
   * New upstream release
 
- -- Benoit Mortier <benoit.mortier@opensides.be>  Thu, 28 Apr 2011 22:15:19 +0200
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Thu, 28 Apr 2011 22:15:19 +0100
 
 fusiondirectory (1.0-1) stable; urgency=low
 
