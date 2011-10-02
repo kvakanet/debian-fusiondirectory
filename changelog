@@ -2,6 +2,7 @@ fusiondirectory (1.0.2-1) stable; urgency=low
 
   [Benoit Mortier]
   * New Upstream release
+  * Initial upload (Closes: #623053)
 
  -- Benoit Mortier <benoit.mortier@opensides.be>  Sun, 02 Oct 2011 12:00:00 +0100
 
