@@ -1,5 +1,4 @@
 netgroups/admin			/usr/share/fusiondirectory/plugins
 netgroups/personal		/usr/share/fusiondirectory/plugins
 netgroups/locale		/usr/share/fusiondirectory/locale/plugins/netgroups
-netgroups/contrib		/usr/share/doc/fusiondirectory-plugin-netgroups
 netgroups/html/images		/usr/share/fusiondirectory/html/plugins/netgroups
