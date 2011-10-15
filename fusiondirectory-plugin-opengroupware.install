@@ -1,2 +1,2 @@
-opengroupware/personal			/usr/share/fusiondirectory/plugins
-opengroupware/locale			/usr/share/fusiondirectory/locale/plugins/opengroupware
+coreplugins/opengroupware/personal    /usr/share/fusiondirectory/plugins
+coreplugins/opengroupware/locale      /usr/share/fusiondirectory/locale/plugins/opengroupware

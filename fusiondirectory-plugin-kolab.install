@@ -1,4 +1,4 @@
-kolab/admin			/usr/share/fusiondirectory/plugins
-kolab/personal			/usr/share/fusiondirectory/plugins
-kolab/locale			/usr/share/fusiondirectory/locale/plugins/kolab
-kolab/contrib			/usr/share/doc/fusiondirectory-plugin-kolab
+coreplugins/kolab/admin         /usr/share/fusiondirectory/plugins
+coreplugins/kolab/personal      /usr/share/fusiondirectory/plugins
+coreplugins/kolab/locale        /usr/share/fusiondirectory/locale/plugins/kolab
+coreplugins/kolab/contrib       /usr/share/doc/fusiondirectory-plugin-kolab

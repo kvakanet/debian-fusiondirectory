@@ -1,2 +1,2 @@
-webdav/personal			/usr/share/fusiondirectory/plugins
-webdav/locale			/usr/share/fusiondirectory/locale/plugins/webdav
+coreplugins/webdav/personal   /usr/share/fusiondirectory/plugins
+coreplugins/webdav/locale     /usr/share/fusiondirectory/locale/plugins/webdav

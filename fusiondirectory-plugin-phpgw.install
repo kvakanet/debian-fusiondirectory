@@ -1,3 +1,3 @@
-phpgw/personal			/usr/share/fusiondirectory/plugins
-phpgw/locale			/usr/share/fusiondirectory/locale/plugins/phpgw
-phpgw/contrib			/usr/share/doc/fusiondirectory-plugin-phpgw
+coreplugins/phpgw/personal    /usr/share/fusiondirectory/plugins
+coreplugins/phpgw/locale      /usr/share/fusiondirectory/locale/plugins/phpgw
+coreplugins/phpgw/contrib     /usr/share/doc/fusiondirectory-plugin-phpgw

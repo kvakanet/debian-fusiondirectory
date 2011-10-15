@@ -1,1 +1,1 @@
-phpgw/contrib/phpgwaccount.schema	/etc/ldap/schema/fusiondirectory
+coreplugins/phpgw/contrib/phpgwaccount.schema   /etc/ldap/schema/fusiondirectory

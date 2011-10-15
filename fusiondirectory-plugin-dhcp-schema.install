@@ -1,2 +1,2 @@
-dhcp/contrib/dhcp.schema /etc/ldap/schema/fusiondirectory
-dhcp/contrib/dhcp.ldif /etc/ldap/schema/fusiondirectory
+coreplugins/dhcp/contrib/dhcp.schema /etc/ldap/schema/fusiondirectory
+coreplugins/dhcp/contrib/dhcp.ldif   /etc/ldap/schema/fusiondirectory

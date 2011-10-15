@@ -1,4 +1,4 @@
-apache2/admin                      /usr/share/fusiondirectory/plugins
-apache2/locale                     /usr/share/fusiondirectory/locale/plugins/apache2
-apache2/contrib                    /usr/share/doc/fusiondirectory-plugin-apache2
+coreplugins/apache2/admin                      /usr/share/fusiondirectory/plugins
+coreplugins/apache2/locale                     /usr/share/fusiondirectory/locale/plugins/apache2
+coreplugins/apache2/contrib                    /usr/share/doc/fusiondirectory-plugin-apache2
 
