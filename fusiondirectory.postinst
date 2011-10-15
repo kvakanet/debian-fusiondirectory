@@ -61,13 +61,7 @@ if [ -d /etc/apache2/conf.d ]; then
   fi
 fi
 
-# Add links for safe mode
-#[ ! -d /usr/share/fusiondirectory/bin ] && mkdir -p /usr/share/fusiondirectory/bin
-#for source in /usr/bin/convert /usr/bin/lpstat; do
-#  if [ -e $source ]; then
-#    target=/usr/share/fusiondirectory/bin/${source##*/}
-#    [ ! -L $target ] && ln -sf $source $target
-#  fi
-#done
+#link the template to /var/cache/fusiondirectory/template from usr
+ln -s /usr/share/doc/fusiondirectory/contrib/fusiondirectory.conf  /var/cache/fusiondirectory/template/fusiondirectory.conf
 
 exit 0
