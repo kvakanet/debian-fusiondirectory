@@ -15,6 +15,7 @@ html/include/png.js                           /usr/share/fusiondirectory/html/in
 html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
 html/include/pwdStrength.js                   /usr/share/fusiondirectory/html/include
 html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
+html/include/overlib.js                       /usr/share/fusiondirectory/html/include
 ihtml                                         /usr/share/fusiondirectory
 include/exporter                              /usr/share/fusiondirectory/include
 include/password-methods                      /usr/share/fusiondirectory/include
