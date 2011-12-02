@@ -62,6 +62,6 @@ if [ -d /etc/apache2/conf.d ]; then
 fi
 
 #link the template to /var/cache/fusiondirectory/template from usr
-ln -s /usr/share/doc/fusiondirectory/contrib/fusiondirectory.conf  /var/cache/fusiondirectory/template/fusiondirectory.conf
+ln -s /usr/share/doc/fusiondirectory/fusiondirectory.conf  /var/cache/fusiondirectory/template/fusiondirectory.conf
 
 exit 0
