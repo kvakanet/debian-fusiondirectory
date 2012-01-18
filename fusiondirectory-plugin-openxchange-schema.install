@@ -1,2 +1,2 @@
-coreplugins/openxchange/contrib/openxchange.schema    /etc/ldap/schema/fusiondirectory
-coreplugins/openxchange/contrib/openxchange.ldif      /etc/ldap/schema/fusiondirectory
+openxchange/contrib/openxchange.schema    /etc/ldap/schema/fusiondirectory
+openxchange/contrib/openxchange.ldif      /etc/ldap/schema/fusiondirectory

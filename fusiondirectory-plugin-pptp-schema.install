@@ -1,2 +1,2 @@
-coreplugins/pptp/contrib/pptp.schema  /etc/ldap/schema/fusiondirectory
-coreplugins/pptp/contrib/pptp.ldif    /etc/ldap/schema/fusiondirectory
+pptp/contrib/pptp.schema  /etc/ldap/schema/fusiondirectory
+pptp/contrib/pptp.ldif    /etc/ldap/schema/fusiondirectory

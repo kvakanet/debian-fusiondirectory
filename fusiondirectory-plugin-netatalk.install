@@ -1,4 +1,4 @@
-coreplugins/netatalk/personal     /usr/share/fusiondirectory/plugins
-coreplugins/netatalk/locale       /usr/share/fusiondirectory/locale/plugins/netatalk
-coreplugins/netatalk/contrib      /usr/share/doc/fusiondirectory-plugin-netatalk
-coreplugins/netatalk/html/images  /usr/share/fusiondirectory/html/plugins/netatalk
+netatalk/personal     /usr/share/fusiondirectory/plugins
+netatalk/locale       /usr/share/fusiondirectory/locale/plugins/netatalk
+netatalk/contrib      /usr/share/doc/fusiondirectory-plugin-netatalk
+netatalk/html/images  /usr/share/fusiondirectory/html/plugins/netatalk

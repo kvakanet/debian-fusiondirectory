@@ -1,5 +1,5 @@
-coreplugins/samba/admin         /usr/share/fusiondirectory/plugins
-coreplugins/samba/personal      /usr/share/fusiondirectory/plugins
-coreplugins/samba/locale        /usr/share/fusiondirectory/locale/plugins/samba
-coreplugins/samba/contrib       /usr/share/doc/fusiondirectory-plugin-samba
-coreplugins/samba/html/images   /usr/share/fusiondirectory/html/plugins/samba
+samba/admin         /usr/share/fusiondirectory/plugins
+samba/personal      /usr/share/fusiondirectory/plugins
+samba/locale        /usr/share/fusiondirectory/locale/plugins/samba
+samba/contrib       /usr/share/doc/fusiondirectory-plugin-samba
+samba/html/images   /usr/share/fusiondirectory/html/plugins/samba

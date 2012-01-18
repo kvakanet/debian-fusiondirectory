@@ -1,3 +1,3 @@
-coreplugins/dns/admin       /usr/share/fusiondirectory/plugins
-coreplugins/dns/locale      /usr/share/fusiondirectory/locale/plugins/dns
-coreplugins/dns/contrib     /usr/share/doc/fusiondirectory-plugin-dns
+dns/admin       /usr/share/fusiondirectory/plugins
+dns/locale      /usr/share/fusiondirectory/locale/plugins/dns
+dns/contrib     /usr/share/doc/fusiondirectory-plugin-dns

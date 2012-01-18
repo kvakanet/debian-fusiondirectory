@@ -1,3 +1,3 @@
-coreplugins/connectivity/personal       /usr/share/fusiondirectory/plugins
-coreplugins/connectivity/locale         /usr/share/fusiondirectory/locale/plugins/connectivity
-coreplugins/connectivity/html/images    /usr/share/fusiondirectory/html/plugins/connectivity
+connectivity/personal       /usr/share/fusiondirectory/plugins
+connectivity/locale         /usr/share/fusiondirectory/locale/plugins/connectivity
+connectivity/html/images    /usr/share/fusiondirectory/html/plugins/connectivity

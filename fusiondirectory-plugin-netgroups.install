@@ -1,4 +1,4 @@
-coreplugins/netgroups/admin       /usr/share/fusiondirectory/plugins
-coreplugins/netgroups/personal    /usr/share/fusiondirectory/plugins
-coreplugins/netgroups/locale      /usr/share/fusiondirectory/locale/plugins/netgroups
-coreplugins/netgroups/html/images /usr/share/fusiondirectory/html/plugins/netgroups
+netgroups/admin       /usr/share/fusiondirectory/plugins
+netgroups/personal    /usr/share/fusiondirectory/plugins
+netgroups/locale      /usr/share/fusiondirectory/locale/plugins/netgroups
+netgroups/html/images /usr/share/fusiondirectory/html/plugins/netgroups

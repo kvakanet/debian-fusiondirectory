@@ -1,4 +1,4 @@
-coreplugins/squid/personal      /usr/share/fusiondirectory/plugins
-coreplugins/squid/locale        /usr/share/fusiondirectory/locale/plugins/squid
-coreplugins/squid/contrib       /usr/share/doc/fusiondirectory-plugin-squid
-coreplugins/squid/README.squid  /usr/share/doc/fusiondirectory-plugin-squid/contrib
+squid/personal      /usr/share/fusiondirectory/plugins
+squid/locale        /usr/share/fusiondirectory/locale/plugins/squid
+squid/contrib       /usr/share/doc/fusiondirectory-plugin-squid
+squid/README.squid  /usr/share/doc/fusiondirectory-plugin-squid/contrib

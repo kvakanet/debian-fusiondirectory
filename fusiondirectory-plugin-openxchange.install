@@ -1,3 +1,3 @@
-coreplugins/openxchange/personal    /usr/share/fusiondirectory/plugins
-coreplugins/openxchange/locale      /usr/share/fusiondirectory/locale/plugins/openxchange
-coreplugins/openxchange/contrib     /usr/share/doc/fusiondirectory-plugin-openxchange
+openxchange/personal    /usr/share/fusiondirectory/plugins
+openxchange/locale      /usr/share/fusiondirectory/locale/plugins/openxchange
+openxchange/contrib     /usr/share/doc/fusiondirectory-plugin-openxchange

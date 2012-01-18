@@ -1,4 +1,4 @@
-coreplugins/scalix/admin        /usr/share/fusiondirectory/plugins
-coreplugins/scalix/personal     /usr/share/fusiondirectory/plugins
-coreplugins/scalix/locale       /usr/share/fusiondirectory/locale/plugins/scalix
-coreplugins/scalix/html/images  /usr/share/fusiondirectory/html/plugins/scalix
+scalix/admin        /usr/share/fusiondirectory/plugins
+scalix/personal     /usr/share/fusiondirectory/plugins
+scalix/locale       /usr/share/fusiondirectory/locale/plugins/scalix
+scalix/html/images  /usr/share/fusiondirectory/html/plugins/scalix

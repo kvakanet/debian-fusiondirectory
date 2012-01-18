@@ -1,6 +1,6 @@
-coreplugins/gofax/admin             /usr/share/fusiondirectory/plugins
-coreplugins/gofax/gofax             /usr/share/fusiondirectory/plugins
-coreplugins/gofax/locale            /usr/share/fusiondirectory/locale/plugins/gofax
-coreplugins/gofax/contrib           /usr/share/doc/fusiondirectory-plugin-gofax
-coreplugins/gofax/html/getfax.php   /usr/share/fusiondirectory/html/plugins/gofax
-coreplugins/gofax/html/images       /usr/share/fusiondirectory/html/plugins/gofax
+gofax/admin             /usr/share/fusiondirectory/plugins
+gofax/gofax             /usr/share/fusiondirectory/plugins
+gofax/locale            /usr/share/fusiondirectory/locale/plugins/gofax
+gofax/contrib           /usr/share/doc/fusiondirectory-plugin-gofax
+gofax/html/getfax.php   /usr/share/fusiondirectory/html/plugins/gofax
+gofax/html/images       /usr/share/fusiondirectory/html/plugins/gofax

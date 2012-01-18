@@ -1,3 +1,3 @@
-coreplugins/uw-imap/personal  /usr/share/fusiondirectory/plugins
-coreplugins/uw-imap/locale    /usr/share/fusiondirectory/locale/plugins/uw-imap
-coreplugins/uw-imap/contrib   /usr/share/doc/fusiondirectory-plugin-uw-imap
+uw-imap/personal  /usr/share/fusiondirectory/plugins
+uw-imap/locale    /usr/share/fusiondirectory/locale/plugins/uw-imap
+uw-imap/contrib   /usr/share/doc/fusiondirectory-plugin-uw-imap

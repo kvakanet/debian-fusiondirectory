@@ -1,3 +1,3 @@
-coreplugins/systems/admin         /usr/share/fusiondirectory/plugins
-coreplugins/systems/locale        /usr/share/fusiondirectory/locale/plugins/systems
-coreplugins/systems/html/images   /usr/share/fusiondirectory/html/plugins/systems
+systems/admin         /usr/share/fusiondirectory/plugins
+systems/locale        /usr/share/fusiondirectory/locale/plugins/systems
+systems/html/images   /usr/share/fusiondirectory/html/plugins/systems

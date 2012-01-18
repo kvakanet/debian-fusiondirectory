@@ -1,2 +1,2 @@
-coreplugins/sudo/contrib/sudo.schema  /etc/ldap/schema/fusiondirectory
-coreplugins/sudo/contrib/sudo.ldif    /etc/ldap/schema/fusiondirectory
+sudo/contrib/sudo.schema  /etc/ldap/schema/fusiondirectory
+sudo/contrib/sudo.ldif    /etc/ldap/schema/fusiondirectory

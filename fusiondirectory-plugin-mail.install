@@ -1,8 +1,8 @@
-coreplugins/mail/admin        /usr/share/fusiondirectory/plugins
-coreplugins/mail/personal     /usr/share/fusiondirectory/plugins
-coreplugins/mail/addons       /usr/share/fusiondirectory/plugins
-coreplugins/mail/locale       /usr/share/fusiondirectory/locale/plugins/mail
-coreplugins/mail/contrib      /usr/share/doc/fusiondirectory-plugin-mail
-coreplugins/mail/html/images  /usr/share/fusiondirectory/html/plugins/mail
-coreplugins/mail/etc/*.txt    /etc/fusiondirectory
-coreplugins/mail/etc/vacation /etc/fusiondirectory
+mail/admin        /usr/share/fusiondirectory/plugins
+mail/personal     /usr/share/fusiondirectory/plugins
+mail/addons       /usr/share/fusiondirectory/plugins
+mail/locale       /usr/share/fusiondirectory/locale/plugins/mail
+mail/contrib      /usr/share/doc/fusiondirectory-plugin-mail
+mail/html/images  /usr/share/fusiondirectory/html/plugins/mail
+mail/etc/*.txt    /etc/fusiondirectory
+mail/etc/vacation /etc/fusiondirectory
