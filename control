@@ -210,7 +210,7 @@ Description: LDAP schema for FusionDirectory kolab plugin
 Package: fusiondirectory-plugin-ldapmanager
 Conflicts: gosa-plugin-ldapmanager
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, ldap-tools
+Depends: ${misc:Depends}, fusiondirectory, ldap-utils
 Breaks: gosa (<< 2.6)
 Description: ldapmanager plugin for FusionDirectory
  LDAP import and export management plugin
