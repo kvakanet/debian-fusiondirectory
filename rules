@@ -4,4 +4,4 @@
 	dh $@
 
 override_dh_compress:
-        dh_compress -X.conf
+	dh_compress -X.conf
