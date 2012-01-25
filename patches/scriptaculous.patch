@@ -1,7 +1,7 @@
-Index: fusiondirectory-1.0.2/ihtml/themes/default/password.tpl
+Index: pkg/ihtml/themes/default/password.tpl
 ===================================================================
---- fusiondirectory-1.0.2.orig/ihtml/themes/default/password.tpl	2011-10-23 21:28:57.000000000 +0200
-+++ fusiondirectory-1.0.2/ihtml/themes/default/password.tpl	2011-10-23 21:30:17.000000000 +0200
+--- pkg.orig/ihtml/themes/default/password.tpl	2012-01-25 10:39:44.000000000 +0100
++++ pkg/ihtml/themes/default/password.tpl	2012-01-25 10:40:05.000000000 +0100
 @@ -21,7 +21,7 @@
    <link rel="shortcut icon" href="favicon.ico">
  
@@ -11,10 +11,10 @@ Index: fusiondirectory-1.0.2/ihtml/themes/default/password.tpl
    <script language="javascript" src="include/fusiondirectory.js" type="text/javascript"></script>
    <script language="javascript" src="include/pwdStrength.js" type="text/javascript"></script>
  </head>
-Index: fusiondirectory-1.0.2/ihtml/themes/default/setup_headers.tpl
+Index: pkg/ihtml/themes/default/setup_headers.tpl
 ===================================================================
---- fusiondirectory-1.0.2.orig/ihtml/themes/default/setup_headers.tpl	2011-10-23 21:30:38.000000000 +0200
-+++ fusiondirectory-1.0.2/ihtml/themes/default/setup_headers.tpl	2011-10-23 21:30:58.000000000 +0200
+--- pkg.orig/ihtml/themes/default/setup_headers.tpl	2012-01-25 10:39:44.000000000 +0100
++++ pkg/ihtml/themes/default/setup_headers.tpl	2012-01-25 10:40:05.000000000 +0100
 @@ -19,6 +19,6 @@
    <link rel="shortcut icon" href="favicon.ico">
  
@@ -23,11 +23,11 @@ Index: fusiondirectory-1.0.2/ihtml/themes/default/setup_headers.tpl
 +  <script language="javascript" src="/javascript/prototype/prototype.js" type="text/javascript"></script>
    <script language="javascript" src="include/fusiondirectory.js" type="text/javascript"></script>
  </head>
-Index: fusiondirectory-1.0.2/ihtml/themes/default/headers.tpl
+Index: pkg/ihtml/themes/default/headers.tpl
 ===================================================================
---- fusiondirectory-1.0.2.orig/ihtml/themes/default/headers.tpl	2011-10-23 21:31:18.000000000 +0200
-+++ fusiondirectory-1.0.2/ihtml/themes/default/headers.tpl	2011-10-23 21:32:17.000000000 +0200
-@@ -30,10 +30,10 @@
+--- pkg.orig/ihtml/themes/default/headers.tpl	2012-01-25 10:39:44.000000000 +0100
++++ pkg/ihtml/themes/default/headers.tpl	2012-01-25 12:43:58.000000000 +0100
+@@ -30,13 +30,13 @@
  {if $iePngWorkaround}
    <script language="javascript" src="include/png.js" type="text/javascript"></script>
  {/if}
@@ -36,7 +36,13 @@ Index: fusiondirectory-1.0.2/ihtml/themes/default/headers.tpl
    <script language="javascript" src="include/fusiondirectory.js" type="text/javascript"></script>
  {if $usePrototype == 'true'}
 -  <script language="javascript" src="include/scriptaculous.js" type="text/javascript"></script>
+-  <script language="javascript" src="include/effects.js" type="text/javascript"></script>
+-  <script language="javascript" src="include/dragdrop.js" type="text/javascript"></script>
+-  <script language="javascript" src="include/controls.js" type="text/javascript"></script>
 +  <script language="javascript" src="/javascript/scriptaculous/scriptaculous.js" type="text/javascript"></script>
-   <script language="javascript" src="include/effects.js" type="text/javascript"></script>
-   <script language="javascript" src="include/dragdrop.js" type="text/javascript"></script>
-   <script language="javascript" src="include/controls.js" type="text/javascript"></script>
++  <script language="javascript" src="/javascript/scriptaculous/effects.js" type="text/javascript"></script>
++  <script language="javascript" src="/javascript/scriptaculous/dragdrop.js" type="text/javascript"></script>
++  <script language="javascript" src="/javascript/scriptaculous/controls.js" type="text/javascript"></script>
+   <script language="javascript" src="include/pulldown.js" type="text/javascript"></script>
+   <script language="javascript" src="include/datepicker.js" type="text/javascript"></script>
+ {/if}
