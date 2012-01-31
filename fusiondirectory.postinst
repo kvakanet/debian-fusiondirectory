@@ -7,7 +7,7 @@ set -e
 
 case "$1" in
   configure)
-      fusiondirectory-setup -y --check-dirs --update-cache --update-locales
+      fusiondirectory-setup -y --check-directories --update-cache --update-locales
       ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
