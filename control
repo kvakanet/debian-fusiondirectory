@@ -27,7 +27,7 @@ Package: fusiondirectory-schema
 Architecture: all
 Depends: ${misc:Depends}
 Conflicts: gosa-schema
-Recommends: slapd
+Suggests: slapd
 Description: LDAP schema for FusionDirectory
  This package includes the basics LDAP schemas needed by FusionDirectory.
  .
