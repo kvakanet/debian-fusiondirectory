@@ -19,7 +19,6 @@ html/include/overlib.js                       /usr/share/fusiondirectory/html/in
 ihtml                                         /usr/share/fusiondirectory
 include/exporter                              /usr/share/fusiondirectory/include
 include/password-methods                      /usr/share/fusiondirectory/include
-include/utils                                 /usr/share/fusiondirectory/include
 include/*.inc                                 /usr/share/fusiondirectory/include
 include/jsonRPCClient.php                     /usr/share/fusiondirectory/include
 locale                                        /usr/share/fusiondirectory
