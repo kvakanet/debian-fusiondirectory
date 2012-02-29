@@ -11,7 +11,6 @@ html/*.ico                                    /usr/share/fusiondirectory/html
 html/*.txt                                    /usr/share/fusiondirectory/html
 html/include/datepicker.js                    /usr/share/fusiondirectory/html/include
 html/include/fusiondirectory.js               /usr/share/fusiondirectory/html/include
-html/include/png.js                           /usr/share/fusiondirectory/html/include
 html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
 html/include/pwdStrength.js                   /usr/share/fusiondirectory/html/include
 html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
