@@ -1,6 +1,5 @@
 mail/admin        /usr/share/fusiondirectory/plugins
 mail/personal     /usr/share/fusiondirectory/plugins
-mail/addons       /usr/share/fusiondirectory/plugins
 mail/locale       /usr/share/fusiondirectory/locale/plugins/mail
 mail/contrib      /usr/share/doc/fusiondirectory-plugin-mail
 mail/html/images  /usr/share/fusiondirectory/html/plugins/mail
