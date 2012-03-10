@@ -307,6 +307,15 @@ Description: LDAP schema for FusionDirectory openxchange plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-openstack-compute
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Description: Openstack compute plugin for FusionDirectory
+ Openstack compute user management plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-phpgw
 Conflicts: gosa-plugin-phpgw
 Architecture: all
