@@ -511,6 +511,7 @@ Description: LDAP schema for FusionDirectory sudo plugin
 
 Package: fusiondirectory-plugin-systems
 Conflicts: gosa-plugin-systems
+Replaces: fusiondirectory-plugin-goto
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
