@@ -1,0 +1,3 @@
+argonaut/admin                      /usr/share/fusiondirectory/plugins
+argonaut/locale                     /usr/share/fusiondirectory/locale/plugins/argonaut
+argonaut/contrib                    /usr/share/doc/fusiondirectory-plugin-argonaut
