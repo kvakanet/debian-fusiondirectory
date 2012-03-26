@@ -82,6 +82,16 @@ Description: Apache virtualhost plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-argonaut
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Breaks: gosa (<< 2.6)
+Description: Argonaut plugin for FusionDirectory
+ Store all the configuration for the Argonaut deployment system.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-connectivity
 Conflicts: gosa-plugin-connectivity
 Architecture: all
