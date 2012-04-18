@@ -1,0 +1,6 @@
+supann/contrib/supann  /var/cache/fusiondirectory/supann/
+supann/html            /usr/share/fusiondirectory/
+supann/plugins         /usr/share/fusiondirectory
+supann/locale          /usr/share/fusiondirectory/locale/plugins/supann
+
+

@@ -539,6 +539,27 @@ Description: LDAP schema for FusionDirectory sudo plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-supann
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Breaks: gosa (<< 2.6)
+Description: supann plugin for FusionDirectory
+ Supann management plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-supann-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory supann plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ supann plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-systems
 Conflicts: gosa-plugin-systems
 Replaces: fusiondirectory-plugin-goto
