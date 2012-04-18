@@ -1,0 +1,3 @@
+quota/html         /usr/share/fusiondirectory/html
+quota/plugins      /usr/share/fusiondirectory
+quota/locale       /usr/share/fusiondirectory/locale/plugins/quota
