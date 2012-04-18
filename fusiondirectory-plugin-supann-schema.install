@@ -1,4 +1,4 @@
-supann/contrib/internet2.schema   /etc/ldap/schema/fusiondirectory
-supann/contrib/internet2.ldif     /etc/ldap/schema/fusiondirectory
-supann/contrib/supann_2009.schema /etc/ldap/schema/fusiondirectory
-supann/contrib/supann_2099.ldif   /etc/ldap/schema/fusiondirectory
+supann/contrib/schema/internet2.schema   /etc/ldap/schema/fusiondirectory
+supann/contrib/schema/internet2.ldif     /etc/ldap/schema/fusiondirectory
+supann/contrib/schema/supann_2009.schema /etc/ldap/schema/fusiondirectory
+supann/contrib/schema/supann_2099.ldif   /etc/ldap/schema/fusiondirectory
