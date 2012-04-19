@@ -23,7 +23,6 @@ plugins                                       /usr/share/fusiondirectory
 setup                                         /usr/share/fusiondirectory
 contrib/apache/fusiondirectory-apache.conf    /etc/fusiondirectory
 contrib/etc/shells                            /etc/fusiondirectory
-contrib/etc/encodings                         /etc/fusiondirectory
 contrib/openldap/slapd.conf                   /usr/share/doc/fusiondirectory/slapd.conf-example
 contrib/fusiondirectory.conf                  /usr/share/doc/fusiondirectory
 
