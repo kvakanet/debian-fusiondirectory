@@ -1,8 +1,8 @@
 systems/admin         /usr/share/fusiondirectory/plugins
 systems/personal      /usr/share/fusiondirectory/plugins
-systems/addons	      /usr/share/fusiondirectory/plugins
+systems/addons        /usr/share/fusiondirectory/plugins
 systems/locale        /usr/share/fusiondirectory/locale/plugins/systems
-systems/contrib       /usr/share/doc/fusiondirectory-plugin-systems
 systems/html/images   /usr/share/fusiondirectory/html/plugins/systems
+systems/contrib       /var/cache/fusiondirectory/systems
 
 
