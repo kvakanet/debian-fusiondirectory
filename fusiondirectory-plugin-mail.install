@@ -3,4 +3,4 @@ mail/personal         /usr/share/fusiondirectory/plugins
 mail/locale           /usr/share/fusiondirectory/locale/plugins/mail
 mail/html/images      /usr/share/fusiondirectory/html/plugins/mail
 mail/contrib/*.txt    /var/cache/fusiondirectory/mail
-mail/contrib/vacation /var/cache/fusiondirectory/vacation
+mail/contrib/vacation /var/cache/fusiondirectory/
