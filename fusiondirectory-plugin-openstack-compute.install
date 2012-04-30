@@ -1,3 +1,2 @@
 openstack-compute/personal        /usr/share/fusiondirectory/plugins
 openstack-compute/locale          /usr/share/fusiondirectory/locale/plugins/openstack-compute
-openstack-compute/contrib         /usr/share/doc/fusiondirectory-plugin-openstack-compute  
