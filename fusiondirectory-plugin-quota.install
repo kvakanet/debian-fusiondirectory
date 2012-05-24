@@ -1,3 +1,4 @@
 quota/html         /usr/share/fusiondirectory/
-quota/plugins      /usr/share/fusiondirectory
+quota/admin        /usr/share/fusiondirectory/
+quota/personal     /usr/share/fusiondirectory/
 quota/locale       /usr/share/fusiondirectory/locale/plugins/quota
