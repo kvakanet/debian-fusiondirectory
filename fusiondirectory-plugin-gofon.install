@@ -1,6 +1,6 @@
 gofon/admin               /usr/share/fusiondirectory/plugins
-gofax/addons            /usr/share/fusiondirectory/plugins
-gofax/personal          /usr/share/fusiondirectory/plugins
+gofon/addons            /usr/share/fusiondirectory/plugins
+gofon/personal          /usr/share/fusiondirectory/plugins
 gofon/locale              /usr/share/fusiondirectory/locale/plugins/gofon
 gofon/contrib/gofon.sql   /usr/share/doc/fusiondirectory-plugin-gofon
 gofon/html/images         /usr/share/fusiondirectory/html/plugins/gofon
