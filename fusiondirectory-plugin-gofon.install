@@ -1,6 +1,7 @@
 gofon/admin               /usr/share/fusiondirectory/plugins
-gofon/gofon               /usr/share/fusiondirectory/plugins
+gofon/addons            /usr/share/fusiondirectory/plugins
+gofon/personal          /usr/share/fusiondirectory/plugins
 gofon/locale              /usr/share/fusiondirectory/locale/plugins/gofon
-gofon/contrib             /usr/share/doc/fusiondirectory-plugin-gofon
+gofon/contrib/gofon.sql   /usr/share/doc/fusiondirectory-plugin-gofon
 gofon/html/images         /usr/share/fusiondirectory/html/plugins/gofon
-gofon/etc/asterisk/*.conf /etc/fusiondirectory/asterisk
+gofon/contrib/asterisk/   /var/cache/fusiondirectory

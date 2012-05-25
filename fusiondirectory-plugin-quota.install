@@ -1,0 +1,4 @@
+quota/admin        /usr/share/fusiondirectory/
+quota/personal     /usr/share/fusiondirectory/
+quota/locale       /usr/share/fusiondirectory/locale/plugins/quota
+quota/html/images  /usr/share/fusiondirectory/html/plugins/quota
