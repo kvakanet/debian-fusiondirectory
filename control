@@ -47,7 +47,7 @@ Description: LDAP schema for FusionDirectory
 Package: fusiondirectory-smarty-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty
-Conflicts: smarty-acl-render, smarty-gettext
+Conflicts: smarty-acl-render
 Suggests: fusiondirectory
 Description: Provide FusionDirectory ACL based rendering for Smarty
  This package provides acl based rendering support for Smarty,
@@ -60,7 +60,7 @@ Description: Provide FusionDirectory ACL based rendering for Smarty
 Package: fusiondirectory-smarty3-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty3
-Conflicts: smarty-acl-render, smarty-gettext, fusiondirectory-smarty-acl-render
+Conflicts: smarty-acl-render, fusiondirectory-smarty-acl-render
 Suggests: fusiondirectory
 Description: Provide FusionDirectory ACL based rendering for Smarty3
  This package provides acl based rendering support for Smarty,
