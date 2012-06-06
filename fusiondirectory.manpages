@@ -2,6 +2,4 @@ contrib/man/fusiondirectory.conf.5
 contrib/man/fusiondirectory-encrypt-passwords.1
 contrib/man/fusiondirectory-setup.1
 contrib/man/fusiondirectory-mkntpassword.1
-contrib/man/fusiondirectory-schema2ldif.1
-contrib/man/fusiondirectory-insert-schema.1
 

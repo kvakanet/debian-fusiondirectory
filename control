@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl
+Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -25,6 +25,7 @@ Description: Web Based LDAP Administration Program
 
 Package: fusiondirectory-developpers
 Architecture: all
+Depends: ${misc:Depends}
 Suggests: fusiondirectory
 Description: Provide Scripts and doc for FusionDirectory development
  This package provides scripts to generate locales and documentation
@@ -32,7 +33,7 @@ Description: Provide Scripts and doc for FusionDirectory development
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
- 
+
 Package: fusiondirectory-schema
 Architecture: all
 Depends: ${misc:Depends}
@@ -63,7 +64,7 @@ Depends: ${misc:Depends}, smarty3
 Conflicts: smarty-acl-render, smarty-gettext, fusiondirectory-smarty-acl-render
 Suggests: fusiondirectory
 Description: Provide FusionDirectory ACL based rendering for Smarty3
- This package provides acl based rendering support for Smarty,
+ This package provides acl based rendering support for Smarty3,
  the popular PHP templating engine (http://smarty.php.net/). This
  module is mainly used by FusionDirectory.
  .
@@ -441,13 +442,13 @@ Package: fusiondirectory-plugin-quota-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
-Description: LDAP schema for FusionDirectory pureftpd plugin
+Description: LDAP schema for FusionDirectory quota plugin
  This package includes the LDAP schema needed by the FusionDirectory
  quota plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
- 
+
 Package: fusiondirectory-plugin-rolemanagement
 Conflicts: gosa-plugin-rolemanagement
 Architecture: all

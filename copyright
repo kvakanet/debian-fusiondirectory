@@ -4,21 +4,20 @@ Upstream-Contact: Contact <contact@fusiondirectory.org>
 Source: http://download.fusiondirectory.org/sources/
 
 Files: *
-Copyright: 
-	2003,2010 GONICUS GmbH
-	2011 FusionDirectory project <contact@fusiondirectory.org>
-	2003,2008 Cajus Pollmeier <pollmeier@gonicus.de>
-	2003,2008 Fabian Hickert <fabian.hickert@gonicus.de>  
-	2003,2005 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
-	2003 Wouter Verhelst <wouter@debian.org>
-	2005 Benoit Mortier <benoit.mortier@opensides.be>
-	2005 Guillaume Delecourt <guillaume.delecourt@opensides.be>
-	2005 Vincent Seynhaeve <vincent.seynhaeve@opensides.be>
-	2006 Bernd Zeimetz <bernd@zeimetz.de>
-	2006 Gina Haeussge <osd@foosel.net>
-	2006 Jörn Dreyer <gosa.jfd@butonic.de>
-	2011 Benjamin Carpentier <benjamin@opensides.be>
-	2011 Bernigaud Côme <come.bernigaud@laposte.net>
+Copyright: 2011-2012 FusionDirectory project <contact@fusiondirectory.org>
+  2003,2010 GONICUS GmbH
+  2003,2008 Cajus Pollmeier <pollmeier@gonicus.de>
+  2003,2008 Fabian Hickert <fabian.hickert@gonicus.de>  
+  2003,2005 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
+  2003 Wouter Verhelst <wouter@debian.org>
+  2005 Benoit Mortier <benoit.mortier@opensides.be>
+  2005 Guillaume Delecourt <guillaume.delecourt@opensides.be>
+  2005 Vincent Seynhaeve <vincent.seynhaeve@opensides.be>
+  2006 Bernd Zeimetz <bernd@zeimetz.de>
+  2006 Gina Haeussge <osd@foosel.net>
+  2006 Jörn Dreyer <gosa.jfd@butonic.de>
+  2011 Benjamin Carpentier <benjamin@opensides.be>
+  2011 Bernigaud Côme <come.bernigaud@laposte.net>
 License: GPL-2+
 
 Files: class_sieve.inc
