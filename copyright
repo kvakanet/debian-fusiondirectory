@@ -7,7 +7,7 @@ Files: *
 Copyright: 2011-2012 FusionDirectory project <contact@fusiondirectory.org>
   2003,2010 GONICUS GmbH
   2003,2008 Cajus Pollmeier <pollmeier@gonicus.de>
-  2003,2008 Fabian Hickert <fabian.hickert@gonicus.de>  
+  2003,2008 Fabian Hickert <fabian.hickert@gonicus.de>
   2003,2005 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
   2003 Wouter Verhelst <wouter@debian.org>
   2005 Benoit Mortier <benoit.mortier@opensides.be>
@@ -22,14 +22,14 @@ License: GPL-2+
 
 Files: class_sieve.inc
 Copyright: 2001 Dan Ellis <danellis@rushmore.com>
-Licence: GPL-2+
+License: GPL-2+
 
 Files: fusiondirectory/include/class_ldap.inc:
 Copyright: 1998 Eric Kilfoil <eric@ipass.net>
            2003 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
            2003,2010 Cajus Pollmeier <pollmeier@gonicus.de>
            2011 FusionDirectory Project <contact@fusiondirectory.org>
-Licence: GPL2+
+License: GPL2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
  License as published by the Free Software Foundation; either
@@ -53,16 +53,16 @@ Licence: GPL2+
 
 Files: pulldown.js
 Copyright: 2004 Knallgrau New Medias Solutions GmbH, BSD
-Licence: BSD
+License: BSD
 
 Files: pwdStrength.js
 Copyright: 2006 Steve Moitozo <god at zilla dot us>
-Licence: Expat
+License: Expat
 
 Files: datepicker.js
 Copyright: 2007 Mathieu Jondet
-Licence: Expat
+License: Expat
 
 Files: overlib.js
 Copyright: 1998,2004 Erik Bosrup
-Licence: Artistic
+License: Artistic
