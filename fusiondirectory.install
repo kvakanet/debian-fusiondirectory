@@ -5,6 +5,7 @@ html/images                                   /usr/share/fusiondirectory/html
 html/plugins                                  /usr/share/fusiondirectory/html
 html/themes                                   /usr/share/fusiondirectory/html
 html/*.php                                    /usr/share/fusiondirectory/html
+html/*.inc                                    /usr/share/fusiondirectory/html
 html/*.ico                                    /usr/share/fusiondirectory/html
 html/*.txt                                    /usr/share/fusiondirectory/html
 html/include/datepicker.js                    /usr/share/fusiondirectory/html/include
