@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl
+Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -197,7 +197,7 @@ Description: LDAP schema for FusionDirectory fai plugin
 Package: fusiondirectory-plugin-gofax
 Conflicts: gosa-plugin-gofax
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
 Breaks: gosa (<< 2.6)
 Description: gofax plugin for FusionDirectory
  GOfax management with report functionality
@@ -208,7 +208,7 @@ Description: gofax plugin for FusionDirectory
 Package: fusiondirectory-plugin-gofon
 Conflicts: gosa-plugin-gofon
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
 Breaks: gosa (<< 2.6)
 Description: gofon plugin for FusionDirectory
  GOfon management with report functionality
@@ -463,7 +463,7 @@ Description: rolemanagement plugin for FusionDirectory
 Package: fusiondirectory-plugin-rsyslog
 Conflicts: gosa-plugin-rsyslog
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
 Breaks: gosa (<< 2.6)
 Description: rsyslog plugin for FusionDirectory
  Syslog and FusionDirectory logging plugin.
