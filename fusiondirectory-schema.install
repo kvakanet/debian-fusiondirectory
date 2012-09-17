@@ -21,5 +21,6 @@ contrib/openldap/rfc2307bis.ldif          /etc/ldap/schema/fusiondirectory
 contrib/openldap/samba.ldif               /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery.ldif            /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery.schema          /etc/ldap/schema/fusiondirectory
+contrib/openldap/update-from-1.0.3        /etc/ldap/schema/fusiondirectory
 contrib/bin/fusiondirectory-insert-schema     /usr/sbin
 contrib/bin/fusiondirectory-schema2ldif       /usr/sbin
