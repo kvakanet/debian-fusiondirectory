@@ -135,6 +135,18 @@ Description: connectivity plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-database-connector
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory, php-mdb2, php-mdb2-driver-mysql
+Breaks: gosa (<< 2.6)
+Description: database plugin for FusionDirectory
+ Database abstraction plugin - abstract database call with MDB2 for some
+ FusionDirectory plugins.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+
 Package: fusiondirectory-plugin-dhcp
 Conflicts: gosa-plugin-dhcp
 Architecture: all
@@ -218,7 +230,7 @@ Description: gofax plugin for FusionDirectory
 Package: fusiondirectory-plugin-gofon
 Conflicts: gosa-plugin-gofon
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
 Breaks: gosa (<< 2.6)
 Description: gofon plugin for FusionDirectory
  GOfon management with report functionality
@@ -473,7 +485,7 @@ Description: rolemanagement plugin for FusionDirectory
 Package: fusiondirectory-plugin-rsyslog
 Conflicts: gosa-plugin-rsyslog
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
 Breaks: gosa (<< 2.6)
 Description: rsyslog plugin for FusionDirectory
  Syslog and FusionDirectory logging plugin.
