@@ -114,6 +114,16 @@ Description: LDAP schema for FusionDirectory Argonaut plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-board
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-simple-plugin
+Breaks: gosa (<< 2.6)
+Description: board plugin for FusionDirectory
+ Dashboard plugin - allow to see important information in one click.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-connectivity
 Conflicts: gosa-plugin-connectivity
 Architecture: all
