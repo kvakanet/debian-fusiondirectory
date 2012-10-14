@@ -1,5 +1,56 @@
-FusionDirectory 1.0 for debian
-------------------------------
+FusionDirectory 1.0.x for debian
+--------------------------------
+
+* Migration from older versions
+
+Migrate FusionDirectory from 1.0.1 to 1.0.2
+-------------------------------------------
+
+Remove fusiondirectory-plugin-opsi
+----------------------------------
+Before migration from FusionDirectory 1.0.1 to 1.0.2 is important to remove the fusiondirectory-plugin-opsi
+and fusiondirectory-plugin-log to avoid errors.
+
+root@fusion-install:~# apt-get remove fusiondirectory-plugin-opsi
+root@fusion-install:~# apt-get remove fusiondirectory-plugin-log
+
+Upgrade fusiondirectory first
+-----------------------------
+
+Upgrade FusionDirectory core package before other ones to avoid dependencies errors.
+
+root@fusion-install:~# apt-get update
+root@fusion-install:~# apt-get install fusiondirectory
+root@fusion-install:~# apt-get upgrade
+
+Migrate FusionDirectory from 1.0.2 to 1.0.3
+-------------------------------------------
+
+Before migration from FusionDirectory 1.0.2 to 1.0.3 is important to remove the fusiondirectory-plugin-goto,
+fusiondirectory-plugin-mit-krb5 and fusiondirectory-plugin-phpgw to avoid errors.
+
+root@fusion-install:~# apt-get remove fusiondirectory-plugin-goto
+root@fusion-install:~# apt-get remove fusiondirectory-plugin-mit-krb5
+root@fusion-install:~# apt-get remove fusiondirectory-plugin-phpgw
+
+Upgrade FusionDirectory core package before other ones to avoid dependencies errors.
+
+root@fusion-install:~# apt-get update
+root@fusion-install:~# apt-get install fusiondirectory
+root@fusion-install:~# apt-get upgrade
+
+Rerun setup
+-----------
+
+Starting with version 1.0.3, the addition of a plugin is handled automatically by fusiondirectory. To activate this you have to re-run the setup from the web interface.
+
+root@fusion-install:~# mv /etc/fusiondirectory/fusiondirectory.conf /etc/fusiondirectory/fusiondirectory.conf.back
+
+Then from web interface type :
+
+http://your_server/fusiondirectory/setup.php
+
+and fill the required information.
 
 * Configure FusionDirectory
 
@@ -9,7 +60,6 @@ using this URL:
 http://you.server.address/fusiondirectory
 
 Follow the instructions on the screen.
-
 
 * Security related information
 
@@ -69,7 +119,6 @@ reference" when using PHP5. I can't do anything about them - these are
 cause by smarty. To get rid of them set your "error_reporting" in the
 php.ini to "E_ALL ^ E_NOTICE". This is a workaround only, wait for the
 debian smarty package to support PHP5 in a propper way.
-
 
  -- Benoit Mortier <benoit.mortier@opensides.be>  Sun, 03 Apr 2011 14:03:00 +0100
 
