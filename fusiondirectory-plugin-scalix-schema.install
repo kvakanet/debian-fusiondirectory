@@ -1,0 +1,3 @@
+scalix/contrib/scalix.ldif       /etc/ldap/schema/fusiondirectory
+scalix/contrib/scalix.schema     /etc/ldap/schema/fusiondirectory
+
