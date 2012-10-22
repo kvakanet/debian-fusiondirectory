@@ -196,7 +196,7 @@ Description: LDAP schema for FusionDirectory dns plugin
 Package: fusiondirectory-plugin-fai
 Conflicts: gosa-plugin-fai
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-argonaut, fusiondirectory-plugin-systems
 Breaks: gosa (<< 2.6)
 Description: fai plugin for FusionDirectory
  FAI plugin for managing Linux system deployment.
