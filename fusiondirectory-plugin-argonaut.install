@@ -1,2 +1,3 @@
 argonaut/admin                      /usr/share/fusiondirectory/plugins
 argonaut/addons                     /usr/share/fusiondirectory/plugins
+argonaut/include                    /usr/share/fusiondirectory
