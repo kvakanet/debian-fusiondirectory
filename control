@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, fusiondirectory-plugin-simple-plugin
+Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick | imagemagick (>= 5.4.4.5-1), php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty | smarty3 , fusiondirectory-smarty-acl-render|fusiondirectory-smarty3-acl-render, gettext, ${misc:Depends}, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -116,7 +116,7 @@ Description: LDAP schema for FusionDirectory Argonaut plugin
 
 Package: fusiondirectory-plugin-board
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-simple-plugin
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: board plugin for FusionDirectory
  Dashboard plugin - allow to see important information in one click.
