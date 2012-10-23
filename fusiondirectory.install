@@ -54,7 +54,6 @@ include/functions.inc                         /usr/share/fusiondirectory/include
 include/php_setup.inc                         /usr/share/fusiondirectory/include
 include/variables_common.inc                  /usr/share/fusiondirectory/include
 include/variables.inc                         /usr/share/fusiondirectory/include
-include/jsonRPCClient.php                     /usr/share/fusiondirectory/include
 locale                                        /usr/share/fusiondirectory
 plugins                                       /usr/share/fusiondirectory
 setup                                         /usr/share/fusiondirectory
