@@ -1,0 +1,7 @@
+asterisk/admin                        /usr/share/fusiondirectory/plugins
+asterisk/addons                       /usr/share/fusiondirectory/plugins
+asterisk/personal                     /usr/share/fusiondirectory/plugins
+asterisk/locale                       /usr/share/fusiondirectory/locale/plugins/asterisk
+asterisk/contrib/asteriskcdrdb.sql    /usr/share/doc/fusiondirectory-plugin-asterisk
+asterisk/html/images                  /usr/share/fusiondirectory/html/plugins/asterisk
+asterisk/contrib/asterisk/            /var/cache/fusiondirectory
