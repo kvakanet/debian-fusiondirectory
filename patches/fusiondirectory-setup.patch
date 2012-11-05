@@ -1,9 +1,13 @@
+Description: put the right path for fd_home
+ Put the right path for fd_home in debian packages.
+Author: Benoit Mortier <benoit.mortier@opensides.be>
+Last-Update: 2012-05-21
 Index: pkg/contrib/bin/fusiondirectory-setup
 ===================================================================
---- pkg.orig/contrib/bin/fusiondirectory-setup	2012-05-21 23:01:30.000000000 +0200
-+++ pkg/contrib/bin/fusiondirectory-setup	2012-05-21 23:01:39.000000000 +0200
+--- pkg.orig/contrib/bin/fusiondirectory-setup  2012-05-21 23:01:30.000000000 +0200
++++ pkg/contrib/bin/fusiondirectory-setup 2012-05-21 23:01:39.000000000 +0200
 @@ -27,7 +27,7 @@
- 
+
  # fd's directory and class.cache file's path declaration
  my %vars = (
 - fd_home =>       "/var/www/fusiondirectory",
