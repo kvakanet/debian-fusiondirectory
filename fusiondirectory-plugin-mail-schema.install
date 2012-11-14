@@ -1,0 +1,2 @@
+mail/contrib/openldap/fd-mail-conf.schema  /etc/ldap/schema/fusiondirectory
+mail/contrib/openldap/fd-mail-conf.ldif    /etc/ldap/schema/fusiondirectory
