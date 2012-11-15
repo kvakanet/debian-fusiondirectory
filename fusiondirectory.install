@@ -39,6 +39,7 @@ include/class_msgPool.inc                     /usr/share/fusiondirectory/include
 include/class_multi_plug.inc                  /usr/share/fusiondirectory/include
 include/class_plugin.inc                      /usr/share/fusiondirectory/include
 include/class_pluglist.inc                    /usr/share/fusiondirectory/include
+include/class_smbHash.inc                     /usr/share/fusiondirectory/include
 include/class_session.inc                     /usr/share/fusiondirectory/include
 include/class_SnapShotDialog.inc              /usr/share/fusiondirectory/include
 include/class_SnapshotHandler.inc             /usr/share/fusiondirectory/include
