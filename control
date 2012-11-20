@@ -270,6 +270,17 @@ Description: base mail plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-mail-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory configuration mail backend
+ This package includes the LDAP schema needed by the FusionDirectory
+ Configuration backend for the mail plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-nagios
 Conflicts: gosa-plugin-nagios
 Architecture: all
@@ -487,6 +498,17 @@ Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: samba3 plugin for FusionDirectory
  Plugin for Samba 3 management.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-samba-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory configuration samba backend
+ This package includes the LDAP schema needed by the FusionDirectory
+ Configuration backend for the samba plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
