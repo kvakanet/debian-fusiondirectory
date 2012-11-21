@@ -363,7 +363,7 @@ Package: fusiondirectory-plugin-openstack-compute
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Description: Openstack compute plugin for FusionDirectory
- Openstack compute user management plugin.
+ Openstack compute also called "nova" user management plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
