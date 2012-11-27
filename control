@@ -202,6 +202,17 @@ Description: LDAP schema for FusionDirectory dns plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-dsa
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Breaks: gosa (<< 2.6)
+Description: dsa plugin for FusionDirectory
+ This plugin is designed to maintain the dsa branch of your ldap directory.
+ The dsa branch is the one tha contains the security account for ldap clients
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
+
 Package: fusiondirectory-plugin-fai
 Conflicts: gosa-plugin-fai
 Architecture: all
