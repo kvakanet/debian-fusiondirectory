@@ -1,2 +1,1 @@
 pureftpd/contrib/pureftpd.schema  /etc/ldap/schema/fusiondirectory
-pureftpd/contrib/pureftpd.ldif    /etc/ldap/schema/fusiondirectory
