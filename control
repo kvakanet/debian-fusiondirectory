@@ -144,6 +144,29 @@ Description: connectivity plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-cyrus
+Conflicts: gosa-plugin-mail
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
+Breaks: gosa (<< 2.6)
+Description: cyrus plugin for FusionDirectory
+ cyrus account management plugin
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-cyrus-schema
+Conflicts: gosa-plugin-mail
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory cyrus plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ cyrus plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-database-connector
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, php-mdb2, php-mdb2-driver-mysql
