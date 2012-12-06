@@ -1,1 +1,1 @@
-mail/contrib/openldap/cyrus-fd.schema  /etc/ldap/schema/fusiondirectory
+cyrus/contrib/openldap/cyrus-fd.schema  /etc/ldap/schema/fusiondirectory

@@ -1,4 +1,4 @@
-mail/admin            /usr/share/fusiondirectory/plugins
-mail/personal         /usr/share/fusiondirectory/plugins
-mail/locale           /usr/share/fusiondirectory/locale/plugins/cyrus
+cyrus/admin            /usr/share/fusiondirectory/plugins
+cyrus/personal         /usr/share/fusiondirectory/plugins
+cyrus/locale           /usr/share/fusiondirectory/locale/plugins/cyrus
 
