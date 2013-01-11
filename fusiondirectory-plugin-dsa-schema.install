@@ -1,1 +1,1 @@
-dns/contrib/dsa-fd.schema /etc/ldap/schema/fusiondirectory
+dsa/contrib/dsa-fd.schema /etc/ldap/schema/fusiondirectory
