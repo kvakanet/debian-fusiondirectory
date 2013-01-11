@@ -36,7 +36,7 @@ Description: Provide Scripts and doc for FusionDirectory development
 
 Package: fusiondirectory-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ldap-utils
 Conflicts: gosa-schema
 Suggests: slapd
 Description: LDAP schema for FusionDirectory
