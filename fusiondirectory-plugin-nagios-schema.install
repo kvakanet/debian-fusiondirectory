@@ -1,1 +1,1 @@
-nagios/contrib/nagios.schema  /etc/ldap/schema/fusiondirectory
+nagios/contrib/openldap/nagios.schema  /etc/ldap/schema/fusiondirectory

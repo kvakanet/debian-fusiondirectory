@@ -1,1 +1,1 @@
-sudo/contrib/sudo.schema  /etc/ldap/schema/fusiondirectory
+sudo/contrib/openldap/sudo.schema  /etc/ldap/schema/fusiondirectory

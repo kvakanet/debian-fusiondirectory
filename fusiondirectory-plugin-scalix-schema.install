@@ -1,2 +1,2 @@
-scalix/contrib/scalix.schema     /etc/ldap/schema/fusiondirectory
+scalix/contrib/openldap/scalix.schema     /etc/ldap/schema/fusiondirectory
 

@@ -1,1 +1,1 @@
-phpscheduleit/contrib/phpscheduleit.schema  /etc/ldap/schema/fusiondirectory
+phpscheduleit/contrib/openldap/phpscheduleit.schema  /etc/ldap/schema/fusiondirectory

@@ -1,1 +1,1 @@
-dhcp/contrib/dhcp.schema /etc/ldap/schema/fusiondirectory
+dhcp/contrib/openldap/dhcp.schema /etc/ldap/schema/fusiondirectory

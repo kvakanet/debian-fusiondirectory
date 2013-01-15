@@ -1,2 +1,2 @@
-argonaut/contrib/argonaut.schema     /etc/ldap/schema/fusiondirectory
-argonaut/contrib/update-from-1.0.3/  /etc/ldap/schema/fusiondirectory
+argonaut/contrib/openldap/argonaut.schema     /etc/ldap/schema/fusiondirectory
+argonaut/contrib/openldap/update-from-1.0.3/  /etc/ldap/schema/fusiondirectory
