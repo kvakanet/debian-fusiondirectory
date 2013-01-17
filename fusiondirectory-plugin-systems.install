@@ -1,4 +1,5 @@
 systems/admin                   /usr/share/fusiondirectory/plugins
+systems/config                  /usr/share/fusiondirectory/plugins
 systems/personal                /usr/share/fusiondirectory/plugins
 systems/locale                  /usr/share/fusiondirectory/locale/plugins/systems
 systems/html/images             /usr/share/fusiondirectory/html/plugins/systems
