@@ -561,9 +561,9 @@ Description: rsyslog plugin for FusionDirectory
 Package: fusiondirectory-plugin-samba
 Conflicts: gosa-plugin-samba
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory,
 Breaks: gosa (<< 2.6)
-Description: samba3 plugin for FusionDirectory
+Description: samba3 plugin for FusionDirectory, fusiondirectory-plugin-systems
  Plugin for Samba 3 management.
  .
  FusionDirectory is a combination of system-administrator and end-user web
