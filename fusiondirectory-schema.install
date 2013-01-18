@@ -1,13 +1,6 @@
 contrib/openldap/gosa-samba3.schema           /etc/ldap/schema/fusiondirectory
 contrib/openldap/rfc2307bis.schema            /etc/ldap/schema/fusiondirectory
 contrib/openldap/ldapns.schema                /etc/ldap/schema/fusiondirectory
-contrib/openldap/gofax.schema                 /etc/ldap/schema/fusiondirectory
-contrib/openldap/goto-mime.schema             /etc/ldap/schema/fusiondirectory
-contrib/openldap/gofon.schema                 /etc/ldap/schema/fusiondirectory
-contrib/openldap/goserver.schema              /etc/ldap/schema/fusiondirectory
-contrib/openldap/goto.schema                  /etc/ldap/schema/fusiondirectory
-contrib/openldap/gosystem.schema              /etc/ldap/schema/fusiondirectory
-contrib/openldap/rfc2307bis.schema            /etc/ldap/schema/fusiondirectory
 contrib/openldap/samba.schema                 /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery.schema              /etc/ldap/schema/fusiondirectory
 contrib/openldap/fusiondirectory-conf.schema  /etc/ldap/schema/fusiondirectory
