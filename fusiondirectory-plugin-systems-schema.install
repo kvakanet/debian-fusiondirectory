@@ -1,1 +1,5 @@
-systems/contrib/openldap/systems-fd.schema       /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/goserver.schema        /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/gosystem.schema        /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/goto-mime.schema       /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/goto.schema            /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/systems-fd.schema      /etc/ldap/schema/fusiondirectory
