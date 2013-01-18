@@ -123,6 +123,29 @@ Description: LDAP schema for FusionDirectory Argonaut plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-asterisk
+Conflicts: gosa-plugin-gofon
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
+Breaks: gosa (<< 2.6)
+Description: gofon plugin for FusionDirectory
+ Asterisk management with report functionality
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-asterisk-schema
+Conflicts: gosa-plugin-fai-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory asterisk plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ asterisk plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-board
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
@@ -289,17 +312,6 @@ Recommends: slapd
 Description: LDAP schema for FusionDirectory fax plugin
  This package includes the LDAP schema needed by the FusionDirectory
  fax plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-gofon
-Conflicts: gosa-plugin-gofon
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
-Breaks: gosa (<< 2.6)
-Description: gofon plugin for FusionDirectory
- GOfon management with report functionality
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
