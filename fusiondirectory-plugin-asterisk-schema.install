@@ -1,2 +1,2 @@
 asterisk/contrib/openldap/gofon.schema       /etc/ldap/schema/fusiondirectory
-asterisk/contrib/sql/asteriskcdrdb.sql    /usr/share/doc/fusiondirectory-plugin-asterisk
+asterisk/contrib/sql/asteriskcdrdb.sql    /usr/share/doc/fusiondirectory-plugin-asterisk-schema
