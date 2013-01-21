@@ -1,2 +1,2 @@
 fax/contrib/openldap/gofax.schema       /etc/ldap/schema/fusiondirectory
-fax/contrib/sql/gofax.sql               /usr/share/doc/fusiondirectory-plugin-fax
+fax/contrib/sql/gofax.sql               /usr/share/doc/fusiondirectory-plugin-fax-schema
