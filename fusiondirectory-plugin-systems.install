@@ -4,6 +4,5 @@ systems/personal                /usr/share/fusiondirectory/plugins
 systems/locale                  /usr/share/fusiondirectory/locale/plugins/systems
 systems/html/images             /usr/share/fusiondirectory/html/plugins/systems
 systems/html/getFAIstatus.php   /usr/share/fusiondirectory/html/
-systems/contrib/encodings       /var/cache/fusiondirectory/systems
-systems/contrib/resolutions     /var/cache/fusiondirectory/systems
+
 
