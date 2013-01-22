@@ -1,4 +1,5 @@
 cyrus/admin            /usr/share/fusiondirectory/plugins
 cyrus/personal         /usr/share/fusiondirectory/plugins
 cyrus/locale           /usr/share/fusiondirectory/locale/plugins/cyrus
+cyrus/contrib/sieve    /var/cache/fusiondirectory/mail
 
