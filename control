@@ -760,3 +760,13 @@ Description: webdav plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-webdav-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for webdav plugin for FusionDirectory
+ This package includes the LDAP schema needed by the FusionDirectory
+ webdav plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
