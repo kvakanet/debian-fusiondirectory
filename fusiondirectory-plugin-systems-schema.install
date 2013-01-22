@@ -3,5 +3,6 @@ systems/contrib/openldap/gosystem.schema        /etc/ldap/schema/fusiondirectory
 systems/contrib/openldap/goto-mime.schema       /etc/ldap/schema/fusiondirectory
 systems/contrib/openldap/goto.schema            /etc/ldap/schema/fusiondirectory
 systems/contrib/openldap/systems-fd.schema      /etc/ldap/schema/fusiondirectory
+systems/contrib/openldap/systems-fd-conf.schema       /etc/ldap/schema/fusiondirectory
 systems/contrib/openldap/update-from-1.0.3-to-1.0.4   /etc/ldap/schema/fusiondirectory
 
