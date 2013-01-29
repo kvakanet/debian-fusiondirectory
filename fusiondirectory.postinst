@@ -49,9 +49,11 @@ if [ -d /etc/apache2/conf.d ]; then
     # Add FusionDirectory include file
     ln -s /etc/fusiondirectory/fusiondirectory-apache.conf /etc/apache2/conf.d/fusiondirectory.conf
   fi
-  
+
   # Add support for RequestHeader
-  a2enmod headers
+  if [ -x /usr/sbin/a2enmod ]; then
+    a2enmod headers
+  fi
 
   # Finally restart servers
   if [ -x /usr/sbin/invoke-rc.d ]; then
