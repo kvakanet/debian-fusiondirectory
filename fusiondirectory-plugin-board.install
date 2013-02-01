@@ -1,5 +1,4 @@
 board/addons        /usr/share/fusiondirectory/plugins
 board/locale        /usr/share/fusiondirectory/locale/plugins/board
-board/doc           /usr/share/doc/fusiondirectory-plugin-board
 board/html/images   /usr/share/fusiondirectory/html/plugins/board
 
