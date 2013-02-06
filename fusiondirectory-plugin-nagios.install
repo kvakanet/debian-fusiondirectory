@@ -1,4 +1,3 @@
 nagios/personal     /usr/share/fusiondirectory/plugins
 nagios/locale       /usr/share/fusiondirectory/locale/plugins/nagios
-nagios/contrib      /usr/share/doc/fusiondirectory-plugin-nagios
 nagios/html/images  /usr/share/fusiondirectory/html/plugins/nagios
