@@ -1,4 +1,4 @@
-supann/contrib/supann  /etc/fusiondirectory/supann/
+supann/contrib/supann  /etc/fusiondirectory
 supann/admin           /usr/share/fusiondirectory/plugins
 supann/config          /usr/share/fusiondirectory/plugins
 supann/personal        /usr/share/fusiondirectory/plugins
