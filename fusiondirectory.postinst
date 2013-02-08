@@ -51,15 +51,19 @@ if [ -d /etc/apache2/conf.d ]; then
   fi
 
   # Add support for RequestHeader
-  if [ -x /usr/sbin/a2enmod ]; then
-    a2enmod headers
+  if [ -x /usr/sbin/apache2 ]; then
+    if [ -x /usr/sbin/a2enmod ]; then
+      a2enmod headers
+    fi
   fi
 
   # Finally restart servers
-  if [ -x /usr/sbin/invoke-rc.d ]; then
-    invoke-rc.d apache2 reload
-  else
-    /etc/init.d/apache2 reload
+  if [ -x /usr/sbin/apache2 ]; then
+    if [ -x /usr/sbin/invoke-rc.d ]; then
+      invoke-rc.d apache2 reload
+    else
+      /etc/init.d/apache2 reload
+    fi
   fi
 fi
 

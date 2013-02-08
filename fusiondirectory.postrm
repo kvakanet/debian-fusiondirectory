@@ -7,7 +7,7 @@ set -e
 case "$1" in
   purge|remove)
 
-        # Pure here
+        # Purge here
         if [ "$1" = "purge" ] ; then
           if [ -d /var/spool/fusiondirectory ] ; then
             echo "Removing /var/spool/fusiondirectory as requested."
@@ -26,13 +26,14 @@ case "$1" in
           [ -L /etc/apache2/conf.d/fusiondirectory.conf ] && rm -f /etc/apache2/conf.d/fusiondirectory.conf
 
           # Restart servers
-          if [ -x /usr/sbin/invoke-rc.d ]; then
-            invoke-rc.d apache2 restart
-          else
-            /etc/init.d/apache2 restart
+          if [ -x /usr/sbin/apache2 ]; then
+            if [ -x /usr/sbin/invoke-rc.d ]; then
+              invoke-rc.d apache2 restart
+            else
+              /etc/init.d/apache2 restart
+            fi
           fi
         fi
-
         ;;
 
   upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
