@@ -518,7 +518,7 @@ Description: pptp plugin for FusionDirectory
 Package: fusiondirectory-plugin-opsi
 Conflicts: gosa-plugin-opsi
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-samba
 Breaks: gosa (<< 2.6)
 Description: opsi plugin for FusionDirectory
  Opsi plugin
