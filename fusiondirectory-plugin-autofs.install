@@ -1,0 +1,4 @@
+autofs/admin                            /usr/share/fusiondirectory/plugins
+autofs/config                           /usr/share/fusiondirectory/plugins
+autofs/locale	                        /usr/share/fusiondirectory/locale/plugins/autofs
+autofs/html/images                      /usr/share/fusiondirectory/html/plugins/autofs
