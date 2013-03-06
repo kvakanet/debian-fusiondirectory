@@ -1,0 +1,2 @@
+debconf/contrib/openldap/debconf.schema    /etc/ldap/schema/fusiondirectory
+debconf/contrib/openldap/debconf-fd.schema /etc/ldap/schema/fusiondirectory

@@ -233,6 +233,26 @@ Description: database plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-debconf
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Description: Debconf plugin for FusionDirectory
+ Simple debconf plugin for FusionDirectory.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-debconf-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory Debconf Plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ Debconf Plugin. It is the same LDAP schema as distributed in the
+ debconf-doc package for the Debconf's basic, built-in LDAP driver.
+ .
+ FusionDirectory is a combination of system-administrator and end-user
+ web interface, designed to handle LDAP-based setups.
 
 Package: fusiondirectory-plugin-dhcp
 Conflicts: gosa-plugin-dhcp
