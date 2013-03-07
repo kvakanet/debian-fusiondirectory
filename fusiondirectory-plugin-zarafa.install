@@ -1,0 +1,6 @@
+zarafa/admin                   /usr/share/fusiondirectory/plugins
+zarafa/personal                /usr/share/fusiondirectory/plugins
+zarafa/locale                  /usr/share/fusiondirectory/locale/plugins/zarafa
+zarafa/html/images             /usr/share/fusiondirectory/html/plugins/zarafa
+
+
