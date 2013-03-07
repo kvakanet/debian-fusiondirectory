@@ -368,6 +368,27 @@ Description: LDAP schema for FusionDirectory fax plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-freeradius
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
+Breaks: gosa (<< 2.6)
+Description: freeradius plugin for FusionDirectory
+ freeradius management
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-freeradius-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Description: LDAP schema for FusionDirectory freeradius plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ freeradius plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-game
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity, fusiondirectory-plugin-mail
