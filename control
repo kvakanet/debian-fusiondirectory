@@ -370,7 +370,7 @@ Description: LDAP schema for FusionDirectory fax plugin
 
 Package: fusiondirectory-plugin-freeradius
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: freeradius plugin for FusionDirectory
  freeradius management
