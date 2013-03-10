@@ -576,17 +576,6 @@ Description: LDAP schema for FusionDirectory phpscheduleit plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-pptp
-Conflicts: gosa-plugin-pptp
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
-Breaks: gosa (<< 2.6)
-Description: pptp plugin for FusionDirectory
- PPTP connectivity plugin
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-puppet
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
@@ -628,19 +617,6 @@ Recommends: slapd
 Description: LDAP schema for FusionDirectory opsi plugin
  This package includes the LDAP schema needed by the FusionDirectory
  opsi plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-
-Package: fusiondirectory-plugin-pptp-schema
-Conflicts: gosa-plugin-pptp-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Description: LDAP schema for FusionDirectory pptp plugin
- This package includes the LDAP schema needed by the FusionDirectory
- pptp plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -889,28 +865,6 @@ Description: uw-imap plugin for FusionDirectory
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-webdav
-Conflicts: gosa-plugin-webdav
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
-Breaks: gosa (<< 2.6)
-Description: webdav plugin for FusionDirectory
- WebDAV connectivity plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-webdav-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Description: LDAP schema for webdav plugin for FusionDirectory
- This package includes the LDAP schema needed by the FusionDirectory
- webdav plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based setups.
 
 Package: fusiondirectory-plugin-zarafa
 Architecture: all
