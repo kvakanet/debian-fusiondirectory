@@ -369,7 +369,7 @@ Description: LDAP schema for FusionDirectory freeradius plugin
 
 Package: fusiondirectory-plugin-game
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity, fusiondirectory-plugin-mail
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
 Breaks: gosa (<< 2.6)
 Description: Tutorial for FusionDirectory
  Tutorial Game for Fusiondirectory
@@ -380,7 +380,7 @@ Description: Tutorial for FusionDirectory
 Package: fusiondirectory-plugin-kolab
 Conflicts: gosa-plugin-kolab
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity, fusiondirectory-plugin-mail
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
 Breaks: gosa (<< 2.6)
 Description: kolab plugin for FusionDirectory
  Kolab2 account management plugin
@@ -480,7 +480,7 @@ Description: netgroup plugin for FusionDirectory
 Package: fusiondirectory-plugin-opengroupware
 Conflicts: gosa-plugin-opengroupware
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
 Breaks: gosa (<< 2.6)
 Description: opengroupware plugin for FusionDirectory
  Opengroupware account management plugin
@@ -491,7 +491,7 @@ Description: opengroupware plugin for FusionDirectory
 Package: fusiondirectory-plugin-openxchange
 Conflicts: gosa-plugin-openxchange
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
 Breaks: gosa (<< 2.6)
 Description: openxchange plugin for FusionDirectory
  Open-Xchange account management plugin
@@ -534,10 +534,10 @@ Description: LDAP schema for FusionDirectory Openstack compute plugin
 Package: fusiondirectory-plugin-phpscheduleit
 Conflicts: gosa-plugin-phpscheduleit
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: phpscheduleit plugin for FusionDirectory
- PHP scheduleit connectivity plugin
+ PHP scheduleit plugin
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -602,10 +602,10 @@ Description: LDAP schema for FusionDirectory opsi plugin
 Package: fusiondirectory-plugin-pureftpd
 Conflicts: gosa-plugin-pureftpd
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: pureftpd plugin for FusionDirectory
- PureFTPD connectivity plugin.
+ PureFTPD plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -624,7 +624,7 @@ Description: LDAP schema for FusionDirectory pureftpd plugin
 
 Package: fusiondirectory-plugin-quota
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: quota plugin for FusionDirectory
  Linux Quota plugin.
@@ -712,10 +712,10 @@ Description: LDAP schema for FusionDirectory scalix plugin
 Package: fusiondirectory-plugin-squid
 Conflicts: gosa-plugin-squid
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-connectivity
+Depends: ${misc:Depends}, fusiondirectory
 Breaks: gosa (<< 2.6)
 Description: squid plugin for FusionDirectory
- Squid connectivity plugin.
+ Squid plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
