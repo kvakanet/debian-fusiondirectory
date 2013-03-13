@@ -477,17 +477,6 @@ Description: netgroup plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-opengroupware
-Conflicts: gosa-plugin-opengroupware
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
-Breaks: gosa (<< 2.6)
-Description: opengroupware plugin for FusionDirectory
- Opengroupware account management plugin
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-openxchange
 Conflicts: gosa-plugin-openxchange
 Architecture: all
