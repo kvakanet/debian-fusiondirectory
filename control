@@ -94,7 +94,7 @@ Description: alias schema for alias plugin for FusionDirectory
 Package: fusiondirectory-plugin-apache2
 Conflicts: gosa-plugin-apache
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
 Breaks: gosa (<< 2.6)
 Description: Apache virtualhost plugin for FusionDirectory
  Simple Apache2 plugin for FusionDirectory.
