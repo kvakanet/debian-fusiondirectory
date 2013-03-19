@@ -71,7 +71,7 @@ Description: addressbook plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-alias
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
 Breaks: gosa (<< 2.6)
 Description: alias plugin for FusionDirectory
  This plugin is designed to configure mail aliases for postfix.
