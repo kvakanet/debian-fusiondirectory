@@ -1,3 +1,5 @@
 ssh/personal    /usr/share/fusiondirectory/plugins
 ssh/locale      /usr/share/fusiondirectory/locale/plugins/ssh
 ssh/contrib     /usr/share/doc/fusiondirectory-plugin-ssh
+ssh/html/images /usr/share/fusiondirectory/html/plugins/ssh
+
