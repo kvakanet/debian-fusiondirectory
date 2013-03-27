@@ -1,2 +1,3 @@
 puppet/admin                   /usr/share/fusiondirectory/plugins
+puppet/html/images             /usr/share/fusiondirectory/html/plugins/puppet
 
