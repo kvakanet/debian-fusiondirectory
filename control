@@ -665,28 +665,6 @@ Description: LDAP schema for FusionDirectory configuration samba backend
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-scalix
-Conflicts: gosa-plugin-scalix
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
-Description: scalix plugin for FusionDirectory
- Scalix account management plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-scalix-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Description: LDAP schema for FusionDirectory scalix plugin
- This package includes the LDAP schema needed by the FusionDirectory
- scalix plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-squid
 Conflicts: gosa-plugin-squid
 Architecture: all
