@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , fusiondirectory-smarty3-acl-render, gettext, libcrypt-smbhash-perl, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl
+Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
