@@ -1,6 +1,6 @@
-fai-hooks/confdir.DEFAULT.source	var/lib/fai/config/hooks
-fai-hooks/error.DEFAULT			var/lib/fai/config/hooks
-fai-hooks/extrbase.DEFAULT		var/lib/fai/config/hooks
-fai-hooks/prepareapt.DEFAULT		var/lib/fai/config/hooks
-fai-scripts/00-copy-templates		var/lib/fai/config/scripts/DEFAULT
+argonaut-fai-nfsroot/fai-hooks/confdir.DEFAULT.source   var/lib/fai/config/hooks
+argonaut-fai-nfsroot/fai-hooks/error.DEFAULT            var/lib/fai/config/hooks
+argonaut-fai-nfsroot/fai-hooks/extrbase.DEFAULT         var/lib/fai/config/hooks
+argonaut-fai-nfsroot/fai-hooks/prepareapt.DEFAULT       var/lib/fai/config/hooks
+argonaut-fai-nfsroot/fai-scripts/00-copy-templates      var/lib/fai/config/scripts/DEFAULT
 

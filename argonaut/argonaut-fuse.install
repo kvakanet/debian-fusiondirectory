@@ -1,2 +1,2 @@
-argonaut-fuse                         usr/sbin
-Argonaut/Fuse/Common.pm               usr/share/perl5/Argonaut/Fuse
+argonaut-fuse/argonaut-fuse                         usr/sbin
+argonaut-fuse/Argonaut/Fuse/Common.pm               usr/share/perl5/Argonaut/Fuse
