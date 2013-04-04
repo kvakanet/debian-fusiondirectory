@@ -1,0 +1,4 @@
+kolab/contrib/openldap/kolab2.schema   /etc/ldap/schema/fusiondirectory
+kolab/contrib/openldap/rfc2739.schema  /etc/ldap/schema/fusiondirectory
+
+

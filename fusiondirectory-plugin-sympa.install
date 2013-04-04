@@ -1,0 +1,3 @@
+sympa/admin       /usr/share/fusiondirectory/plugins
+sympa/html/images /usr/share/fusiondirectory/html/plugins/sympa
+sympa/locale      /usr/share/fusiondirectory/locale/plugins/sympa/

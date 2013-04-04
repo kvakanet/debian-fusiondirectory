@@ -1,0 +1,3 @@
+argonaut/contrib/openldap/argonaut-fd.schema              /etc/ldap/schema/fusiondirectory
+argonaut/contrib/openldap/update-from-1.0.3-to-1.0.4/     /etc/ldap/schema/fusiondirectory
+

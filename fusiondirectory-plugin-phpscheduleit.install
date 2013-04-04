@@ -1,0 +1,4 @@
+phpscheduleit/personal        /usr/share/fusiondirectory/plugins
+phpscheduleit/locale          /usr/share/fusiondirectory/locale/plugins/phpscheduleit
+phpscheduleit/contrib         /usr/share/doc/fusiondirectory-plugin-phpscheduleit
+phpscheduleit/html/images     /usr/share/fusiondirectory/html/plugins/phpscheduleit

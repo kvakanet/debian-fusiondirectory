@@ -1,0 +1,8 @@
+supann/contrib/supann  /etc/fusiondirectory
+supann/admin           /usr/share/fusiondirectory/plugins
+supann/config          /usr/share/fusiondirectory/plugins
+supann/personal        /usr/share/fusiondirectory/plugins
+supann/locale          /usr/share/fusiondirectory/locale/plugins/supann
+supann/html/images     /usr/share/fusiondirectory/html/plugins/supann
+
+

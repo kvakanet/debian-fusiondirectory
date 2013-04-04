@@ -1,0 +1,3 @@
+squid/personal        /usr/share/fusiondirectory/plugins
+squid/locale          /usr/share/fusiondirectory/locale/plugins/squid
+squid/html/images     /usr/share/fusiondirectory/html/plugins/squid

@@ -1,0 +1,3 @@
+debconf/admin           /usr/share/fusiondirectory/plugins
+debconf/html/images     /usr/share/fusiondirectory/html/plugins/debconf
+debconf/locale          /usr/share/fusiondirectory/locale/plugins/debconf

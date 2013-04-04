@@ -1,0 +1,6 @@
+fax/admin                 /usr/share/fusiondirectory/plugins
+fax/addons                /usr/share/fusiondirectory/plugins
+fax/personal              /usr/share/fusiondirectory/plugins
+fax/locale                /usr/share/fusiondirectory/locale/plugins/fax
+fax/html/getfax.php       /usr/share/fusiondirectory/html/plugins/fax
+fax/html/images           /usr/share/fusiondirectory/html/plugins/fax
