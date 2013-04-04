@@ -1,0 +1,2 @@
+bin/argonaut-repository         usr/sbin
+bin/argonaut-debconf-crawler    usr/sbin
