@@ -1,1 +1,1 @@
-autofs/contrib/openldap/autofs-fd.schema      /etc/ldap/schema/fusiondirectory
+autofs/contrib/openldap/autofs-fd-conf.schema      /etc/ldap/schema/fusiondirectory
