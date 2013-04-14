@@ -509,29 +509,6 @@ Description: LDAP schema for FusionDirectory Openstack compute plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-phpscheduleit
-Conflicts: gosa-plugin-phpscheduleit
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
-Description: phpscheduleit plugin for FusionDirectory
- PHP scheduleit plugin
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-phpscheduleit-schema
-Conflicts: gosa-plugin-phpscheduleit-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Description: LDAP schema for FusionDirectory phpscheduleit plugin
- This package includes the LDAP schema needed by the FusionDirectory
- phpscheduleit plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-puppet
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
