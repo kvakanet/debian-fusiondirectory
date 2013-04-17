@@ -1,2 +1,2 @@
-argonaut/contrib/openldap/board-fd.schema              /etc/ldap/schema/fusiondirectory
+argonaut/contrib/openldap/board-fd-conf.schema              /etc/ldap/schema/fusiondirectory
 
