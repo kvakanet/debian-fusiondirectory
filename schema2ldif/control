@@ -1,0 +1,17 @@
+Source: schema2ldif
+Section: text
+Priority: optional
+Maintainer: FusionDirectory packages maintainers group <fusiondirectory-packages@lists.fusiondirectory.org>
+Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: https://forge.fusiondirectory.org/projects/schema2ldif/
+Vcs-Browser: http://git.fusiondirectory.org/code/plugins/schema2ldif.git/
+
+Package: schema2ldif
+Architecture: all
+Depends: perl
+Description: Tool for converting OpenLDAP-style schemas to the LDIF format
+ schema2ldif will read the given input file and convert it to an LDIF file
+ that you can insert into you LDAP directory
+.
