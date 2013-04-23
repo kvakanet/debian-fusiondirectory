@@ -27,6 +27,7 @@ Package: fusiondirectory-developpers
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: fusiondirectory
+Conflicts: gosa
 Description: Provide Scripts and doc for FusionDirectory development
  This package provides scripts to generate locales and documentation
  aimed at developpers willing to develop for FusionDirectory
@@ -62,7 +63,7 @@ Package: fusiondirectory-plugin-addressbook
 Conflicts: gosa-plugin-addressbook
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: addressbook plugin for FusionDirectory
  Simple addressbook plugin for FusionDirectory.
  .
@@ -72,7 +73,7 @@ Description: addressbook plugin for FusionDirectory
 Package: fusiondirectory-plugin-alias
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: alias plugin for FusionDirectory
  This plugin is designed to configure mail aliases for postfix.
  It provide description and expiration Date
@@ -84,6 +85,7 @@ Package: fusiondirectory-plugin-alias-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: alias schema for alias plugin for FusionDirectory
  This plugin is designed to configure mail aliases for postfix.
  It provide description and expiration Date
@@ -95,7 +97,7 @@ Package: fusiondirectory-plugin-apache2
 Conflicts: gosa-plugin-apache
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: Apache virtualhost plugin for FusionDirectory
  Simple Apache2 plugin for FusionDirectory.
  .
@@ -106,6 +108,7 @@ Package: fusiondirectory-plugin-apache2-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: Apache schema for apache2 plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
  Apache2 plugin.
@@ -116,7 +119,7 @@ Description: Apache schema for apache2 plugin for FusionDirectory
 Package: fusiondirectory-plugin-argonaut
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: Argonaut plugin for FusionDirectory
  Store all the configuration for the Argonaut deployment system.
  .
@@ -127,6 +130,7 @@ Package: fusiondirectory-plugin-argonaut-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory Argonaut plugin
  This package includes the LDAP schema needed by the FusionDirectory
  Argonaut plugin.
@@ -137,7 +141,7 @@ Description: LDAP schema for FusionDirectory Argonaut plugin
 Package: fusiondirectory-plugin-autofs
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: autofs plugin for FusionDirectory
  Automount management plugin for FusionDirectory
  .
@@ -148,6 +152,7 @@ Package: fusiondirectory-plugin-autofs-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory autofs plugin
  This package includes the LDAP schema needed by the FusionDirectory
  autofs plugin.
@@ -159,7 +164,7 @@ Package: fusiondirectory-plugin-asterisk
 Conflicts: gosa-plugin-gofon
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: gofon plugin for FusionDirectory
  Asterisk management with report functionality
  .
@@ -171,6 +176,7 @@ Conflicts: gosa-plugin-fai-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory asterisk plugin
  This package includes the LDAP schema needed by the FusionDirectory
  asterisk plugin.
@@ -181,7 +187,7 @@ Description: LDAP schema for FusionDirectory asterisk plugin
 Package: fusiondirectory-plugin-board
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: board plugin for FusionDirectory
  Dashboard plugin - allow to see important information in one click.
  .
@@ -192,6 +198,7 @@ Package: fusiondirectory-plugin-board-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory board plugin
  This package includes the LDAP schema needed by the FusionDirectory
  board plugin.
@@ -203,7 +210,7 @@ Package: fusiondirectory-plugin-cyrus
 Conflicts: gosa-plugin-mail
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: cyrus plugin for FusionDirectory
  cyrus account management plugin
  .
@@ -215,6 +222,7 @@ Conflicts: gosa-plugin-mail
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory cyrus plugin
  This package includes the LDAP schema needed by the FusionDirectory
  cyrus plugin.
@@ -225,7 +233,7 @@ Description: LDAP schema for FusionDirectory cyrus plugin
 Package: fusiondirectory-plugin-database-connector
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, php-mdb2, php-mdb2-driver-mysql
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: database plugin for FusionDirectory
  Database abstraction plugin - abstract database call with MDB2 for some
  FusionDirectory plugins.
@@ -236,6 +244,7 @@ Description: database plugin for FusionDirectory
 Package: fusiondirectory-plugin-debconf
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
 Description: Debconf plugin for FusionDirectory
  Simple debconf plugin for FusionDirectory.
  .
@@ -246,6 +255,7 @@ Package: fusiondirectory-plugin-debconf-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory Debconf Plugin
  This package includes the LDAP schema needed by the FusionDirectory
  Debconf Plugin. It is the same LDAP schema as distributed in the
@@ -258,7 +268,7 @@ Package: fusiondirectory-plugin-dhcp
 Conflicts: gosa-plugin-dhcp
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: dhcp plugin for FusionDirectory
  DHCP service management plugin.
  .
@@ -270,6 +280,7 @@ Conflicts: gosa-plugin-dhcp-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory dhcp plugin
  This package includes the LDAP schema needed by the FusionDirectory
  dhcp plugin.
@@ -281,7 +292,7 @@ Package: fusiondirectory-plugin-dns
 Conflicts: gosa-plugin-dns
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: dns plugin for FusionDirectory
  DNS service management plugin.
  .
@@ -293,6 +304,7 @@ Conflicts: gosa-plugin-dns-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory dns plugin
  This package includes the LDAP schema needed by the FusionDirectory
  dns plugin.
@@ -303,7 +315,7 @@ Description: LDAP schema for FusionDirectory dns plugin
 Package: fusiondirectory-plugin-dsa
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: dsa plugin for FusionDirectory
  This plugin is designed to maintain the dsa branch of your ldap directory.
  The dsa branch is the one tha contains the security account for ldap clients
@@ -315,6 +327,7 @@ Package: fusiondirectory-plugin-dsa-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory dsa plugin
  This package includes the LDAP schema needed by the FusionDirectory
  dsa plugin.
@@ -326,7 +339,7 @@ Package: fusiondirectory-plugin-fai
 Conflicts: gosa-plugin-fai
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-argonaut, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: fai plugin for FusionDirectory
  FAI plugin for managing Linux system deployment.
  .
@@ -338,6 +351,7 @@ Conflicts: gosa-plugin-fai-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa-plugin-fai-schema
 Description: LDAP schema for FusionDirectory fai plugin
  This package includes the LDAP schema needed by the FusionDirectory
  fai plugin.
@@ -349,7 +363,7 @@ Package: fusiondirectory-plugin-fax
 Conflicts: gosa-plugin-gofax
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: fax plugin for FusionDirectory
  fax management with report functionality
  .
@@ -361,6 +375,7 @@ Conflicts: gosa-plugin-fai-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory fax plugin
  This package includes the LDAP schema needed by the FusionDirectory
  fax plugin.
@@ -371,7 +386,7 @@ Description: LDAP schema for FusionDirectory fax plugin
 Package: fusiondirectory-plugin-freeradius
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: freeradius plugin for FusionDirectory
  freeradius management
  .
@@ -382,6 +397,7 @@ Package: fusiondirectory-plugin-freeradius-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory freeradius plugin
  This package includes the LDAP schema needed by the FusionDirectory
  freeradius plugin.
@@ -392,7 +408,7 @@ Description: LDAP schema for FusionDirectory freeradius plugin
 Package: fusiondirectory-plugin-game
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: Tutorial for FusionDirectory
  Tutorial Game for Fusiondirectory
  .
@@ -403,7 +419,7 @@ Package: fusiondirectory-plugin-kolab
 Conflicts: gosa-plugin-kolab
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail, fusiondirectory-plugin-cyrus
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: kolab plugin for FusionDirectory
  Kolab2 account management plugin
  .
@@ -415,6 +431,7 @@ Conflicts: gosa-plugin-kolab-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory kolab plugin
  This package includes the LDAP schema needed by the FusionDirectory
  kolab plugin.
@@ -426,7 +443,7 @@ Package: fusiondirectory-plugin-ldapmanager
 Conflicts: gosa-plugin-ldapmanager
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, ldap-utils
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: ldapmanager plugin for FusionDirectory
  LDAP import and export management plugin
  .
@@ -437,7 +454,7 @@ Package: fusiondirectory-plugin-mail
 Conflicts: gosa-plugin-mail
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: base mail plugin for FusionDirectory
  Mail management base plugin
  .
@@ -448,6 +465,7 @@ Package: fusiondirectory-plugin-mail-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory configuration mail backend
  This package includes the LDAP schema needed by the FusionDirectory
  Configuration backend for the mail plugin.
@@ -459,7 +477,7 @@ Package: fusiondirectory-plugin-nagios
 Conflicts: gosa-plugin-nagios
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: nagios plugin for FusionDirectory
  Nagios account settings management
  .
@@ -471,6 +489,7 @@ Conflicts: gosa-plugin-nagios-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory nagios plugin
  This package includes the LDAP schema needed by the FusionDirectory
  nagios plugin.
@@ -481,7 +500,7 @@ Description: LDAP schema for FusionDirectory nagios plugin
 Package: fusiondirectory-plugin-netgroups
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: netgroup plugin for FusionDirectory
  Nis Netgroups account management plugin
  .
@@ -493,6 +512,7 @@ Conflicts: gosa-plugin-netgroups-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory netgroups plugin
  This package includes the LDAP schema needed by the FusionDirectory
  netgroups plugin.
@@ -503,6 +523,7 @@ Description: LDAP schema for FusionDirectory netgroups plugin
 Package: fusiondirectory-plugin-openstack-compute
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
 Description: Openstack compute plugin for FusionDirectory
  Openstack compute also called "nova" user management plugin.
  .
@@ -513,6 +534,7 @@ Package: fusiondirectory-plugin-openstack-compute-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory Openstack compute plugin
  This package includes the LDAP schema needed by the FusionDirectory
  Openstack compute plugin.
@@ -523,6 +545,7 @@ Description: LDAP schema for FusionDirectory Openstack compute plugin
 Package: fusiondirectory-plugin-puppet
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
 Description: Puppet plugin for FusionDirectory
  Simple puppet plugin for FusionDirectory.
  .
@@ -533,6 +556,7 @@ Package: fusiondirectory-plugin-puppet-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory puppet Plugin
  This package includes the LDAP schema needed by the FusionDirectory
  Puppet Plugin.
@@ -540,13 +564,11 @@ Description: LDAP schema for FusionDirectory puppet Plugin
  FusionDirectory is a combination of system-administrator and end-user
  web interface, designed to handle LDAP-based setups.
 
-
-
 Package: fusiondirectory-plugin-opsi
 Conflicts: gosa-plugin-opsi
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-dns, fusiondirectory-plugin-systems, fusiondirectory-plugin-samba
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: opsi plugin for FusionDirectory
  Opsi plugin
  .
@@ -558,6 +580,7 @@ Conflicts: gosa-plugin-opsi-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory opsi plugin
  This package includes the LDAP schema needed by the FusionDirectory
  opsi plugin.
@@ -569,7 +592,7 @@ Package: fusiondirectory-plugin-pureftpd
 Conflicts: gosa-plugin-pureftpd
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: pureftpd plugin for FusionDirectory
  PureFTPD plugin.
  .
@@ -581,6 +604,7 @@ Conflicts: gosa-plugin-pureftpd-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory pureftpd plugin
  This package includes the LDAP schema needed by the FusionDirectory
  pureftpd plugin.
@@ -591,7 +615,7 @@ Description: LDAP schema for FusionDirectory pureftpd plugin
 Package: fusiondirectory-plugin-quota
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: quota plugin for FusionDirectory
  Linux Quota plugin.
  .
@@ -602,6 +626,7 @@ Package: fusiondirectory-plugin-quota-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory quota plugin
  This package includes the LDAP schema needed by the FusionDirectory
  quota plugin.
@@ -613,7 +638,7 @@ Package: fusiondirectory-plugin-rolemanagement
 Conflicts: gosa-plugin-rolemanagement
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: rolemanagement plugin for FusionDirectory
  Role Management plugin.
  .
@@ -624,7 +649,7 @@ Package: fusiondirectory-plugin-rsyslog
 Conflicts: gosa-plugin-rsyslog
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: rsyslog plugin for FusionDirectory
  Syslog and FusionDirectory logging plugin.
  .
@@ -635,7 +660,7 @@ Package: fusiondirectory-plugin-samba
 Conflicts: gosa-plugin-samba
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory,
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: samba3 plugin for FusionDirectory, fusiondirectory-plugin-systems
  Plugin for Samba 3 management.
  .
@@ -646,6 +671,7 @@ Package: fusiondirectory-plugin-samba-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory configuration samba backend
  This package includes the LDAP schema needed by the FusionDirectory
  Configuration backend for the samba plugin.
@@ -657,7 +683,7 @@ Package: fusiondirectory-plugin-squid
 Conflicts: gosa-plugin-squid
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: squid plugin for FusionDirectory
  Squid plugin.
  .
@@ -668,6 +694,7 @@ Package: fusiondirectory-plugin-squid-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory squid plugin
  This package includes the LDAP schema needed by the FusionDirectory
  squid plugin.
@@ -675,12 +702,11 @@ Description: LDAP schema for FusionDirectory squid plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-
 Package: fusiondirectory-plugin-ssh
 Conflicts: gosa-plugin-ssh
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: ssh plugin for FusionDirectory
  SSH key management plugin.
  .
@@ -692,6 +718,7 @@ Conflicts: gosa-plugin-ssh-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory ssh plugin
  This package includes the LDAP schema needed by the FusionDirectory
  ssh plugin.
@@ -703,7 +730,7 @@ Package: fusiondirectory-plugin-sudo
 Conflicts: gosa-plugin-sudo
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: sudo plugin for FusionDirectory
  Sudo management plugin.
  .
@@ -715,6 +742,7 @@ Conflicts: gosa-plugin-sudo-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory sudo plugin
  This package includes the LDAP schema needed by the FusionDirectory
  sudo plugin.
@@ -725,7 +753,7 @@ Description: LDAP schema for FusionDirectory sudo plugin
 Package: fusiondirectory-plugin-supann
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: supann plugin for FusionDirectory
  Supann management plugin.
  .
@@ -736,6 +764,7 @@ Package: fusiondirectory-plugin-supann-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: LDAP schema for FusionDirectory supann plugin
  This package includes the LDAP schema needed by the FusionDirectory
  supann plugin.
@@ -746,7 +775,7 @@ Description: LDAP schema for FusionDirectory supann plugin
 Package: fusiondirectory-plugin-sympa
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-alias
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: sympa plugin for FusionDirectory
  This plugin is designed to configure basic sympa lists.
  .
@@ -757,6 +786,7 @@ Package: fusiondirectory-plugin-sympa-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: sympa schema for alias plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
  sympa plugin.
@@ -769,7 +799,7 @@ Conflicts: gosa-plugin-systems
 Replaces: fusiondirectory-plugin-goto
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: systems plugin for FusionDirectory
  Systems management base plugin.
  .
@@ -780,6 +810,7 @@ Package: fusiondirectory-plugin-systems-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
+Conflicts: gosa
 Description: system schema for system plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
  systems plugin.
@@ -791,7 +822,7 @@ Package: fusiondirectory-plugin-uw-imap
 Conflicts: gosa-plugin-uw-imap
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-mail
-Breaks: gosa (<< 2.6)
+Conflicts: gosa
 Description: uw-imap plugin for FusionDirectory
  UW imap mail method.
  .
