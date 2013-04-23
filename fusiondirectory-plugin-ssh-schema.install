@@ -1,1 +1,1 @@
-ssh/contrib/openldap/openssh-lpk.schema  /etc/ldap/schema/fusiondirectory
+plugins-extra/ssh/contrib/openldap/openssh-lpk.schema  /etc/ldap/schema/fusiondirectory

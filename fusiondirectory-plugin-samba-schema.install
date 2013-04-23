@@ -1,1 +1,1 @@
-samba/contrib/openldap/samba-fd-conf.schema  /etc/ldap/schema/fusiondirectory
+plugins-extra/samba/contrib/openldap/samba-fd-conf.schema  /etc/ldap/schema/fusiondirectory

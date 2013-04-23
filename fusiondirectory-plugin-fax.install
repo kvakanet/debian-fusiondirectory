@@ -1,7 +1,7 @@
-fax/admin                 /usr/share/fusiondirectory/plugins
-fax/addons                /usr/share/fusiondirectory/plugins
-fax/config                /usr/share/fusiondirectory/plugins
-fax/personal              /usr/share/fusiondirectory/plugins
-fax/locale                /usr/share/fusiondirectory/locale/plugins/fax
-fax/html/getfax.php       /usr/share/fusiondirectory/html/plugins/fax
-fax/html/images           /usr/share/fusiondirectory/html/plugins/fax
+plugins-extra/fax/admin                 /usr/share/fusiondirectory/plugins
+plugins-extra/fax/addons                /usr/share/fusiondirectory/plugins
+plugins-extra/fax/config                /usr/share/fusiondirectory/plugins
+plugins-extra/fax/personal              /usr/share/fusiondirectory/plugins
+plugins-extra/fax/locale                /usr/share/fusiondirectory/locale/plugins/fax
+plugins-extra/fax/html/getfax.php       /usr/share/fusiondirectory/html/plugins/fax
+plugins-extra/fax/html/images           /usr/share/fusiondirectory/html/plugins/fax

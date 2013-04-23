@@ -1,6 +1,6 @@
-systems/contrib/openldap/mime-fd.schema               /etc/ldap/schema/fusiondirectory
-systems/contrib/openldap/service-fd.schema            /etc/ldap/schema/fusiondirectory
-systems/contrib/openldap/systems-fd.schema            /etc/ldap/schema/fusiondirectory
-systems/contrib/openldap/systems-fd-conf.schema       /etc/ldap/schema/fusiondirectory
-systems/contrib/openldap/update-from-1.0.3-to-1.0.4   /etc/ldap/schema/fusiondirectory
+plugins-extra/systems/contrib/openldap/mime-fd.schema               /etc/ldap/schema/fusiondirectory
+plugins-extra/systems/contrib/openldap/service-fd.schema            /etc/ldap/schema/fusiondirectory
+plugins-extra/systems/contrib/openldap/systems-fd.schema            /etc/ldap/schema/fusiondirectory
+plugins-extra/systems/contrib/openldap/systems-fd-conf.schema       /etc/ldap/schema/fusiondirectory
+plugins-extra/systems/contrib/openldap/update-from-1.0.3-to-1.0.4   /etc/ldap/schema/fusiondirectory
 

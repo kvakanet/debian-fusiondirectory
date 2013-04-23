@@ -1,1 +1,1 @@
-cyrus/contrib/openldap/cyrus-fd.schema  /etc/ldap/schema/fusiondirectory
+plugins-extra/cyrus/contrib/openldap/cyrus-fd.schema  /etc/ldap/schema/fusiondirectory

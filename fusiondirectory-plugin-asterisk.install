@@ -1,6 +1,6 @@
-asterisk/admin                            /usr/share/fusiondirectory/plugins
-asterisk/addons                           /usr/share/fusiondirectory/plugins
-asterisk/config                           /usr/share/fusiondirectory/plugins
-asterisk/personal                         /usr/share/fusiondirectory/plugins
-asterisk/locale                           /usr/share/fusiondirectory/locale/plugins/asterisk
-asterisk/html/images                      /usr/share/fusiondirectory/html/plugins/asterisk
+plugins-extra/asterisk/admin                            /usr/share/fusiondirectory/plugins
+plugins-extra/asterisk/addons                           /usr/share/fusiondirectory/plugins
+plugins-extra/asterisk/config                           /usr/share/fusiondirectory/plugins
+plugins-extra/asterisk/personal                         /usr/share/fusiondirectory/plugins
+plugins-extra/asterisk/locale                           /usr/share/fusiondirectory/locale/plugins/asterisk
+plugins-extra/asterisk/html/images                      /usr/share/fusiondirectory/html/plugins/asterisk

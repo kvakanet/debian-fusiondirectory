@@ -1,5 +1,5 @@
-board/addons        /usr/share/fusiondirectory/plugins
-board/config        /usr/share/fusiondirectory/plugins
-board/locale        /usr/share/fusiondirectory/locale/plugins/board
-board/html/images   /usr/share/fusiondirectory/html/plugins/board
+plugins-extra/board/addons        /usr/share/fusiondirectory/plugins
+plugins-extra/board/config        /usr/share/fusiondirectory/plugins
+plugins-extra/board/locale        /usr/share/fusiondirectory/locale/plugins/board
+plugins-extra/board/html/images   /usr/share/fusiondirectory/html/plugins/board
 
