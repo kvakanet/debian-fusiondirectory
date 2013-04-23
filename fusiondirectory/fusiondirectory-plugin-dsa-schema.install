@@ -1,1 +1,1 @@
-dsa/contrib/openldap/dsa-fd-conf.schema /etc/ldap/schema/fusiondirectory
+plugins-extra/dsa/contrib/openldap/dsa-fd-conf.schema /etc/ldap/schema/fusiondirectory

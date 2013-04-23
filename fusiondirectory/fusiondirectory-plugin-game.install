@@ -1,2 +1,2 @@
-game/addons       /usr/share/fusiondirectory/plugins
-game/html/images /usr/share/fusiondirectory/html/plugins/game
+plugins-extra/game/addons       /usr/share/fusiondirectory/plugins
+plugins-extra/game/html/images /usr/share/fusiondirectory/html/plugins/game

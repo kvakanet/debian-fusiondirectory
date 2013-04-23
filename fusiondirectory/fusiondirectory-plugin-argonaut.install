@@ -1,5 +1,5 @@
-argonaut/admin                      /usr/share/fusiondirectory/plugins
-argonaut/addons                     /usr/share/fusiondirectory/plugins
-argonaut/include                    /usr/share/fusiondirectory
-argonaut/html/images                /usr/share/fusiondirectory/html/plugins/argonaut
+plugins-extra/argonaut/admin                      /usr/share/fusiondirectory/plugins
+plugins-extra/argonaut/addons                     /usr/share/fusiondirectory/plugins
+plugins-extra/argonaut/include                    /usr/share/fusiondirectory
+plugins-extra/argonaut/html/images                /usr/share/fusiondirectory/html/plugins/argonaut
 

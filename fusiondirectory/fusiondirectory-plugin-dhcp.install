@@ -1,4 +1,4 @@
-dhcp/admin        /usr/share/fusiondirectory/plugins
-dhcp/html/images  /usr/share/fusiondirectory/html/plugins/dhcp
-dhcp/locale       /usr/share/fusiondirectory/locale/plugins/dhcp
-dhcp/contrib      /usr/share/doc/fusiondirectory-plugin-dhcp
+plugins-extra/dhcp/admin        /usr/share/fusiondirectory/plugins
+plugins-extra/dhcp/html/images  /usr/share/fusiondirectory/html/plugins/dhcp
+plugins-extra/dhcp/locale       /usr/share/fusiondirectory/locale/plugins/dhcp
+plugins-extra/dhcp/contrib      /usr/share/doc/fusiondirectory-plugin-dhcp

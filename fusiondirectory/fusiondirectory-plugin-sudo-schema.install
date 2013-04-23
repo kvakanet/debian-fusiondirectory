@@ -1,2 +1,2 @@
-sudo/contrib/openldap/sudo.schema           /etc/ldap/schema/fusiondirectory
-sudo/contrib/openldap/sudo-fd-conf.schema   /etc/ldap/schema/fusiondirectory
+plugins-extra/sudo/contrib/openldap/sudo.schema           /etc/ldap/schema/fusiondirectory
+plugins-extra/sudo/contrib/openldap/sudo-fd-conf.schema   /etc/ldap/schema/fusiondirectory
