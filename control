@@ -631,7 +631,7 @@ Description: rsyslog plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-samba
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory,
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
 Conflicts: gosa-plugin-samba
 Description: samba3 plugin for FusionDirectory, fusiondirectory-plugin-systems
  Plugin for Samba 3 management.
