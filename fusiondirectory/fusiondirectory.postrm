@@ -1,0 +1,50 @@
+#! /bin/sh
+# postrm script for FusionDirectory
+#
+
+set -e
+
+case "$1" in
+  purge|remove)
+
+        # Purge here
+        if [ "$1" = "purge" ] ; then
+          if [ -d /var/spool/fusiondirectory ] ; then
+            echo "Removing /var/spool/fusiondirectory as requested."
+            rm -Rf /var/spool/fusiondirectory
+          fi
+
+          if [ -d /var/cache/fusiondirectory ] ; then
+            echo "Removing /var/cache/fusiondirectory as requested."
+            rm -Rf /var/chache/fusiondirectory
+          fi
+
+        fi
+
+        if [ -d /etc/apache2/conf.d ]; then
+          # Remove FusionDirectory include
+          [ -L /etc/apache2/conf.d/fusiondirectory.conf ] && rm -f /etc/apache2/conf.d/fusiondirectory.conf
+
+          # Restart servers
+          if [ -x /usr/sbin/apache2 ]; then
+            if [ -x /usr/sbin/invoke-rc.d ]; then
+              invoke-rc.d apache2 restart
+            else
+              /etc/init.d/apache2 restart
+            fi
+          fi
+        fi
+        ;;
+
+  upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+        ;;
+
+  *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 0
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0

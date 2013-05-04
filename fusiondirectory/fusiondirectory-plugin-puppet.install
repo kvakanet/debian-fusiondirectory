@@ -1,0 +1,3 @@
+plugins-extra/puppet/admin                   /usr/share/fusiondirectory/plugins
+plugins-extra/puppet/html/images             /usr/share/fusiondirectory/html/plugins/puppet
+

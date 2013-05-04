@@ -1,3 +1,0 @@
-dhcp/admin        /usr/share/fusiondirectory/plugins
-dhcp/locale       /usr/share/fusiondirectory/locale/plugins/dhcp
-dhcp/contrib      /usr/share/doc/fusiondirectory-plugin-dhcp

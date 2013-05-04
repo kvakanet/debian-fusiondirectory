@@ -1,2 +1,0 @@
-dns/contrib/dnszone.schema /etc/ldap/schema/fusiondirectory
-dns/contrib/dnszone.ldif   /etc/ldap/schema/fusiondirectory

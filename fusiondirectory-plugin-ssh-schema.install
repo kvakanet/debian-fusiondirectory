@@ -1,2 +1,0 @@
-ssh/contrib/openssh-lpk.schema  /etc/ldap/schema/fusiondirectory
-ssh/contrib/openssh-lpk.ldif    /etc/ldap/schema/fusiondirectory

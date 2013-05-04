@@ -1,0 +1,2 @@
+plugins-extra/uw-imap/personal  /usr/share/fusiondirectory/plugins
+plugins-extra/uw-imap/locale    /usr/share/fusiondirectory/locale/plugins/uw-imap

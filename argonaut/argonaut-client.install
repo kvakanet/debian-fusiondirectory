@@ -1,0 +1,6 @@
+argonaut-server/bin/argonaut-client                       usr/sbin/
+argonaut-server/Argonaut/ClientDaemon.pm                  usr/share/perl5/Argonaut/
+argonaut-server/Argonaut/ClientDaemon/Modules/Service.pm  usr/share/perl5/Argonaut/ClientDaemon/Modules/
+argonaut-server/Argonaut/ClientDaemon/Modules/System.pm   usr/share/perl5/Argonaut/ClientDaemon/Modules/
+
+

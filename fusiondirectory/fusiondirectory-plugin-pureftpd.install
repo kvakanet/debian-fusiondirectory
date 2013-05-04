@@ -1,0 +1,4 @@
+plugins-extra/pureftpd/personal       /usr/share/fusiondirectory/plugins
+plugins-extra/pureftpd/locale         /usr/share/fusiondirectory/locale/plugins/pureftpd
+plugins-extra/pureftpd/contrib        /usr/share/doc/fusiondirectory-plugin-pureftpd
+plugins-extra/pureftpd/html/images    /usr/share/fusiondirectory/html/plugins/pureftpd

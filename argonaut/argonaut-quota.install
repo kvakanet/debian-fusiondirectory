@@ -1,0 +1,3 @@
+argonaut-quota/bin/argonaut-apply-quota    /usr/sbin
+argonaut-quota/Argonaut/*                  /usr/share/perl5/Argonaut
+

@@ -1,0 +1,2 @@
+plugins-extra/puppet/contrib/openldap/puppet-fd.schema    /etc/ldap/schema/fusiondirectory
+plugins-extra/puppet/contrib/openldap/puppet.schema       /etc/ldap/schema/fusiondirectory

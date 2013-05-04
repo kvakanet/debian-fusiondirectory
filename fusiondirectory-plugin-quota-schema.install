@@ -1,4 +1,0 @@
-quota/contrib/quota.schema /etc/ldap/schema/fusiondirectory
-quota/contrib/quota.ldif   /etc/ldap/schema/fusiondirectory
-quota/contrib/fdQuota.schema /etc/ldap/schema/fusiondirectory
-quota/contrib/fdQuota.ldif   /etc/ldap/schema/fusiondirectory

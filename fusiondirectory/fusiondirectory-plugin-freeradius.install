@@ -1,0 +1,6 @@
+plugins-extra/freeradius/admin                   /usr/share/fusiondirectory/plugins
+plugins-extra/freeradius/personal                /usr/share/fusiondirectory/plugins
+plugins-extra/freeradius/locale                  /usr/share/fusiondirectory/locale/plugins/freeradius
+plugins-extra/freeradius/html/images             /usr/share/fusiondirectory/html/plugins/freeradius
+
+

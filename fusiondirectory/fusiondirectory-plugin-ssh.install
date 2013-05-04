@@ -1,0 +1,5 @@
+plugins-extra/ssh/personal    /usr/share/fusiondirectory/plugins
+plugins-extra/ssh/locale      /usr/share/fusiondirectory/locale/plugins/ssh
+plugins-extra/ssh/contrib     /usr/share/doc/fusiondirectory-plugin-ssh
+plugins-extra/ssh/html/images /usr/share/fusiondirectory/html/plugins/ssh
+

@@ -1,0 +1,3 @@
+argonaut-ldap2zone/bin/argonaut-ldap2zone          /usr/sbin
+argonaut-ldap2zone/Argonaut/*                      /usr/share/perl5/Argonaut
+

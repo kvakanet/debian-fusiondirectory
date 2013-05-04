@@ -1,0 +1,3 @@
+argonaut-server/bin/argonaut-client-fai-getid usr/sbin/
+argonaut-server/bin/argonaut-client-fai-sendmon usr/sbin/
+
