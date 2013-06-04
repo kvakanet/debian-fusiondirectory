@@ -88,6 +88,12 @@ Description: Argonaut tool to apply disk quota from ldap
  to your quota server. The LDAP information has to be stored using
  the fdQuota schema.
 
+Package: argonaut-dovecot
+Architecture: all
+Depends: ${misc:Depends}, argonaut-common (>= 1.0), argonaut-client
+Description: Argonaut client-module for dovecot
+ Argonaut client module to manage the creation of the directory for the user where is mailbox is created
+
 Package: argonaut-server
 Architecture: all
 Depends: argonaut-common (>=1.0), libdatetime-perl, libnet-ldap-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl, libfile-pid-perl, libapp-daemon-perl, liblog-handler-perl, libconfig-inifiles-perl, libpoe-perl, libpoe-component-schedule-perl, libpoe-component-server-jsonrpc-perl, libpoe-component-server-simplehttp-perl, libpoe-component-pool-thread-perl
