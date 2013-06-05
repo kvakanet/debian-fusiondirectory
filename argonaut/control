@@ -62,6 +62,14 @@ Description: LDAP OPSI module for the TFTP/Fuse supplicant
  with FusionDirectory and Argonaut to generate client configurations.
  .
 
+Package: argonaut-fuse-debconf
+Architecture: all
+Depends: ${misc:Depends}, libjson-perl (>= 2.07-1), libjson-rpc-perl, argonaut-fuse
+Description: LDAP debconf module for the TFTP/Fuse supplicant
+ Debconf module for argonaut-fuse which is using the LDAP backend in conjunction
+ with FusionDirectory and Argonaut to generate debian preseed configurations.
+ .
+
 Package: argonaut-fuse-ltsp
 Architecture: all
 Depends: ${misc:Depends}, libnet-ldap-perl, argonaut-fuse
