@@ -237,7 +237,7 @@ Description: database plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-debconf
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-argonaut
 Conflicts: gosa
 Description: Debconf plugin for FusionDirectory
  Simple debconf plugin for FusionDirectory.
