@@ -1,6 +1,5 @@
 fusiondirectory-setup.patch
 fusiondirectory-apache.patch
-fusiondirectory-setup-manpage.patch
 headers.patch
 password.patch
 
