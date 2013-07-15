@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-mysql|php5-mysqlnd, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl
+Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -226,7 +226,7 @@ Description: LDAP schema for FusionDirectory cyrus plugin
 
 Package: fusiondirectory-plugin-database-connector
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, php-mdb2, php-mdb2-driver-mysql
+Depends: ${misc:Depends}, fusiondirectory, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
 Conflicts: gosa
 Description: database plugin for FusionDirectory
  Database abstraction plugin - abstract database call with MDB2 for some
@@ -349,7 +349,7 @@ Description: LDAP schema for FusionDirectory fai plugin
 
 Package: fusiondirectory-plugin-fax
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, php-mdb2, php-mdb2-driver-mysql | php-mdb2-driver-pgsql
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
 Conflicts: gosa-plugin-gofax
 Description: fax plugin for FusionDirectory
  fax management with report functionality
