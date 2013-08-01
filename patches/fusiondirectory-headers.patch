@@ -1,8 +1,6 @@
-Index: pkg/ihtml/themes/default/headers.tpl
-===================================================================
---- pkg.orig/ihtml/themes/default/headers.tpl	2012-08-03 11:51:49.000000000 +0200
-+++ pkg/ihtml/themes/default/headers.tpl	2012-08-03 11:55:44.000000000 +0200
-@@ -21,14 +21,14 @@
+--- a/ihtml/themes/default/headers.tpl
++++ b/ihtml/themes/default/headers.tpl
+@@ -13,14 +13,14 @@
  
    <link rel="shortcut icon" href="favicon.ico">
  
