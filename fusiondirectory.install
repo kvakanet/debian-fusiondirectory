@@ -1,5 +1,4 @@
 contrib/bin/fusiondirectory-setup             /usr/sbin
-contrib/bin/fusiondirectory-encrypt-passwords /usr/sbin
 html/images                                   /usr/share/fusiondirectory/html
 html/plugins                                  /usr/share/fusiondirectory/html
 html/themes                                   /usr/share/fusiondirectory/html
