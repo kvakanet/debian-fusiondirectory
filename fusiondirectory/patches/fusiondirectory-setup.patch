@@ -1,13 +1,11 @@
-Index: pkg/contrib/bin/fusiondirectory-setup
-===================================================================
---- pkg.orig/contrib/bin/fusiondirectory-setup	2012-05-21 23:01:30.000000000 +0200
-+++ pkg/contrib/bin/fusiondirectory-setup	2012-05-21 23:01:39.000000000 +0200
-@@ -27,7 +27,7 @@
+--- a/contrib/bin/fusiondirectory-setup
++++ b/contrib/bin/fusiondirectory-setup
+@@ -31,7 +31,7 @@
  
  # fd's directory and class.cache file's path declaration
  my %vars = (
-- fd_home =>       "/var/www/fusiondirectory",
-+ fd_home =>       "/usr/share/fusiondirectory",
-  fd_cache =>      "/var/cache/fusiondirectory",
-  fd_config_dir => "/etc/fusiondirectory",
-  fd_spool_dir =>  "/var/spool/fusiondirectory",
+- fd_home          => "/var/www/fusiondirectory",
++ fd_home          => "/usr/share/fusiondirectory",
+  fd_cache         => "/var/cache/fusiondirectory",
+  fd_config_dir    => "/etc/fusiondirectory",
+  fd_spool_dir     => "/var/spool/fusiondirectory",
