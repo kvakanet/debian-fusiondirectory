@@ -1,2 +1,9 @@
-contrib/develop/                              /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/CODING                    /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/Doxyfile                  /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/FDStandard                /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/filter.xsd                /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/list.xsd                  /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/simple-plugin             /usr/share/doc/fusiondirectory-developpers/
+contrib/develop/debug-help                /usr/share/fusiondirectory/plugins
+contrib/develop/debug-help/html/images    /usr/share/fusiondirectory/html/plugins/debug-help
 
