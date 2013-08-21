@@ -1,0 +1,1 @@
+contrib/openldap/dovecot-fd.schema  /etc/ldap/schema/fusiondirectory

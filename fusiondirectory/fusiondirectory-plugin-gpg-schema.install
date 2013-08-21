@@ -1,0 +1,8 @@
+contrib/openldap/gpg-fd.schema            /etc/ldap/schema/fusiondirectory
+contrib/openldap/pgp-keyserver.schema     /etc/ldap/schema/fusiondirectory
+contrib/openldap/pgp-recon.schema         /etc/ldap/schema/fusiondirectory
+contrib/openldap/pgp-remte-prefs.schema   /etc/ldap/schema/fusiondirectory
+
+
+
+

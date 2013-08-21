@@ -1,0 +1,4 @@
+contrib/openldap/ipmi-fd.schema               /etc/ldap/schema/fusiondirectory
+contrib/openldap/ipmi-fd-conf.schema          /etc/ldap/schema/fusiondirectory
+
+
