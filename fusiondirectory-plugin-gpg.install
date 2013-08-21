@@ -1,0 +1,5 @@
+addons           /usr/share/fusiondirectory/plugins
+html/images      /usr/share/fusiondirectory/html/plugins/gpg
+locale           /usr/share/fusiondirectory/locale/plugins/gpg
+personal         /usr/share/fusiondirectory/plugins
+

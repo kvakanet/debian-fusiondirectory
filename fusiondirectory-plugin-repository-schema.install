@@ -1,0 +1,2 @@
+contrib/openldap/repository-fd-conf.schema        /etc/ldap/schema/fusiondirectory
+contrib/openldap/repository-fd.schema             /etc/ldap/schema/fusiondirectory
