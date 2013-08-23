@@ -35,6 +35,7 @@ include/class_log.inc                         /usr/share/fusiondirectory/include
 include/class_management.inc                  /usr/share/fusiondirectory/include
 include/class_msg_dialog.inc                  /usr/share/fusiondirectory/include
 include/class_msgPool.inc                     /usr/share/fusiondirectory/include
+include/class_objects.inc                     /usr/share/fusiondirectory/include
 include/class_plugin.inc                      /usr/share/fusiondirectory/include
 include/class_pluglist.inc                    /usr/share/fusiondirectory/include
 include/class_smbHash.inc                     /usr/share/fusiondirectory/include
