@@ -491,6 +491,17 @@ Description: LDAP schema for FusionDirectory kolab plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-ldapdump
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa-plugin-ldapmanager
+Description: ldapdump plugin for FusionDirectory
+ LDAP raw data showing plugin
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+
 Package: fusiondirectory-plugin-ldapmanager
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, ldap-utils
