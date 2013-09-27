@@ -70,14 +70,6 @@ Description: LDAP debconf module for the TFTP/Fuse supplicant
  with FusionDirectory and Argonaut to generate debian preseed configurations.
  .
 
-Package: argonaut-fuse-ltsp
-Architecture: all
-Depends: ${misc:Depends}, libnet-ldap-perl, argonaut-fuse
-Description: LDAP LTSP module for the TFTP/Fuse supplicant
- LTSP module for argonaut-fuse which is using the LDAP in conjunction
- with FusionDirectory and Argonaut to generate client configurations.
- .
-
 Package: argonaut-ldap2zone
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}, argonaut-common, libconfig-inifiles-perl, libnet-ldap-perl, libdns-zoneparse-perl (>= 1.10)
