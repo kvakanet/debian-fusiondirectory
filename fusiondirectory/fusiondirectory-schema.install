@@ -4,5 +4,6 @@ contrib/openldap/ldapns.schema                /etc/ldap/schema/fusiondirectory
 contrib/openldap/samba.schema                 /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery-fd.schema           /etc/ldap/schema/fusiondirectory
 contrib/openldap/core-fd-conf.schema          /etc/ldap/schema/fusiondirectory
+contrib/openldap/update-from-1.0.6-to-1.0.7	  /etc/ldap/schema/fusiondirectory
 contrib/bin/fusiondirectory-insert-schema     /usr/sbin
 contrib/bin/schema2ldif                       /usr/sbin
