@@ -23,18 +23,6 @@ Description: Web Based LDAP Administration Program
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-developpers
-Architecture: all
-Depends: ${misc:Depends}
-Suggests: fusiondirectory
-Conflicts: gosa
-Description: Provide Scripts and doc for FusionDirectory development
- This package provides scripts to generate locales and documentation
- aimed at developpers willing to develop for FusionDirectory
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-schema
 Architecture: all
 Depends: ${misc:Depends}, ldap-utils
@@ -279,6 +267,21 @@ Description: desktop management schema for desktop management plugin for FusionD
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
+
+Package: fusiondirectory-plugins-developpers
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: fusiondirectory
+Conflicts: gosa
+Description: Provide doc and tools for FusionDirectory development
+ This package provides codesniffer templates for code conformity,
+ a plugin to show reference between classes, and a simple plugin
+ example to show the basic use of the api and a doxyfile to generate api
+ from sourcecode.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 
 Package: fusiondirectory-plugin-dhcp
 Architecture: all
