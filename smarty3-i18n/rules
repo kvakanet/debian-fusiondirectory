@@ -5,5 +5,5 @@
 
 override_dh_install:
 	dh_install
-	mv debian/smarty-gettext/usr/bin/tsmarty2c.php debian/smarty-gettext/usr/bin/tsmarty2c
+	mv debian/smarty3-i18n/usr/bin/tsmarty2c.php debian/smarty3-i18n/usr/bin/tsmarty2c
 
