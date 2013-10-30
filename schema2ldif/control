@@ -14,4 +14,4 @@ Depends: perl
 Description: Tool for converting OpenLDAP-style schemas to the LDIF format
  schema2ldif will read the given input file and convert it to an LDIF file
  that you can insert into you LDAP directory
-.
+
