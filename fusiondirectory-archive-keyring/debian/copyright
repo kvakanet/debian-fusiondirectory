@@ -1,0 +1,11 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: fusiondirectory-archive-keyring
+Upstream-Contact: Maintainers of FusionDirectory packages <contact@fusiondirectory.org>
+Source: http://repos.fusiondirectory.org/gpg/fusiondirectory_public.key
+
+Files: *
+Copyright: 2013, Benoit Mortier <benoit Mortier@opensides.be>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public
+ License can be found in the `/usr/share/common-licenses/GPL-2'
+ file.
