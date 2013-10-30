@@ -11,6 +11,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: GnuPG archive keys for the FusionDirectory team package repository
  The FusionDirectory team package repository contains release and development
- versions of FusionDirectory related packages. The repository is digitally signed, and
- the corresponding public key, required by APT, is available in this package.
+ versions of FusionDirectory related packages. The repository is digitally 
+ signed and the corresponding public key, required by APT, is available
+ in this package.
 Homepage: http://www.fusiondirectory.org/
