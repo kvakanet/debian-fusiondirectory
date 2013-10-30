@@ -1,0 +1,20 @@
+Source: smarty3-i18n
+Section: web
+Priority: optional
+Maintainer: Benoit Mortier <benoit.mortier@opensides.be> 
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: https://forge.fusiondirectory.org/projects/smarty3-i18n
+
+Package: smarty3-i18n
+Architecture: all
+Depends: ${misc:Depends}, smarty3
+Recommends: php5-cli, gettext
+Description: Gettext plugin enabling internationalization in Smarty
+ Smarty3-i18n is a Smarty plugin providing internationalization support
+ based on the standard gettext mechanism. Smarty is a popular PHP templating
+ engine.
+ .
+ You need the PHP command line interpreter if you wish to use the tsmarty2c
+ program: it lets you extract localizable strings from a Smarty template so
+ that you can use the normal gettext tools afterwards.
