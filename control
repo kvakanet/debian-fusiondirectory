@@ -251,7 +251,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa-plugin-systems
 Description: desktop management plugin for FusionDirectory
- Desktop management plugin for linux workstations.
+ Desktop management plugin for Linux workstations.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -268,7 +268,7 @@ Description: desktop management schema for desktop management plugin for FusionD
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugins-developpers
+Package: fusiondirectory-plugin-developpers
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: fusiondirectory
@@ -276,7 +276,7 @@ Conflicts: gosa
 Description: Provide doc and tools for FusionDirectory development
  This package provides codesniffer templates for code conformity,
  a plugin to show reference between classes, and a simple plugin
- example to show the basic use of the api and a doxyfile to generate api
+ example to show the basic use of the API and a doxyfile to generate API
  from sourcecode.
  .
  FusionDirectory is a combination of system-administrator and end-user web
