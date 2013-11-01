@@ -104,7 +104,7 @@ Description: Apache schema for apache2 plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-argonaut
 Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
+Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
 Conflicts: gosa
 Description: Argonaut plugin for FusionDirectory
  Store all the configuration for the Argonaut deployment system.
