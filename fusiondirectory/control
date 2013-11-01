@@ -70,7 +70,7 @@ Description: alias plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-alias-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-mail-schema
 Recommends: slapd
 Conflicts: gosa
 Description: alias schema for alias plugin for FusionDirectory
@@ -92,7 +92,7 @@ Description: Apache virtualhost plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-apache2-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: Apache schema for apache2 plugin for FusionDirectory
@@ -114,7 +114,7 @@ Description: Argonaut plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-argonaut-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory Argonaut plugin
@@ -136,7 +136,7 @@ Description: autofs plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-autofs-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory autofs plugin
@@ -158,7 +158,7 @@ Description: gofon plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-asterisk-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-fai-schema
 Description: LDAP schema for FusionDirectory asterisk plugin
@@ -202,7 +202,7 @@ Description: cyrus plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-cyrus-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-mail-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory cyrus plugin
@@ -235,7 +235,7 @@ Description: Debconf plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-debconf-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-argonaut-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory Debconf Plugin
@@ -295,7 +295,7 @@ Description: dhcp plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-dhcp-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-dhcp-schema
 Description: LDAP schema for FusionDirectory dhcp plugin
@@ -317,7 +317,7 @@ Description: dns plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-dns-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-dns-schema
 Description: LDAP schema for FusionDirectory dns plugin
@@ -339,7 +339,7 @@ Description: dovecot plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-dovecot-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-mail-schema
 Description: LDAP schema for FusionDirectory dovecot plugin
@@ -384,7 +384,7 @@ Description: fai plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-fai-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-argonaut-schema, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-fai-schema
 Description: LDAP schema for FusionDirectory fai plugin
@@ -406,7 +406,7 @@ Description: fax plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-fax-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-fax-schema
 Description: LDAP schema for FusionDirectory fax plugin
@@ -462,7 +462,7 @@ Description: gpg plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-gpg-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: schema for the weblink plugin for FusionDirectory
@@ -484,7 +484,7 @@ Description: ipmi plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-ipmi-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: schema for the ipmi plugin for FusionDirectory
@@ -506,7 +506,7 @@ Description: kolab plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-kolab-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-mail-schema, fusiondirectory-plugin-cyrus-schema
 Recommends: slapd
 Conflicts: gosa-plugin-kolab-schema
 Description: LDAP schema for FusionDirectory kolab plugin
@@ -549,7 +549,7 @@ Description: base mail plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-mail-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory configuration mail backend
@@ -659,7 +659,7 @@ Description: opsi plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-opsi-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-dns-schema, fusiondirectory-plugin-systems-schema, fusiondirectory-plugin-samba-schema
 Recommends: slapd
 Conflicts: gosa-plugin-opsi-schema
 Description: LDAP schema for FusionDirectory opsi plugin
@@ -703,7 +703,7 @@ Description: quota plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-quota-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory quota plugin
@@ -725,7 +725,7 @@ Description: repository plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-repository-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: schema for the repository plugin for FusionDirectory
@@ -767,7 +767,7 @@ Description: samba3 plugin for FusionDirectory, fusiondirectory-plugin-systems
 
 Package: fusiondirectory-plugin-samba-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory configuration samba backend
@@ -789,7 +789,7 @@ Description: SOGo plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-sogo-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-mail-schema
 Description: LDAP schema for FusionDirectory sogo plugin
@@ -899,7 +899,7 @@ Description: sympa plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-sympa-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema, fusiondirectory-plugin-alias-schema
 Recommends: slapd
 Conflicts: gosa
 Description: sympa schema for alias plugin for FusionDirectory
@@ -954,7 +954,7 @@ Description: weblink plugin for FusionDirectory
 
 Package: fusiondirectory-plugin-weblink-schema
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa
 Description: schema for the weblink plugin for FusionDirectory
