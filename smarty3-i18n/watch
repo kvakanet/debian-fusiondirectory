@@ -1,0 +1,3 @@
+version=2
+
+http://repos.fusiondirectory.org/sources/1.0/smarty3-i18n/smarty3-i18n-(.+)\.tar.gz

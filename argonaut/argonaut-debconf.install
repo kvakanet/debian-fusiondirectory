@@ -1,0 +1,5 @@
+argonaut-debconf/bin/debconf2ldif                    usr/bin
+argonaut-debconf/debconf/DbDriver/FusionDirectory.pm usr/share/perl5/Debconf/DbDriver/
+argonaut-debconf/cgi-bin/preseed.cgi                 usr/lib/cgi-bin/
+argonaut-debconf/lib/Argonaut/Fuse/Modules           usr/share/perl5/Argonaut/Fuse/Modules
+argonaut-debconf/lib/Argonaut/Debconf                usr/share/perl5/Argonaut/Debconf

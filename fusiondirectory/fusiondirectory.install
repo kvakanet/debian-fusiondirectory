@@ -1,5 +1,4 @@
 contrib/bin/fusiondirectory-setup             /usr/sbin
-contrib/bin/fusiondirectory-encrypt-passwords /usr/sbin
 html/images                                   /usr/share/fusiondirectory/html
 html/plugins                                  /usr/share/fusiondirectory/html
 html/themes                                   /usr/share/fusiondirectory/html
@@ -11,7 +10,6 @@ html/include/datepicker.js                    /usr/share/fusiondirectory/html/in
 html/include/fusiondirectory.js               /usr/share/fusiondirectory/html/include
 html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
 html/include/pwdStrength.js                   /usr/share/fusiondirectory/html/include
-html/include/pulldown.js                      /usr/share/fusiondirectory/html/include
 html/include/overlib.js                       /usr/share/fusiondirectory/html/include
 ihtml                                         /usr/share/fusiondirectory
 include/exporter                              /usr/share/fusiondirectory/include
@@ -36,6 +34,7 @@ include/class_log.inc                         /usr/share/fusiondirectory/include
 include/class_management.inc                  /usr/share/fusiondirectory/include
 include/class_msg_dialog.inc                  /usr/share/fusiondirectory/include
 include/class_msgPool.inc                     /usr/share/fusiondirectory/include
+include/class_objects.inc                     /usr/share/fusiondirectory/include
 include/class_plugin.inc                      /usr/share/fusiondirectory/include
 include/class_pluglist.inc                    /usr/share/fusiondirectory/include
 include/class_smbHash.inc                     /usr/share/fusiondirectory/include

@@ -1,0 +1,3 @@
+plugins-extra/sogo/contrib/openldap/calEntry.schema        /etc/ldap/schema/fusiondirectory
+plugins-extra/sogo/contrib/openldap/calRessources.schema   /etc/ldap/schema/fusiondirectory
+plugins-extra/sogo/contrib/openldap/sogo-fd-conf.schema    /etc/ldap/schema/fusiondirectory

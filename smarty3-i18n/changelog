@@ -1,0 +1,8 @@
+smarty3-i18n (1.0-1) unstable; urgency=low
+
+  * New upstream : FusionDirectory project
+  * Including patches from the FusionDirectory project and Debian 
+  
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Wed, 30 oct 2013 15:44:00 +0100
+
+

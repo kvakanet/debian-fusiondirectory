@@ -1,0 +1,6 @@
+plugins-extra/desktop-management/admin                   /usr/share/fusiondirectory/plugins
+plugins-extra/desktop-management/config                  /usr/share/fusiondirectory/plugins
+plugins-extra/desktop-management/locale                  /usr/share/fusiondirectory/locale/plugins/desktop-management
+plugins-extra/desktop-management/html/images             /usr/share/fusiondirectory/html/plugins/desktop-management
+
+
