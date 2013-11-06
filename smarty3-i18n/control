@@ -9,6 +9,8 @@ Homepage: https://forge.fusiondirectory.org/projects/smarty3-i18n
 Package: smarty3-i18n
 Architecture: all
 Depends: ${misc:Depends}, smarty3
+Replaces: fusiondirectory-smarty3-acl-render (<< 1.0.7)
+Breaks: fusiondirectory-smarty3-acl-render (<< 1.0.7)
 Recommends: php5-cli, gettext
 Description: Gettext plugin enabling internationalization in Smarty
  Smarty3-i18n is a Smarty plugin providing internationalization support
