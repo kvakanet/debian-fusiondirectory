@@ -986,3 +986,25 @@ Description: schema for the weblink plugin for FusionDirectory
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
+
+Package: fusiondirectory-plugin-webservice
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
+Description: webservice plugin for FusionDirectory
+ This plugin is designed to manage FusionDirecrory with a webservice
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
+
+Package: fusiondirectory-plugin-webservice-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Conflicts: gosa
+Description: schema for the webservice plugin for FusionDirectory
+ This package includes the LDAP schema needed by the FusionDirectory
+ weblink plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
