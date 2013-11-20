@@ -26,12 +26,6 @@ esac
 
 #DEBHELPER#
 
-# Create empty inclusion file for apache
-if [ ! -f /etc/fusiondirectory/fusiondirectory.secrets ]; then
-    touch /etc/fusiondirectory/fusiondirectory.secrets
-    chmod 600 /etc/fusiondirectory/fusiondirectory.secrets
-fi
-
 if [ -d /etc/apache2/conf.d ]; then
 
   # Copy FusionDirectory configuration to conf.d directories
