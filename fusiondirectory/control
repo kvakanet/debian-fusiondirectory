@@ -172,21 +172,22 @@ Package: fusiondirectory-plugin-dashboard
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa
-Replace: fusiondirectory-plugin-board
+Replaces: fusiondirectory-plugin-board
 Description: board plugin for FusionDirectory
  Dashboard plugin - allow to see important information in one click.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-board-schema
+Package: fusiondirectory-plugin-dashboard-schema
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
 Conflicts: gosa
+Replaces: fusiondirectory-plugin-board-schema
 Description: LDAP schema for FusionDirectory board plugin
  This package includes the LDAP schema needed by the FusionDirectory
- board plugin.
+ Dashboard plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
