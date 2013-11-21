@@ -168,10 +168,11 @@ Description: LDAP schema for FusionDirectory asterisk plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-board
+Package: fusiondirectory-plugin-dashboard
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa
+Replace: fusiondirectory-plugin-board
 Description: board plugin for FusionDirectory
  Dashboard plugin - allow to see important information in one click.
  .
