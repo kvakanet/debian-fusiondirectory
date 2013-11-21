@@ -1,2 +1,2 @@
-plugins-extra/dashboard/contrib/openldap/board-fd-conf.schema              /etc/ldap/schema/fusiondirectory
+plugins-extra/dashboard/contrib/openldap/dashboard-fd-conf.schema              /etc/ldap/schema/fusiondirectory
 
