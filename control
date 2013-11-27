@@ -25,7 +25,7 @@ Description: Web Based LDAP Administration Program
 
 Package: fusiondirectory-schema
 Architecture: all
-Depends: ${misc:Depends}, ldap-utils
+Depends: ${misc:Depends}, ldap-utils, schema2ldif
 Suggests: slapd
 Conflicts: gosa-schema
 Description: LDAP schema for FusionDirectory
