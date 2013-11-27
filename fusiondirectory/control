@@ -74,8 +74,8 @@ Depends: ${misc:Depends}, fusiondirectory-plugin-mail-schema
 Recommends: slapd
 Conflicts: gosa
 Description: alias schema for alias plugin for FusionDirectory
- This plugin is designed to configure mail aliases for postfix.
- It provide description and expiration Date
+ This package includes the LDAP schema needed by the FusionDirectory
+ alias plugin
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
@@ -174,7 +174,7 @@ Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa
 Replaces: fusiondirectory-plugin-board
 Description: board plugin for FusionDirectory
- Dashboard plugin - allow to see important information in one click.
+ Dashboard allow you to see important information in one click.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -187,7 +187,7 @@ Conflicts: gosa
 Replaces: fusiondirectory-plugin-board-schema
 Description: LDAP schema for FusionDirectory board plugin
  This package includes the LDAP schema needed by the FusionDirectory
- Dashboard plugin.
+ dashboard plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -283,7 +283,6 @@ Description: Provide doc and tools for FusionDirectory development
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
-
 
 Package: fusiondirectory-plugin-dhcp
 Architecture: all
@@ -502,7 +501,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
 Conflicts: gosa
 Description: ipmi plugin for FusionDirectory
- ipmi plugin.
+ This plugin allow you to manage ipmi services.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -546,7 +545,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa-plugin-ldapmanager
 Description: ldapdump plugin for FusionDirectory
- LDAP raw data showing plugin
+ Show raw LDAP data LDAP
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -579,7 +578,7 @@ Recommends: slapd
 Conflicts: gosa
 Description: LDAP schema for FusionDirectory configuration mail backend
  This package includes the LDAP schema needed by the FusionDirectory
- Configuration backend for the mail plugin.
+ mail plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -677,7 +676,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-dns, fusiondirectory-plugin-systems, fusiondirectory-plugin-samba
 Conflicts: gosa-plugin-opsi
 Description: opsi plugin for FusionDirectory
- Opsi plugin
+ Opsi management plugin
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -818,7 +817,7 @@ Depends: ${misc:Depends}, fusiondirectory-plugin-systems-schema
 Recommends: slapd
 Conflicts: gosa-plugin-mail-schema
 Description: LDAP schema for FusionDirectory sogo plugin
- This package includes the LDAP schema needed by the FusionDirectory
+ This package includes the LDAP schemas needed by the FusionDirectory
  SOGo plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
@@ -972,7 +971,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
 Conflicts: gosa
 Description: weblink plugin for FusionDirectory
- Weblink plugin.
+ the weblink plugin allow you to add a link to systems to got to theri web interface.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
