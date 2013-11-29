@@ -35,11 +35,23 @@ Description: Argonaut tool to apply disk quota from ldap
  to your quota server. The LDAP information has to be stored using
  the fdQuota schema.
 
+Package: argonaut-dovecot
+Architecture: all
+Depends: argonaut-client
+Description: Argonaut client-module for dovecot
+ Argonaut client module to manage the creation of the directory for the user where is mailbox is created.
+ 
 Package: argonaut-server
 Architecture: all
 Depends: argonaut-common, libdatetime-perl, libnet-ldap-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl, libfile-pid-perl, libapp-daemon-perl, liblog-handler-perl, libconfig-inifiles-perl, libpoe-perl, libpoe-component-schedule-perl, libpoe-component-server-jsonrpc-perl, libpoe-component-server-simplehttp-perl, libpoe-component-pool-thread-perl
 Description: Argonaut json rpc server to manage deployment system
  Argonaut server to manage deployment systems.
+ 
+Package: argonaut-server-module-fai
+Architecture: all
+Depends: argonaut-server
+Description: Argonaut json rpc server module to manage FAI (Fully Automated Install)
+ Argonaut server module to manage FAI (Fully Automated Install) installation. 
  
 Package: argonaut-client
 Architecture: all
@@ -47,3 +59,46 @@ Depends: argonaut-common, libconfig-inifiles-perl, liblog-handler-perl, libfile-
 Description: Argonaut json rpc client to manage computers and services
  Argonaut client to manage computers and services.
 
+Package: argonaut-client-fai
+Architecture: all
+Depends: argonaut-client
+Description: Argonaut queue and status management for FAI
+ Argonaut queue and status management for FAI (Fully Automated Install) installations.
+
+Package: argonaut-fuse
+Architecture: all
+Depends: argonaut-common, liblog-handler-perl, libconfig-inifiles-perl, ucf, libfuse-perl, libfile-pid-perl, libnet-ldap-perl, fuse-utils
+Recommends: tftpd | atftpd | tftpd-hpa
+Description: Modular TFTP/Fuse supplicant
+ Argonaut-fuse is a modular fuse-tftp-supplicant written in perl which allows
+ to create pxelinux configurations for different types of clients
+ using external modules
+ .
+ There is already written modules for FAI
+
+Package: argonaut-fuse-fai
+Architecture: all
+Depends: argonaut-fuse
+Description: LDAP FAI module for the TFTP/Fuse supplicant
+ FAI module for argonaut-fuse which is using the LDAP backend in conjunction
+ with FusionDirectory and Argonaut to generate client configurations.
+ .
+
+Package: argonaut-fai-mirror
+Architecture: all
+Depends: argonaut-common, libnet-ldap-perl, liblog-handler-perl, libconfig-inifiles-perl, debmirror, libwww-perl
+Description: Scripts to manage debian mirrors
+ This package contains the tools to manage local mirror and external mirrors.
+
+Package: argonaut-fai-nfsroot
+Architecture: all
+Depends: argonaut-common, fai-client (>= 3.2.8), libnet-ldap-perl, console-utilities, debootstrap
+Recommends: netcat
+Description: Hooks to integrate Argonaut with FAI
+ FAI hooks to Integrate Argonaut in an FAI nfs chroot.
+
+Package: argonaut-fai-server
+Architecture: all
+Depends: argonaut-common, fai-client (>= 3.2.8), fai-server (>=3.2.8), libnet-ldap-perl
+Description: Scripts to enable Argonaut integration with FAI
+ Programs, script and FAI nfsroot hooks to Integrate Argonaut into an FAI server nfsroot.
