@@ -1,11 +1,4 @@
-argonaut-common/lib/argonaut-support.lib            usr/lib/argonaut
-argonaut-common/Argonaut/Common.pm                  usr/share/perl5/Argonaut
-argonaut-common/Argonaut/FAI.pm                     usr/share/perl5/Argonaut
-argonaut-common/Argonaut/LDAP.pm                    usr/share/perl5/Argonaut
-argonaut-common/Argonaut/Utils.pm                   usr/share/perl5/Argonaut
-argonaut-common/Argonaut/Packages.pm                usr/share/perl5/Argonaut
-argonaut-common/bin/fix_ldif                        usr/share/argonaut
-argonaut-common/bin/ldap_get_object                 usr/share/argonaut
-argonaut-common/doc/ldap_get_object.examples        usr/share/doc/argonaut-common
-argonaut-common/argonaut.conf                       etc/argonaut
+argonaut-common/Argonaut/Libraries/Common.pm        /usr/share/perl5/Argonaut/Libraries
+argonaut-common/Argonaut/Libraries/Packages.pm      /usr/share/perl5/Argonaut/Libraries
+argonaut-common/argonaut.conf                       /etc/argonaut
 
