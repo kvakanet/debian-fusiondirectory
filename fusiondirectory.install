@@ -15,6 +15,7 @@ ihtml                                         /usr/share/fusiondirectory
 include/exporter                              /usr/share/fusiondirectory/include
 include/password-methods                      /usr/share/fusiondirectory/include
 include/simpleplugin                          /usr/share/fusiondirectory/include
+include/select                                /usr/share/fusiondirectory/include
 include/accept-to-gettext.inc                 /usr/share/fusiondirectory/include
 include/class_acl.inc                         /usr/share/fusiondirectory/include
 include/class_baseSelector.inc                /usr/share/fusiondirectory/include
