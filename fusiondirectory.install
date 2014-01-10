@@ -26,6 +26,7 @@ include/class_departmentSortIterator.inc      /usr/share/fusiondirectory/include
 include/class_divSelectBox.inc                /usr/share/fusiondirectory/include
 include/class_filter.inc                      /usr/share/fusiondirectory/include
 include/class_filterLDAP.inc                  /usr/share/fusiondirectory/include
+include/class_IconTheme.inc                   /usr/share/fusiondirectory/include
 include/class_ldap.inc                        /usr/share/fusiondirectory/include
 include/class_ldapFilter.inc                  /usr/share/fusiondirectory/include
 include/class_ldapMultiplexer.inc             /usr/share/fusiondirectory/include
