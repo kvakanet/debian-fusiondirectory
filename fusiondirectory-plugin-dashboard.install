@@ -1,5 +1,4 @@
 plugins-extra/dashboard/addons        /usr/share/fusiondirectory/plugins
 plugins-extra/dashboard/config        /usr/share/fusiondirectory/plugins
 plugins-extra/dashboard/locale        /usr/share/fusiondirectory/locale/plugins/dashboard
-plugins-extra/dashboard/html/images   /usr/share/fusiondirectory/html/plugins/dashboard
 
