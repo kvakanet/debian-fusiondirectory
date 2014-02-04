@@ -1,3 +1,5 @@
-argonaut-ldap2zone/bin/argonaut-ldap2zone          /usr/sbin
-argonaut-ldap2zone/Argonaut/*                      /usr/share/perl5/Argonaut
+argonaut-ldap2zone/bin/argonaut-ldap2zone                       /usr/sbin
+argonaut-ldap2zone/Argonaut/Libraries/Ldap2zone.pm              /usr/share/perl5/Argonaut/Libraries
+argonaut-ldap2zone/Argonaut/ClientDaemon/Modules/Ldap2Zone.pm   /usr/share/perl5/Argonaut/ClientDaemon/Modules/
+
 
