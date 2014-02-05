@@ -1,4 +1,3 @@
-argonaut-fai-server/bin/ldap2fai                                usr/sbin
 argonaut-fai-server/lib/get-config-dir-argonaut                 usr/lib/fai
 argonaut-fai-server/nfsroot-hooks/argonaut-nfsroot-integration  etc/fai/nfsroot-hooks
 

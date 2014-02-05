@@ -59,12 +59,6 @@ Depends: argonaut-common, libconfig-inifiles-perl, liblog-handler-perl, libfile-
 Description: Argonaut json rpc client to manage computers and services
  Argonaut client to manage computers and services.
 
-Package: argonaut-client-fai
-Architecture: all
-Depends: argonaut-client
-Description: Argonaut queue and status management for FAI
- Argonaut queue and status management for FAI (Fully Automated Install) installations.
-
 Package: argonaut-fuse
 Architecture: all
 Depends: argonaut-common, liblog-handler-perl, libconfig-inifiles-perl, ucf, libfuse-perl, libfile-pid-perl, libnet-ldap-perl, fuse-utils
@@ -83,7 +77,7 @@ Description: LDAP FAI module for the TFTP/Fuse supplicant
  FAI module for argonaut-fuse which is using the LDAP backend in conjunction
  with FusionDirectory and Argonaut to generate client configurations.
  .
-
+ 
 Package: argonaut-fai-mirror
 Architecture: all
 Depends: argonaut-common, libnet-ldap-perl, liblog-handler-perl, libconfig-inifiles-perl, debmirror, libwww-perl
@@ -94,8 +88,8 @@ Package: argonaut-fai-nfsroot
 Architecture: all
 Depends: argonaut-common, fai-client (>= 3.2.8), libnet-ldap-perl, console-utilities, debootstrap
 Recommends: netcat
-Description: Hooks to integrate Argonaut with FAI
- FAI hooks to Integrate Argonaut in an FAI nfs chroot.
+Description:  Tools, queues and status management
+  Tools, queues and status management for FAI (Fully Automated Install) installations.
 
 Package: argonaut-fai-server
 Architecture: all
