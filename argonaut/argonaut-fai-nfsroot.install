@@ -1,9 +1,5 @@
 argonaut-fai-nfsroot/bin/ldap2fai                         usr/sbin
 argonaut-fai-nfsroot/bin/argonaut-client-fai-getid        usr/sbin
 argonaut-fai-nfsroot/bin/argonaut-client-fai-sendmon      usr/sbin
-argonaut-fai-nfsroot/fai-hooks/confdir.DEFAULT.source     var/lib/fai/config/hooks
-argonaut-fai-nfsroot/fai-hooks/error.DEFAULT              var/lib/fai/config/hooks
-argonaut-fai-nfsroot/fai-hooks/extrbase.DEFAULT           var/lib/fai/config/hooks
-argonaut-fai-nfsroot/fai-hooks/prepareapt.DEFAULT         var/lib/fai/config/hooks
-argonaut-fai-nfsroot/fai-scripts/00-copy-templates        var/lib/fai/config/scripts/DEFAULT
+
 
