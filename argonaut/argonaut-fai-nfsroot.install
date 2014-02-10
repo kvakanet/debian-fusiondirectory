@@ -1,5 +1,7 @@
 argonaut-fai-nfsroot/bin/ldap2fai                         usr/sbin
 argonaut-fai-nfsroot/bin/argonaut-client-fai-getid        usr/sbin
 argonaut-fai-nfsroot/bin/argonaut-client-fai-sendmon      usr/sbin
+argonaut-fai-nfsroot/lib/get-config-dir-argonaut          usr/lib/fai
+
 
 
