@@ -1,2 +1,2 @@
 argonaut-fai-server/nfsroot-hooks/argonaut-nfsroot-integration  etc/fai/nfsroot-hooks
-
+argonaut-fai-server/bin/argonaut-fai-monitor			usr/sbin

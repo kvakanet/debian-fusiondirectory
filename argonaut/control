@@ -92,7 +92,7 @@ Description: Scripts to manage debian mirrors
 
 Package: argonaut-fai-nfsroot
 Architecture: all
-Depends: argonaut-common, argonaut-common-fai, fai-client (>= 3.2.8), libconfig-inifiles-perl, libnet-ldap-perl, console-utilities, debootstrap
+Depends: argonaut-common, argonaut-common-fai, fai-client (>= 3.2.8), libconfig-inifiles-perl, libnet-ldap-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl, liblog-handler-perl, console-utilities, debootstrap
 Recommends: netcat
 Description:  Tools, queues and status management
   Tools, queues and status management for FAI (Fully Automated Install) installations.
