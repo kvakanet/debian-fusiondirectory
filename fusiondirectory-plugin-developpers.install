@@ -4,6 +4,6 @@ plugins-extra/developers/FDStandard                /usr/share/doc/fusiondirector
 plugins-extra/developers/filter.xsd                /usr/share/doc/fusiondirectory-developers/
 plugins-extra/developers/list.xsd                  /usr/share/doc/fusiondirectory-developers/
 plugins-extra/developers/simple-plugin             /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/debug-help                /usr/share/fusiondirectory/plugins
+plugins-extra/developers/debug-help/addons         /usr/share/fusiondirectory/plugins
 plugins-extra/developers/debug-help/html/images    /usr/share/fusiondirectory/html/plugins/debug-help
 
