@@ -1,3 +1,4 @@
-plugins-extra/puppet/admin                   /usr/share/fusiondirectory/plugins
-plugins-extra/puppet/html/images             /usr/share/fusiondirectory/html/plugins/puppet
+plugins-extra/puppet/admin          /usr/share/fusiondirectory/plugins
+plugins-extra/puppet/locale         /usr/share/fusiondirectory/locale/plugins/puppet
+plugins-extra/puppet/html/images    /usr/share/fusiondirectory/html/plugins/puppet
 
