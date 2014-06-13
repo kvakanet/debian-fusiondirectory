@@ -58,7 +58,13 @@ Architecture: all
 Depends: argonaut-server
 Description: Argonaut json rpc server module to manage FAI (Fully Automated Install)
  Argonaut server module to manage FAI (Fully Automated Install) installation. 
- 
+
+Package: argonaut-server-module-opsi
+Architecture: all
+Depends: argonaut-server
+Description: Argonaut json rpc server module to manage OPSI (open pc server integration)
+ Argonaut server module to manage OPSI (open pc server integration) installation. 
+  
 Package: argonaut-client
 Architecture: all
 Depends: argonaut-common, libconfig-inifiles-perl, liblog-handler-perl, libfile-pid-perl, libapp-daemon-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl
