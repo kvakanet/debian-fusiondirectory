@@ -82,7 +82,7 @@ Description: Modular TFTP/Fuse supplicant
  .
  There is already written modules for FAI
 
-Package: argonaut-fuse-fai
+Package: argonaut-fuse-module-fai
 Architecture: all
 Depends: argonaut-fuse
 Description: LDAP FAI module for the TFTP/Fuse supplicant
