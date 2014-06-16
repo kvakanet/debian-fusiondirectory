@@ -89,6 +89,14 @@ Description: LDAP FAI module for the TFTP/Fuse supplicant
  FAI module for argonaut-fuse which is using the LDAP backend in conjunction
  with FusionDirectory and Argonaut to generate client configurations.
  .
+
+Package: argonaut-fuse-module-opsi
+Architecture: all
+Depends: argonaut-fuse
+Description: OPSI module for the TFTP/Fuse supplicant
+ OPSI module for argonaut-fuse which is using the LDAP backend in conjunction
+ with FusionDirectory and Argonaut to generate client configurations.
+ .
  
 Package: argonaut-fai-mirror
 Architecture: all
