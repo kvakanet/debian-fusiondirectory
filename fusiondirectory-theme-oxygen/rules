@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+	dh_link usr/share/icons/oxygen usr/share/fusiondirectory/html/themes/oxygen

@@ -1,0 +1,15 @@
+Source: fusiondirectory-theme-oxygen
+Section: web
+Priority: optional
+Maintainer: FusionDirectory packages maintainers group <fusiondirectory-packages@lists.fusiondirectory.org>
+Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://www.fusiondirectory.org/
+Vcs-Browser: http://git.fusiondirectory.org/code/
+
+Package: fusiondirectory-theme-oxygen
+Architecture: all
+Depends: ${misc:Depends}, oxygen-icon-theme, fusiondirectory
+Description: Icon theme Oxygen for FusionDirectory
+ This package makes Oxygen icon theme available in FusionDirectory software
