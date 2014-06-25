@@ -994,7 +994,7 @@ Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
 Conflicts: gosa
 Description: webservice plugin for FusionDirectory
- This plugin is designed to manage FusionDirecrory with a webservice
+ This plugin is designed to manage FusionDirectory with a webservice
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
@@ -1007,6 +1007,16 @@ Conflicts: gosa
 Description: schema for the webservice plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
  weblink plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
+ 
+ Package: fusiondirectory-webservice-shell
+Architecture: all
+Depends: ${misc:Depends}, libterm-shellui-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl
+Conflicts: gosa
+Description: webservice shell for FusionDirectory
+ This is the conmand line shell for the FusionDirectory with a webservice
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
