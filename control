@@ -1020,3 +1020,9 @@ Description: webservice shell for FusionDirectory
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
+
+Package: fusiondirectory-theme-oxygen
+Architecture: all
+Depends: ${misc:Depends}, oxygen-icon-theme, fusiondirectory
+Description: Icon theme Oxygen for FusionDirectory
+ This package makes Oxygen icon theme available in FusionDirectory
