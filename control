@@ -1011,7 +1011,7 @@ Description: schema for the webservice plugin for FusionDirectory
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
  
- Package: fusiondirectory-webservice-shell
+Package: fusiondirectory-webservice-shell
 Architecture: all
 Depends: ${misc:Depends}, libterm-shellui-perl, libjson-perl (>= 2.07-1), libjson-rpc-perl
 Conflicts: gosa
