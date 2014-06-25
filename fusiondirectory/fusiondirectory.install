@@ -15,6 +15,7 @@ ihtml                                         /usr/share/fusiondirectory
 include/exporter                              /usr/share/fusiondirectory/include
 include/password-methods                      /usr/share/fusiondirectory/include
 include/simpleplugin                          /usr/share/fusiondirectory/include
+include/select                                /usr/share/fusiondirectory/include
 include/accept-to-gettext.inc                 /usr/share/fusiondirectory/include
 include/class_acl.inc                         /usr/share/fusiondirectory/include
 include/class_baseSelector.inc                /usr/share/fusiondirectory/include
@@ -22,11 +23,12 @@ include/class_certificate.inc                 /usr/share/fusiondirectory/include
 include/class_config.inc                      /usr/share/fusiondirectory/include
 include/class_CopyPasteHandler.inc            /usr/share/fusiondirectory/include
 include/class_departmentSortIterator.inc      /usr/share/fusiondirectory/include
-include/class_divlist.inc                     /usr/share/fusiondirectory/include
 include/class_divSelectBox.inc                /usr/share/fusiondirectory/include
 include/class_filter.inc                      /usr/share/fusiondirectory/include
 include/class_filterLDAP.inc                  /usr/share/fusiondirectory/include
+include/class_IconTheme.inc                   /usr/share/fusiondirectory/include
 include/class_ldap.inc                        /usr/share/fusiondirectory/include
+include/class_ldapFilter.inc                  /usr/share/fusiondirectory/include
 include/class_ldapMultiplexer.inc             /usr/share/fusiondirectory/include
 include/class_listing.inc                     /usr/share/fusiondirectory/include
 include/class_listingSortIterator.inc         /usr/share/fusiondirectory/include

@@ -1,5 +1,7 @@
---- a/contrib/bin/fusiondirectory-setup
-+++ b/contrib/bin/fusiondirectory-setup
+Index: pkg/contrib/bin/fusiondirectory-setup
+===================================================================
+--- pkg.orig/contrib/bin/fusiondirectory-setup	2013-11-16 18:44:27.473137888 +0100
++++ pkg/contrib/bin/fusiondirectory-setup	2013-11-16 18:52:49.701150748 +0100
 @@ -31,7 +31,7 @@
  
  # fd's directory and class.cache file's path declaration
