@@ -1,9 +1,22 @@
 fusiondirectory (1.0.8-1) stable; urgency=low
 
   [Benoit Mortier]
+  * New Upstream release
+
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Wed, 25 Jun 2014 15:45:47 +0200
+
+fusiondirectory (1.0.7.4-1) stable; urgency=low
+
+  * New Upstream release
+
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 19 May 2014 15:17:00 +0200
+
+fusiondirectory (1.0.7.3-1) stable; urgency=low
+
+  [Benoit Mortier]
   * New upstream release
 
- -- Benoit Mortier <benoit.mortier@opensides.be>  Tue, 04 Feb 2014 10:24:47 +0100
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 31 Mar 2014 16:33:00 +0100
 
 fusiondirectory (1.0.7.2-1) stable; urgency=low
 
