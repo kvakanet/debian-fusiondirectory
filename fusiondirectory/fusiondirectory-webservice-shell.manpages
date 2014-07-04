@@ -1,2 +1,1 @@
-contrib/man/fusiondirectory.conf.5
-contrib/man/fusiondirectory-setup.1
+plugins-extra/webservice/contrib/man/fusiondirectory-shell.1
