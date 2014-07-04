@@ -8,7 +8,6 @@ Build-Depends-Indep: po-debconf
 Standards-Version: 3.9.1
 Homepage: http://www.fusiondirectory.org/
 Vcs-Browser: http://git.fusiondirectory.org/code/
-DM-Upload-Allowed: yes
 
 Package: fusiondirectory
 Architecture: all
