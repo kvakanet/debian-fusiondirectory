@@ -5,7 +5,7 @@ Maintainer: FusionDirectory packages maintainers group <fusiondirectory-packages
 Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: po-debconf
-Standards-Version: 3.9.1
+Standards-Version: 3.9.5
 Homepage: http://www.fusiondirectory.org/
 Vcs-Browser: http://git.fusiondirectory.org/code/
 
