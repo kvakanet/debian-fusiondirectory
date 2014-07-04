@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/copyright-format/1.0
 Upstream-Name: FusionDirectory
 Upstream-Contact: Contact <contact@fusiondirectory.org>
-Source: http://download.fusiondirectory.org/sources/
+Source: http://repos.fusiondirectory.org/sources/
 
 Files: *
 Copyright: 2011-2012 FusionDirectory project <contact@fusiondirectory.org>
