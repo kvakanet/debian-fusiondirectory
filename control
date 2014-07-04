@@ -995,7 +995,7 @@ Recommends: slapd
 Conflicts: gosa
 Description: schema for the webservice plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
- weblink plugin.
+ webservice plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
