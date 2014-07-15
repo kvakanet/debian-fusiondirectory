@@ -10,7 +10,7 @@ Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: schema2ldif
 Architecture: all
-Depends: perl
+Depends: ${misc:Depends}, perl
 Replaces: fusiondirectory-schema (<< 1.0.7)
 Breaks: fusiondirectory-schema (<< 1.0.7)
 Description: Tool for converting OpenLDAP-style schemas to the LDIF format
