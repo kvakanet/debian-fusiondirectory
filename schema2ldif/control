@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: FusionDirectory packages maintainers group <fusiondirectory-packages@lists.fusiondirectory.org>
 Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.5
 Homepage: https://forge.fusiondirectory.org/projects/schema2ldif/
 Vcs-Browser: http://git.fusiondirectory.org/code/plugins/schema2ldif.git/
 
