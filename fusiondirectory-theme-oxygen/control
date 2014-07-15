@@ -6,7 +6,7 @@ Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://www.fusiondirectory.org/
-Vcs-Browser: http://git.fusiondirectory.org/code/
+Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: fusiondirectory-theme-oxygen
 Architecture: all

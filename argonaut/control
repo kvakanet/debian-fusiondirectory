@@ -6,7 +6,7 @@ Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 7.0.50~), coreutils (>= 5.97.5-3)
 Homepage: https://forge.fusiondirectory.org/projects/argonaut-agents
-Vcs-Browser: http://git.fusiondirectory.org/code/main/argonaut-agents.git
+Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 Vcs-Git: http://git.fusiondirectory.org/main/argonaut-agents.git
 DM-Upload-Allowed: yes
 

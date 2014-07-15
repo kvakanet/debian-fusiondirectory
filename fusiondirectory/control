@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: po-debconf
 Standards-Version: 3.9.5
 Homepage: http://www.fusiondirectory.org/
-Vcs-Browser: http://git.fusiondirectory.org/code/
+Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: fusiondirectory
 Architecture: all

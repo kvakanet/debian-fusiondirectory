@@ -6,7 +6,7 @@ Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.5
 Homepage: https://forge.fusiondirectory.org/projects/schema2ldif/
-Vcs-Browser: http://git.fusiondirectory.org/code/plugins/schema2ldif.git/
+Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: schema2ldif
 Architecture: all
