@@ -29,7 +29,7 @@ Copyright: 1998 Eric Kilfoil <eric@ipass.net>
            2003 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
            2003,2010 Cajus Pollmeier <pollmeier@gonicus.de>
            2011-2014 FusionDirectory Project <contact@fusiondirectory.org>
-License: GPL2+
+License: GPL-2+
 
 Files: pulldown.js
 Copyright: 2004 Knallgrau New Medias Solutions GmbH, BSD
@@ -42,10 +42,6 @@ License: Expat
 Files: datepicker.js
 Copyright: 2007 Mathieu Jondet
 License: Expat
-
-Files: overlib.js
-Copyright: 1998,2004 Erik Bosrup
-License: Artistic
 
 Files: debian/*
 Copyright: 2010-2014, Benoit Mortier <benoit.mortier@opensides.be>
