@@ -42,7 +42,6 @@ include/class_smbHash.inc                     /usr/share/fusiondirectory/include
 include/class_session.inc                     /usr/share/fusiondirectory/include
 include/class_SnapShotDialog.inc              /usr/share/fusiondirectory/include
 include/class_SnapshotHandler.inc             /usr/share/fusiondirectory/include
-include/class_sortableListing.inc             /usr/share/fusiondirectory/include
 include/class_tabs.inc                        /usr/share/fusiondirectory/include
 include/class_tests.inc                       /usr/share/fusiondirectory/include
 include/class_timezone.inc                    /usr/share/fusiondirectory/include
