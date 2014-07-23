@@ -18,7 +18,6 @@ include/select                                /usr/share/fusiondirectory/include
 include/accept-to-gettext.inc                 /usr/share/fusiondirectory/include
 include/class_acl.inc                         /usr/share/fusiondirectory/include
 include/class_baseSelector.inc                /usr/share/fusiondirectory/include
-include/class_certificate.inc                 /usr/share/fusiondirectory/include
 include/class_config.inc                      /usr/share/fusiondirectory/include
 include/class_CopyPasteHandler.inc            /usr/share/fusiondirectory/include
 include/class_departmentSortIterator.inc      /usr/share/fusiondirectory/include
