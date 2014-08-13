@@ -1,7 +1,7 @@
 Source: argonaut
 Section: utils
 Priority: optional
-Maintainer: FusionDirectory Packagers <fusiondirectory-packages@lists.fusiondirectory.org>
+Maintainer: FusionDirectory Packagers <packages@lists.fusiondirectory.org>
 Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 7.0.50~), coreutils (>= 5.97.5-3)
