@@ -1,18 +1,17 @@
 Source: fusiondirectory
 Section: web
 Priority: optional
-Maintainer: FusionDirectory packages maintainers group <fusiondirectory-packages@lists.fusiondirectory.org>
+Maintainer: FusionDirectory packages maintainers group <packages@lists.fusiondirectory.org>
 Uploaders: Benoit Mortier <benoit.mortier@opensides.be>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: po-debconf
-Standards-Version: 3.9.1
+Standards-Version: 3.9.5
 Homepage: http://www.fusiondirectory.org/
-Vcs-Browser: http://git.fusiondirectory.org/code/
-DM-Upload-Allowed: yes
+Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: fusiondirectory
 Architecture: all
-Depends: php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty3-i18n, fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, schema2ldif
+Depends: ${misc:Depends}, php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty3-i18n, fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, schema2ldif
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -759,16 +758,6 @@ Description: LDAP schema for FusionDirectory repository plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugin-rolemanagement
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Conflicts: gosa-plugin-rolemanagement
-Description: rolemanagement plugin for FusionDirectory
- Role Management plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-rsyslog
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems, fusiondirectory-plugin-database-connector
@@ -1006,7 +995,7 @@ Recommends: slapd
 Conflicts: gosa
 Description: schema for the webservice plugin for FusionDirectory
  This package includes the LDAP schema needed by the FusionDirectory
- weblink plugin.
+ webservice plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
@@ -1026,3 +1015,6 @@ Architecture: all
 Depends: ${misc:Depends}, oxygen-icon-theme, fusiondirectory
 Description: Icon theme Oxygen for FusionDirectory
  This package makes Oxygen icon theme available in FusionDirectory
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
