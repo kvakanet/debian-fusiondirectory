@@ -4,4 +4,5 @@ contrib/openldap/ldapns.schema                /etc/ldap/schema/fusiondirectory
 contrib/openldap/samba.schema                 /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery-fd.schema           /etc/ldap/schema/fusiondirectory
 contrib/openldap/core-fd-conf.schema          /etc/ldap/schema/fusiondirectory
+contrib/openldap/template-fd.schema           /etc/ldap/schema/fusiondirectory
 contrib/bin/fusiondirectory-insert-schema     /usr/sbin
