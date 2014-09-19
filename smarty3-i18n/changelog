@@ -1,4 +1,4 @@
-smarty3-i18n (1.0-1) unstable; urgency=low
+smarty3-i18n (1.0-1) stable; urgency=low
 
   * New upstream : FusionDirectory project
   * Including patches from the FusionDirectory project and Debian 
