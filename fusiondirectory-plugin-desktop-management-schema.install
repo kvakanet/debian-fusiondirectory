@@ -1,4 +1,0 @@
-plugins-extra/desktop-management/contrib/openldap/application-fd.schema            /etc/ldap/schema/fusiondirectory
-plugins-extra/desktop-management/contrib/openldap/desktop-fd-conf.schema			/etc/ldap/schema/fusiondirectory
-plugins-extra/desktop-management/contrib/openldap/mime-fd.schema					/etc/ldap/schema/fusiondirectory
-
