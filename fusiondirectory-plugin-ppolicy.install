@@ -1,0 +1,5 @@
+plugins-extra/applications/admin                   /usr/share/fusiondirectory/plugins
+plugins-extra/applications/config                  /usr/share/fusiondirectory/plugins
+plugins-extra/applications/personal                /usr/share/fusiondirectory/plugins
+
+

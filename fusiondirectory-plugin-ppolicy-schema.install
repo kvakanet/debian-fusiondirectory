@@ -1,0 +1,5 @@
+plugins-extra/ppolicy/contrib/openldap/ppolicy-fd-conf.schema         /etc/ldap/schema/fusiondirectory
+plugins-extra/ppolicy/contrib/openldap/ppolicyconfig.ldif             /usr/share/doc/fusiondirectory-plugin-ppolicy
+plugins-extra/ppolicy/contrib/openldap/ppolicydefault.ldif            /usr/share/doc/fusiondirectory-plugin-ppolicy
+plugins-extra/ppolicy/contrib/openldap/ppolicymodule.ldif             /usr/share/doc/fusiondirectory-plugin-ppolicy
+
