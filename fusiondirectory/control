@@ -101,6 +101,28 @@ Description: LDAP schema for FusionDirectory apache2 plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
+Package: fusiondirectory-plugin-applications
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa-plugin-systems, fusiondirectory-plugin-desktop-management
+Description: Applications management plugin for FusionDirectory
+ Application management plugin for desktop and web.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-applications-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Conflicts: gosa, fusiondirectory-plugin-desktop-management-schema
+Description: LDAP schema for FusionDirectory desktop management plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ desktop management plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
+
 Package: fusiondirectory-plugin-argonaut
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-systems
@@ -246,28 +268,6 @@ Description: LDAP schema for FusionDirectory Debconf Plugin
  .
  FusionDirectory is a combination of system-administrator and end-user
  web interface, designed to handle LDAP-based setups.
-
-Package: fusiondirectory-plugin-applications
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Conflicts: gosa-plugin-systems, fusiondirectory-plugin-desktop-management
-Description: Applications management plugin for FusionDirectory
- Application management plugin for desktop and web.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-applications-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Conflicts: gosa, fusiondirectory-plugin-desktop-management-schema
-Description: LDAP schema for FusionDirectory desktop management plugin
- This package includes the LDAP schema needed by the FusionDirectory
- desktop management plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based setups.
 
 Package: fusiondirectory-plugin-developpers
 Architecture: all
