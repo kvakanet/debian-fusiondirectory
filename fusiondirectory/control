@@ -372,6 +372,30 @@ Description: LDAP schema for FusionDirectory dsa plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-ejbca
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
+Description: ejbca plugin for FusionDirectory
+ This plugin is designed to show the certificates for serveurs and users
+ stored by ejbca inside the ldap.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based setups.
+
+Package: fusiondirectory-plugin-ejbca-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Conflicts: gosa
+Description: LDAP schema for FusionDirectory ejbca plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ ejbca plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+
 Package: fusiondirectory-plugin-fai
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory, fusiondirectory-plugin-argonaut, fusiondirectory-plugin-systems
