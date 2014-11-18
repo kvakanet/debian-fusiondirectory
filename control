@@ -672,6 +672,30 @@ Description: LDAP schema for FusionDirectory Openstack compute plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-personal
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
+Description: Personal plugin for FusionDirectory
+ The personal plugin for FusionDirectory is used to stored personal data,
+ like twitter, facebook, private email adresses and nickname.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
+Package: fusiondirectory-plugin-personal-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Conflicts: gosa
+Description: LDAP schema for FusionDirectory ppolicy Plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ personal Plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user
+ web interface, designed to handle LDAP-based setups.
+
+
 Package: fusiondirectory-plugin-ppolicy
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
