@@ -696,29 +696,6 @@ Description: LDAP schema for FusionDirectory ppolicy Plugin
  web interface, designed to handle LDAP-based setups.
 
 
-Package: fusiondirectory-plugin-ppolicy
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Conflicts: gosa
-Description: Ppolicy overlay module plugin for FusionDirectory
- PPolicy overlay module plugin for FusionDirectory.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-ppolicy-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Conflicts: gosa
-Description: LDAP schema for FusionDirectory ppolicy Plugin
- This package includes the LDAP schema needed by the FusionDirectory
- Ppolicy Plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user
- web interface, designed to handle LDAP-based setups.
-
-
 Package: fusiondirectory-plugin-puppet
 Architecture: all
 Depends: ${misc:Depends}, fusiondirectory
