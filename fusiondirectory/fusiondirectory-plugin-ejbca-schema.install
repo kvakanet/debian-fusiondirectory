@@ -1,1 +1,2 @@
 plugins-extra/ejbca/contrib/openldap/ejbca-fd-conf.schema  /etc/ldap/schema/fusiondirectory
+plugins-extra/ejbca/contrib/openldap/ejbca-fd.schema       /etc/ldap/schema/fusiondirectory
