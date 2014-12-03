@@ -1,6 +1,5 @@
 plugins-extra/ejbca/admin                     /usr/share/fusiondirectory/plugins
 plugins-extra/ejbca/config                    /usr/share/fusiondirectory/plugins
-plugins-extra/ejbca/personal                  /usr/share/fusiondirectory/plugins
 plugins-extra/ejbca/locale                    /usr/share/fusiondirectory/locale/plugins/ejbca
 plugins-extra/ejbca/html/images               /usr/share/fusiondirectory/html/plugins/ejbca
 
