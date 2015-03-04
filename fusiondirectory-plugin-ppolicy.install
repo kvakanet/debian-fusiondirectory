@@ -1,3 +1,4 @@
+plugins-extra/ppolicy/addons                  /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/admin                   /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/config                  /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/personal                /usr/share/fusiondirectory/plugins
