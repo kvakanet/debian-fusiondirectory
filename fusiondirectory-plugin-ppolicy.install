@@ -3,6 +3,6 @@ plugins-extra/ppolicy/admin                   /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/config                  /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/personal                /usr/share/fusiondirectory/plugins
 plugins-extra/ppolicy/locale                  /usr/share/fusiondirectory/locale/plugins/ppolicy
-plugins-extra/ppolicy/html/images             /usr/share/fusiondirectory/html/plugins/ppolicy
+plugins-extra/ppolicy/html/themes             /usr/share/fusiondirectory/html
 
 
