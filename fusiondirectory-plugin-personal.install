@@ -1,2 +1,3 @@
 plugins-extra/personal/personal              /usr/share/fusiondirectory/plugins
+plugins-extra/personal/config                /usr/share/fusiondirectory/plugins
 plugins-extra/personal/locale                /usr/share/fusiondirectory/locale/plugins/personal
