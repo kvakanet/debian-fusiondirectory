@@ -11,7 +11,7 @@ Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: fusiondirectory
 Architecture: all
-Depends: ${misc:Depends}, php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty3-i18n | smarty-gettext, fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, libterm-readkey-perl, schema2ldif
+Depends: ${misc:Depends}, php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty-gettext, fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, libterm-readkey-perl, schema2ldif
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
