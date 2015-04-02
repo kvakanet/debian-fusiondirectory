@@ -3,49 +3,1475 @@ Upstream-Name: FusionDirectory
 Upstream-Contact: Contact <contact@fusiondirectory.org>
 Source: http://repos.fusiondirectory.org/sources/
 
-Files: *
-Copyright: 2011-2014 FusionDirectory project <contact@fusiondirectory.org>
-  2003,2010 GONICUS GmbH
-  2003,2008 Cajus Pollmeier <pollmeier@gonicus.de>
-  2003,2008 Fabian Hickert <fabian.hickert@gonicus.de>
-  2003,2005 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
-  2003 Wouter Verhelst <wouter@debian.org>
-  2005 Benoit Mortier <benoit.mortier@opensides.be>
-  2005 Guillaume Delecourt <guillaume.delecourt@opensides.be>
-  2005 Vincent Seynhaeve <vincent.seynhaeve@opensides.be>
-  2006 Bernd Zeimetz <bernd@zeimetz.de>
-  2006 Gina Haeussge <osd@foosel.net>
-  2006 Jörn Dreyer <gosa.jfd@butonic.de>
-  2011 Benjamin Carpentier <benjamin@opensides.be>
-  2011 Bernigaud Côme <come.bernigaud@laposte.net>
+Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
+ plugins/addressbook/addons/addressbook/main.inc
+ plugins/apache2/admin/systems/services/apache2/class_serviceApacheVhost.inc
+ plugins/apache2/admin/systems/services/apache2/class_serviceApacheVhostEdit.inc
+ plugins/apache2/admin/systems/services/apache2/class_serviceApacheVhostManagement.inc
+ plugins/apache2/admin/systems/services/apache2/tabs_serviceApacheVhostEdit.inc
+ plugins/argonaut/addons/argonaut/class_argonautImportFile.inc
+ plugins/argonaut/addons/argonaut/class_argonautQueue.inc
+ plugins/argonaut/addons/argonaut/class_filterArgonautEvents.inc
+ plugins/argonaut/addons/argonaut/events/class_EventAddSystemDialog.inc
+ plugins/argonaut/addons/argonaut/events/class_filterSystemByIp.inc
+ plugins/argonaut/html/getFAIstatus.php
+ plugins/asterisk/addons/fonreports/class_fonreport.inc
+ plugins/asterisk/addons/fonreports/main.inc
+ plugins/asterisk/admin/conference/class_phoneConferenceGeneric.inc
+ plugins/asterisk/admin/conference/class_phoneConferenceManagment.inc
+ plugins/asterisk/admin/conference/main.inc
+ plugins/asterisk/admin/conference/tabs_conference.inc
+ plugins/asterisk/admin/macro/class_gofonMacro.inc
+ plugins/asterisk/admin/macro/class_gofonMacroManagement.inc
+ plugins/asterisk/admin/macro/class_gofonMacroParameters.inc
+ plugins/asterisk/admin/macro/main.inc
+ plugins/asterisk/admin/macro/tabs_macros.inc
+ plugins/asterisk/admin/ogroups/asterisk/class_phonequeue.inc
+ plugins/asterisk/admin/systems/asterisk/class_phoneGeneric.inc
+ plugins/asterisk/admin/systems/asterisk/tabs_phone.inc
+ plugins/asterisk/admin/systems/services/asterisk/class_serviceAsterisk.inc
+ plugins/asterisk/personal/phoneaccount/class_phoneAccount.inc
+ plugins/asterisk/personal/phoneaccount/main.inc
+ core/contrib/smarty/plugins/block.render.php
+ core/contrib/smarty/plugins/function.msgPool.php
+ core/html/autocomplete.php
+ core/html/class_passwordRecovery.inc
+ core/html/getbin.php
+ core/html/index.php
+ core/html/logout.php
+ core/html/main.php
+ core/html/progress.php
+ core/html/setup.php
+ core/include/class_CopyPasteHandler.inc
+ core/include/class_SnapShotDialog.inc
+ core/include/class_SnapshotHandler.inc
+ core/include/class_acl.inc
+ core/include/class_baseSelector.inc
+ core/include/class_certificate.inc
+ core/include/class_config.inc
+ core/include/class_departmentSortIterator.inc
+ core/include/class_divSelectBox.inc
+ core/include/class_filter.inc
+ core/include/class_filterLDAP.inc
+ core/include/class_ldapMultiplexer.inc
+ core/include/class_listing.inc
+ core/include/class_listingSortIterator.inc
+ core/include/class_management.inc
+ core/include/class_msgPool.inc
+ core/include/class_msg_dialog.inc
+ core/include/class_plugin.inc
+ core/include/class_pluglist.inc
+ core/include/class_session.inc
+ core/include/class_sortableListing.inc
+ core/include/class_tabs.inc
+ core/include/class_tests.inc
+ core/include/class_timezone.inc
+ core/include/class_userinfo.inc
+ core/include/class_xml.inc
+ core/include/exporter/class_PDF.php
+ core/include/exporter/class_cvsExporter.inc
+ core/include/exporter/class_pdfExporter.inc
+ core/include/functions.inc
+ core/include/password-methods/class_password-methods-clear.inc
+ core/include/password-methods/class_password-methods-crypt.inc
+ core/include/password-methods/class_password-methods-md5.inc
+ core/include/password-methods/class_password-methods-sha.inc
+ core/include/password-methods/class_password-methods-smd5.inc
+ core/include/password-methods/class_password-methods-ssha.inc
+ core/include/password-methods/class_password-methods.inc
+ core/include/php_setup.inc
+ core/include/select/class_filterLDAPBlacklist.inc
+ core/include/select/systemSelect/class_systemSelect.inc
+ core/include/simpleplugin/class_multiPlugin.inc
+ core/include/simpleplugin/class_simpleService.inc
+ core/include/variables.inc
+ core/include/variables_common.inc
+ core/plugins/admin/acl/class_aclManagement.inc
+ core/plugins/admin/aclrole/class_aclRole.inc
+ core/plugins/admin/departments/class_department.inc
+ core/plugins/admin/departments/class_departmentManagement.inc
+ core/plugins/admin/departments/main.inc
+ core/plugins/admin/departments/tabs_department.inc
+ core/plugins/admin/groups/class_group.inc
+ core/plugins/admin/groups/class_groupManagement.inc
+ core/plugins/admin/groups/class_roleGeneric.inc
+ core/plugins/admin/groups/main.inc
+ core/plugins/admin/groups/tabs_group.inc
+ core/plugins/admin/ogroups/class_ogroup.inc
+ core/plugins/admin/ogroups/class_ogroupManagement.inc
+ core/plugins/admin/ogroups/main.inc
+ core/plugins/admin/ogroups/tabs_ogroups.inc
+ core/plugins/admin/users/class_userManagement.inc
+ core/plugins/admin/users/main.inc
+ core/plugins/admin/users/tabs_user.inc
+ core/plugins/generic/welcome/main.inc
+ core/plugins/personal/generic/class_user.inc
+ core/plugins/personal/password/class_password.inc
+ core/plugins/personal/password/main.inc
+ core/plugins/personal/posix/class_posixAccount.inc
+ core/plugins/personal/posix/trustSelect/class_trustSelect.inc
+ core/setup/class_setup.inc
+ core/setup/class_setupStep_Checks.inc
+ plugins/cyrus/admin/systems/services/cyrus/class_serviceCyrus.inc
+ plugins/cyrus/personal/mail/mail-methods/class_mail-methods-cyrus.inc
+ plugins/cyrus/personal/mail/mail-methods/class_mail-methods-sendmail-cyrus.inc
+ plugins/dashboard/addons/dashboard/tabs_dashBoard.inc
+ plugins/desktop-management/admin/applications/class_applicationGeneric.inc
+ plugins/desktop-management/admin/applications/class_applicationParameters.inc
+ plugins/desktop-management/admin/groups/apps/class_groupApplication.inc
+ plugins/desktop-management/admin/mimetypes/class_mimetypeGeneric.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpAdvanced.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpClass.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpDnsZone.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpGroup.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpHost.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpNetwork.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpNewSectionDialog.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpOption.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpPlugin.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpPool.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpService.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpSharedNetwork.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpSubClass.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpSubnet.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_dhcpTSigKey.inc
+ plugins/dhcp/admin/systems/services/dhcp/class_serviceDHCP.inc
+ plugins/dns/admin/systems/services/dns/class_DNS.inc
+ plugins/dns/admin/systems/services/dns/class_serviceDNS.inc
+ plugins/dns/admin/systems/services/dns/class_serviceDNSeditZone.inc
+ plugins/dns/admin/systems/services/dns/class_serviceDNSeditZoneEntries.inc
+ plugins/fai/admin/fai/classSelect/class_classSelect.inc
+ plugins/fai/admin/fai/classSelect/class_filterFAIClass.inc
+ plugins/fai/admin/fai/class_FAI.inc
+ plugins/fai/admin/fai/class_askClassName.inc
+ plugins/fai/admin/fai/class_debconfTemplate.inc
+ plugins/fai/admin/fai/class_faiDiskEntry.inc
+ plugins/fai/admin/fai/class_faiGroupHandle.inc
+ plugins/fai/admin/fai/class_faiHook.inc
+ plugins/fai/admin/fai/class_faiHookEntry.inc
+ plugins/fai/admin/fai/class_faiManagement.inc
+ plugins/fai/admin/fai/class_faiPackage.inc
+ plugins/fai/admin/fai/class_faiPackageConfiguration.inc
+ plugins/fai/admin/fai/class_faiPartition.inc
+ plugins/fai/admin/fai/class_faiPartitionTable.inc
+ plugins/fai/admin/fai/class_faiPartitionTableEntry.inc
+ plugins/fai/admin/fai/class_faiProfile.inc
+ plugins/fai/admin/fai/class_faiProfileEntry.inc
+ plugins/fai/admin/fai/class_faiScript.inc
+ plugins/fai/admin/fai/class_faiScriptEntry.inc
+ plugins/fai/admin/fai/class_faiTemplate.inc
+ plugins/fai/admin/fai/class_faiTemplateEdit.inc
+ plugins/fai/admin/fai/class_faiTemplateEntry.inc
+ plugins/fai/admin/fai/class_faiVariable.inc
+ plugins/fai/admin/fai/class_faiVariableEntry.inc
+ plugins/fai/admin/fai/class_filterFAI.inc
+ plugins/fai/admin/fai/main.inc
+ plugins/fai/admin/fai/packageSelect/class_filterFAIPackages.inc
+ plugins/fai/admin/fai/packageSelect/class_packageSelect.inc
+ plugins/fai/admin/systems/class_faiLogView.inc
+ plugins/fai/admin/systems/class_faiStartup.inc
+ plugins/fai/admin/systems/services/repository/class_serviceRepository.inc
+ plugins/fax/addons/faxreports/class_faxreport.inc
+ plugins/fax/addons/faxreports/main.inc
+ plugins/fax/admin/blocklists/class_blocklistGeneric.inc
+ plugins/fax/admin/systems/services/fax/class_serviceFax.inc
+ plugins/fax/html/getfax.php
+ plugins/fax/personal/faxaccount/class_gofaxAccount.inc
+ plugins/fax/personal/faxaccount/faxNumberSelect/class_faxNumberSelect.inc
+ plugins/fax/personal/faxaccount/main.inc
+ plugins/kolab/admin/ogroups/kolab/class_mailogroup.inc
+ plugins/kolab/admin/systems/services/kolab/class_serviceKolab.inc
+ plugins/kolab/personal/kolab/class_kolabAccount.inc
+ plugins/kolab/personal/mail/kolab/class_mail-methods-kolab.inc
+ plugins/kolab/personal/mail/kolab/class_mail-methods-kolab22.inc
+ plugins/ldapmanager/addons/ldapmanager/class_csvimport.inc
+ plugins/ldapmanager/addons/ldapmanager/class_ldapmanager.inc
+ plugins/ldapmanager/addons/ldapmanager/tabs_ldif.inc
+ plugins/mail/admin/systems/services/imap/class_serviceIMAP.inc
+ plugins/mail/admin/systems/services/postfix/class_servicePostfix.inc
+ plugins/mail/admin/systems/services/spam/class_serviceSpamAssassin.inc
+ plugins/mail/admin/systems/services/virus/class_serviceAntiVirus.inc
+ plugins/mail/personal/mail/class_mail-methods.inc
+ plugins/mail/personal/mail/sieve/class_My_Parser.inc
+ plugins/mail/personal/mail/sieve/class_My_Scanner.inc
+ plugins/mail/personal/mail/sieve/class_My_Tree.inc
+ plugins/mail/personal/mail/sieve/class_parser.inc
+ plugins/mail/personal/mail/sieve/class_scanner.inc
+ plugins/mail/personal/mail/sieve/class_semantics.inc
+ plugins/pureftpd/personal/pureftpd/class_pureftpdAccount.inc
+ plugins/rsyslog/addons/rsyslog/class_rsyslog.inc
+ plugins/rsyslog/addons/rsyslog/main.inc
+ plugins/rsyslog/addons/rsyslog/rsyslogTabs.inc
+ plugins/rsyslog/admin/systems/services/rsyslog/class_serviceSyslog.inc
+ plugins/samba/admin/systems/samba/class_winstationGeneric.inc
+ plugins/samba/personal/samba/class_sambaAccount.inc
+ plugins/samba/personal/samba/class_sambaLogonHours.inc
+ plugins/samba/personal/samba/class_sambaMungedDial.inc
+ plugins/samba/personal/samba/main.inc
+ plugins/squid/personal/squid/class_proxyAccount.inc
+ plugins/ssh/personal/ssh/class_sshAccount.inc
+ plugins/sudo/admin/sudo/class_sudoGeneric.inc
+ plugins/sudo/admin/sudo/class_sudoManagement.inc
+ plugins/sudo/admin/sudo/class_sudoOption.inc
+ plugins/systems/admin/ogroups/goto/class_termgroup.inc
+ plugins/systems/admin/systems/class_SelectDeviceType.inc
+ plugins/systems/admin/systems/class_componentGeneric.inc
+ plugins/systems/admin/systems/class_filterSYSTEMS.inc
+ plugins/systems/admin/systems/class_filterServerService.inc
+ plugins/systems/admin/systems/class_networkSettings.inc
+ plugins/systems/admin/systems/class_printGeneric.inc
+ plugins/systems/admin/systems/class_serverService.inc
+ plugins/systems/admin/systems/class_systemManagement.inc
+ plugins/systems/admin/systems/class_terminalStartup.inc
+ plugins/systems/admin/systems/class_workstationGeneric.inc
+ plugins/systems/admin/systems/ppd/class_ppdManager.inc
+ plugins/systems/admin/systems/ppd/class_printerPPDDialog.inc
+ plugins/systems/admin/systems/ppd/class_printerPPDSelectionDialog.inc
+ plugins/systems/admin/systems/services/class_ServiceAddDialog.inc
+ plugins/systems/admin/systems/services/class_goService.inc
+ plugins/systems/admin/systems/services/cups/class_serviceCUPS.inc
+ plugins/systems/admin/systems/services/ldap/class_serviceLDAP.inc
+ plugins/systems/admin/systems/services/ntp/class_serviceNTP.inc
+ plugins/systems/admin/systems/services/shares/class_serviceShare.inc
+ plugins/systems/admin/systems/services/terminal/class_serviceTerminal.inc
+ plugins/systems/admin/systems/tabs_component.inc
+ plugins/systems/admin/systems/tabs_printers.inc
+ plugins/systems/admin/systems/tabs_server.inc
+ plugins/systems/admin/systems/tabs_terminal.inc
+ plugins/systems/admin/systems/tabs_workstation.inc
+Copyright: 2003, Cajus Pollmeier
+  2003-2010, Cajus Pollmeier
+  2011, FusionDirectory
+  2011-2012, FusionDirectory
+  2011-2013, FusionDirectory
+  2011-2014, FusionDirectory
+  2012-2013, FusionDirectory
 License: GPL-2+
 
-Files: class_sieve.inc
-Copyright: 2001 Dan Ellis <danellis@rushmore.com>
+Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
+ plugins/alias/admin/alias/class_mailAliasRedirection.inc
+ plugins/alias/admin/alias/main.inc
+ plugins/alias/config/alias/class_aliasConfig.inc
+ plugins/argonaut/addons/argonaut/main.inc
+ plugins/argonaut/admin/systems/argonaut/class_argonautClient.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautDNSConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautFuseConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautFuseFAIConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautFuseLTSPConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautFuseOPSIConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautMirrorConfig.inc
+ plugins/argonaut/admin/systems/services/argonaut/class_argonautServer.inc
+ plugins/argonaut/include/class_supportDaemon.inc
+ plugins/argonaut/include/simpleplugin/class_BootKernelAttribute.inc
+ plugins/asterisk/config/asterisk/class_asteriskPluginConfig.inc
+ plugins/autofs/admin/autofs/class_autofsManagement.inc
+ plugins/autofs/admin/autofs/class_nisMap.inc
+ plugins/autofs/admin/autofs/class_nisObject.inc
+ plugins/autofs/config/autofs/class_autofsConfig.inc
+ core/contrib/smarty/plugins/function.filePath.php
+ core/contrib/smarty/plugins/function.iconPath.php
+ core/html/geticon.php
+ core/html/recovery.php
+ core/include/class_IconTheme.inc
+ core/include/class_databaseManagement.inc
+ core/include/class_ldapFilter.inc
+ core/include/class_objects.inc
+ core/include/password-methods/class_password-methods-sasl.inc
+ core/include/select/groupSelect/class_groupSelect.inc
+ core/include/select/objectSelect/class_objectSelect.inc
+ core/include/select/userGroupSelect/class_userGroupSelect.inc
+ core/include/select/userSelect/class_userSelect.inc
+ core/include/simpleplugin/class_attribute.inc
+ core/include/simpleplugin/class_dialogAttributes.inc
+ core/include/simpleplugin/class_helpersAttribute.inc
+ core/include/simpleplugin/class_simpleManagement.inc
+ core/include/simpleplugin/class_simplePlugin.inc
+ core/include/simpleplugin/class_simpleSelectManagement.inc
+ core/include/simpleplugin/class_simpleTabs.inc
+ core/plugins/admin/acl/class_aclAssignment.inc
+ core/plugins/admin/acl/main.inc
+ core/plugins/admin/aclrole/class_aclRoleManagement.inc
+ core/plugins/admin/aclrole/main.inc
+ core/plugins/admin/departments/class_country.inc
+ core/plugins/admin/departments/class_dcObject.inc
+ core/plugins/admin/departments/class_domain.inc
+ core/plugins/admin/departments/class_locality.inc
+ core/plugins/admin/departments/class_organization.inc
+ core/plugins/admin/password/class_recoveryConfig.inc
+ core/plugins/admin/password/main.inc
+ core/plugins/config/class_configInLdap.inc
+ core/plugins/config/class_mainPluginsConfig.inc
+ core/plugins/config/class_pluginsConfigInLdap.inc
+ core/plugins/config/main.inc
+ core/plugins/config/tabs_configInLdap.inc
+ core/plugins/generic/references/class_reference.inc
+ core/plugins/personal/generic/main.inc
+ core/plugins/personal/posix/main.inc
+ plugins/dashboard/addons/dashboard/main.inc
+ plugins/dashboard/config/dashboard/class_dashBoardConfig.inc
+ plugins/debconf/admin/debconfProfile/class_debconfProfileGeneric.inc
+ plugins/debconf/admin/debconfProfile/class_debconfProfileManagement.inc
+ plugins/debconf/admin/debconfProfile/main.inc
+ plugins/debconf/admin/systems/debconf/class_debconfStartup.inc
+ plugins/desktop-management/admin/applications/class_applicationManagement.inc
+ plugins/desktop-management/admin/applications/main.inc
+ plugins/desktop-management/admin/mimetypes/class_mimetypeManagement.inc
+ plugins/desktop-management/admin/mimetypes/main.inc
+ plugins/desktop-management/config/desktop-management/class_desktopPluginConfig.inc
+ plugins/developers/FDStandard/example_badcode.php
+ plugins/developers/debug-help/addons/debug-help/class_debugHelp.inc
+ plugins/developers/debug-help/addons/debug-help/main.inc
+ plugins/developers/simple-plugin/demoPlugin/class_demoPlugin.inc
+ plugins/developers/simple-plugin/demoPlugin/main.inc
+ plugins/dns/config/dns/class_dnsConfig.inc
+ plugins/dovecot/admin/systems/services/dovecot/class_serviceDovecot.inc
+ plugins/dovecot/personal/mail/mail-methods/class_mail-methods-dovecot.inc
+ plugins/dsa/admin/dsa/class_dsaManagement.inc
+ plugins/dsa/admin/dsa/class_simpleSecurityObject.inc
+ plugins/dsa/admin/dsa/main.inc
+ plugins/dsa/config/dsa/class_dsaConfig.inc
+ plugins/fai/admin/fai/packageSelect/class_filterFAIcustoms.inc
+ plugins/fai/config/fai/class_faiConfig.inc
+ plugins/fax/admin/blocklists/class_blocklistManagement.inc
+ plugins/fax/admin/blocklists/main.inc
+ plugins/fax/config/fax/class_faxConfig.inc
+ plugins/freeradius/personal/freeradius/main.inc
+ plugins/fusioninventory/admin/inventory/class_inventoryManagement.inc
+ plugins/fusioninventory/admin/inventory/main.inc
+ plugins/fusioninventory/admin/systems/fusioninventory/class_fiInventory.inc
+ plugins/fusioninventory/admin/systems/fusioninventory/class_fiInventoryAgent.inc
+ plugins/fusioninventory/config/fusioninventory/class_fiConfig.inc
+ plugins/game/addons/game/class_Game.inc
+ plugins/game/addons/game/class_Mission.inc
+ plugins/gpg/addons/gpg/class_pgpServerInfo.inc
+ plugins/gpg/addons/gpg/main.inc
+ plugins/gpg/personal/gpg/class_gpgAccount.inc
+ plugins/gpg/personal/gpg/main.inc
+ plugins/gpg/personal/gpg/pgpKeySelect/class_pgpKeySelect.inc
+ plugins/ipmi/admin/systems/ipmi/class_ipmiClient.inc
+ plugins/ldapdump/addons/ldapdump/class_ldapDump.inc
+ plugins/ldapmanager/addons/ldapmanager/main.inc
+ plugins/mail/config/mail/class_mailPluginConfig.inc
+ plugins/mail/personal/mail/mailAddressSelect/class_mailAddressSelect.inc
+ plugins/mail/personal/mail/main.inc
+ plugins/nagios/config/nagios/class_nagiosConfig.inc
+ plugins/netgroups/admin/netgroups/class_netgroupManagement.inc
+ plugins/netgroups/admin/netgroups/main.inc
+ plugins/netgroups/admin/netgroups/memberNisnetgroupSelect/class_memberNisnetgroupSelect.inc
+ plugins/netgroups/admin/systems/netgroups/class_netgroupSystem.inc
+ plugins/netgroups/config/netgroups/class_netgroupConfig.inc
+ plugins/netgroups/personal/netgroups/main.inc
+ plugins/openstack-compute/personal/openstack-compute/main.inc
+ plugins/opsi/addons/opsi/main.inc
+ plugins/opsi/admin/opsi/class_opsiOnDemandList.inc
+ plugins/opsi/admin/opsi/class_opsiProductProperties.inc
+ plugins/opsi/admin/opsi/class_opsiProfile.inc
+ plugins/opsi/admin/opsi/class_opsiProfileManagement.inc
+ plugins/opsi/admin/opsi/class_opsiSoftwareList.inc
+ plugins/opsi/admin/opsi/main.inc
+ plugins/opsi/admin/systems/opsi/class_opsiClient.inc
+ plugins/opsi/admin/systems/services/opsi/class_serviceOPSI.inc
+ plugins/opsi/config/opsi/class_opsiConfig.inc
+ plugins/puppet/admin/systems/puppet/class_puppetNode.inc
+ plugins/puppet/admin/systems/services/puppet/class_servicePuppet.inc
+ plugins/pureftpd/personal/pureftpd/main.inc
+ plugins/quota/personal/quota/main.inc
+ plugins/repository/admin/repository/class_buildRepository.inc
+ plugins/repository/admin/repository/class_repositoryDistribution.inc
+ plugins/repository/admin/repository/class_repositoryManagement.inc
+ plugins/repository/admin/repository/class_repositorySection.inc
+ plugins/repository/admin/repository/main.inc
+ plugins/repository/config/repository/class_repositoryConfig.inc
+ plugins/samba/admin/samba/class_sambaDomain.inc
+ plugins/samba/admin/samba/class_sambaDomainManagement.inc
+ plugins/samba/admin/samba/main.inc
+ plugins/samba/config/samba/class_sambaPluginConfig.inc
+ plugins/sogo/admin/sogo/class_sogoManagement.inc
+ plugins/sogo/admin/sogo/class_sogoResource.inc
+ plugins/sogo/admin/sogo/main.inc
+ plugins/sogo/config/sogo/class_sogoConfig.inc
+ plugins/squid/personal/squid/main.inc
+ plugins/ssh/personal/ssh/main.inc
+ plugins/sudo/admin/sudo/main.inc
+ plugins/sudo/admin/sudo/tabs_sudo.inc
+ plugins/sudo/config/sudo/class_sudoConfig.inc
+ plugins/supann/admin/supannStructures/class_entite.inc
+ plugins/supann/admin/supannStructures/class_etablissement.inc
+ plugins/supann/admin/supannStructures/class_supannStructuresManagement.inc
+ plugins/supann/admin/supannStructures/main.inc
+ plugins/supann/config/supann/class_supannConfig.inc
+ plugins/supann/personal/supann/main.inc
+ plugins/sympa/admin/sympa/class_sympaAlias.inc
+ plugins/sympa/admin/systems/services/sympa/class_serviceSympa.inc
+ plugins/systems/admin/systems/class_mobilePhoneGeneric.inc
+ plugins/systems/admin/systems/class_serverGeneric.inc
+ plugins/systems/admin/systems/class_systemImport.inc
+ plugins/systems/admin/systems/class_terminalGeneric.inc
+ plugins/systems/admin/systems/main.inc
+ plugins/systems/admin/systems/phoneSelect/class_phoneSelect.inc
+ plugins/systems/config/systems/class_systemsPluginConfig.inc
+ plugins/weblink/admin/systems/weblink/class_webLink.inc
+ plugins/webservice/config/class_webserviceConfig.inc
+ plugins/webservice/html/jsonrpc.php
+Copyright: 2011-2013, FusionDirectory
+  2011-2014, FusionDirectory
+  2012, FusionDirectory
+  2012-2013, FusionDirectory
+  2012-2014, FusionDirectory
+  2013, FusionDirectory
+  2014, FusionDirectory
 License: GPL-2+
 
-Files: fusiondirectory/include/class_ldap.inc:
-Copyright: 1998 Eric Kilfoil <eric@ipass.net>
-           2003 Alejandro Escanero Blanco <aescanero@chaosdimension.org>
-           2003,2010 Cajus Pollmeier <pollmeier@gonicus.de>
-           2011-2014 FusionDirectory Project <contact@fusiondirectory.org>
+Files:
+ core/locale/*/fusiondirectory.po
+ plugins/addressbook/locale/*/fusiondirectory.po
+ plugins/alias/locale/*/fusiondirectory.po
+ plugins/apache2/locale/*/fusiondirectory.po
+ plugins/argonaut/locale/*/fusiondirectory.po
+ plugins/asterisk/locale/*/fusiondirectory.po
+ plugins/autofs/locale/*/fusiondirectory.po
+ plugins/cyrus/locale/*/fusiondirectory.po
+ plugins/dashboard/locale/*/fusiondirectory.po
+ plugins/debconf/locale/*/fusiondirectory.po
+ plugins/desktop-management/locale/*/fusiondirectory.po
+ plugins/developers/locale/*/fusiondirectory.po
+ plugins/dhcp/locale/*/fusiondirectory.po
+ plugins/dns/locale/*/fusiondirectory.po
+ plugins/dovecot/locale/*/fusiondirectory.po
+ plugins/dsa/locale/*/fusiondirectory.po
+ plugins/fai/locale/*/fusiondirectory.po
+ plugins/fax/locale/*/fusiondirectory.po
+ plugins/freeradius/locale/*/fusiondirectory.po
+ plugins/fusioninventory/locale/*/fusiondirectory.po
+ plugins/game/locale/*/fusiondirectory.po
+ plugins/gpg/locale/*/fusiondirectory.po
+ plugins/ipmi/locale/*/fusiondirectory.po
+ plugins/kolab/locale/*/fusiondirectory.po
+ plugins/ldapdump/locale/*/fusiondirectory.po
+ plugins/ldapmanager/locale/*/fusiondirectory.po
+ plugins/mail/locale/*/fusiondirectory.po
+ plugins/nagios/locale/*/fusiondirectory.po
+ plugins/netgroups/locale/*/fusiondirectory.po
+ plugins/openstack-compute/locale/*/fusiondirectory.po
+ plugins/opsi/locale/*/fusiondirectory.po
+ plugins/puppet/locale/*/fusiondirectory.po
+ plugins/pureftpd/locale/*/fusiondirectory.po
+ plugins/quota/locale/*/fusiondirectory.po
+ plugins/repository/locale/*/fusiondirectory.po
+ plugins/rsyslog/locale/*/fusiondirectory.po
+ plugins/samba/locale/*/fusiondirectory.po
+ plugins/sogo/locale/*/fusiondirectory.po
+ plugins/squid/locale/*/fusiondirectory.po
+ plugins/ssh/locale/*/fusiondirectory.po
+ plugins/sudo/locale/*/fusiondirectory.po
+ plugins/supann/locale/*/fusiondirectory.po
+ plugins/sympa/locale/*/fusiondirectory.po
+ plugins/systems/locale/*/fusiondirectory.po
+ plugins/uw-imap/locale/*/fusiondirectory.po
+ plugins/weblink/locale/*/fusiondirectory.po
+ plugins/webservice/locale/*/fusiondirectory.po
+Copyright: FusionDirectory Project
+License: GPL-2+
+Comment:
+ This file is distributed under the same license as the PACKAGE package.
+
+Files: 
+ core/.tx/config
+ core/AUTHORS
+ core/COPYING
+ core/Changelog
+ core/README.md
+ core/contrib/docs/INSTALL
+ core/contrib/docs/README
+ core/contrib/docs/README.cnconfig
+ core/contrib/docs/README.ldap-migration
+ core/contrib/docs/UPGRADE
+ core/contrib/fusiondirectory.conf
+ core/contrib/lighttpd/fusiondirectory-lighttpd.conf
+ core/html/favicon.ico
+ core/html/robots.txt
+ plugins/.tx/config
+ plugins/README.md
+ plugins/autofs/AUTHORS.rst
+ plugins/autofs/LICENSE.txt
+ plugins/developers/CODING
+ plugins/developers/Doxyfile
+ plugins/developers/FDStandard/GUIDELINES
+ plugins/kolab/contrib/openldap/rfc2739.schema
+ plugins/mail/contrib/openldap/update-from-1.0.6-to-1.0.7/update-mail-fd.ldif
+ plugins/systems/contrib/openldap/update-from-1.0.6-to-1.0.7/update-service-fd.ldif
+ plugins/systems/contrib/openldap/update-from-1.0.6-to-1.0.7/update-systems-fd-conf.ldif
+ core/include/functions_debug.inc
+ plugins/developers/simple-plugin/demoSection.php
+ plugins/fusioninventory/html/collect.php
+ plugins/mail/personal/mail/sieve/class_sieveElement_Block_End.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Block_Start.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Comment.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Discard.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Else_Elsif.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Fileinto.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_If.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Keep.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Redirect.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Reject.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Require.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Stop.inc
+ plugins/mail/personal/mail/sieve/class_sieveElement_Vacation.inc
+ plugins/mail/personal/mail/sieve/class_tree.inc
+ plugins/mail/personal/mail/sieve/libsieve.inc
+ core/contrib/apache/fusiondirectory-apache.conf
+ core/contrib/bin/fusiondirectory-insert-schema
+ core/contrib/bin/fusiondirectory-setup
+ core/contrib/man/fusiondirectory-insert-schema.1
+ core/contrib/man/fusiondirectory-setup.1
+ core/contrib/man/fusiondirectory.conf.5
+ core/contrib/man/fusiondirectory.conf.pod
+ core/contrib/openldap/core-fd-conf.schema
+ core/contrib/openldap/core-fd.schema
+ core/contrib/openldap/ldapns.schema
+ core/contrib/openldap/recovery-fd.schema
+ core/contrib/openldap/rfc2307bis.schema
+ core/contrib/openldap/samba.schema
+ core/contrib/openldap/slapd.conf 
+ core/html/images/date_active.png
+ core/html/images/down-arrow.png
+ core/html/images/dtree.png
+ core/html/images/empty.png
+ core/html/images/forward-arrow.png
+ core/html/images/launch.png
+ core/html/images/lists/action.png
+ core/html/images/lists/expand.png
+ core/html/images/lists/lastnode.png
+ core/html/images/lists/node.png
+ core/html/images/lists/search-subtree.png
+ core/html/images/lists/seperator.png
+ core/html/images/lists/submit.png
+ core/html/images/lists/vline.png
+ core/html/images/opacity_black.png
+ core/html/images/rightarrow.png
+ core/html/images/rocket.png
+ core/html/plugins/acl/images/role.png
+ core/html/plugins/departments/images/country.png
+ core/html/plugins/departments/images/dc.png
+ core/html/plugins/departments/images/department.png
+ core/html/plugins/departments/images/department_alias.png
+ core/html/plugins/departments/images/department_referal.png
+ core/html/plugins/departments/images/domain.png
+ core/html/plugins/departments/images/locality.png
+ core/html/plugins/departments/images/organization.png
+ core/html/plugins/groups/images/environment.png
+ core/html/plugins/password/images/iconRecovery.png
+ core/html/plugins/users/images/default.jpg
+ core/html/plugins/users/images/house.png
+ core/html/plugins/users/images/select_template.png
+ core/html/plugins/users/style/user_tab.css
+ core/html/themes/default/index.theme
+ core/html/themes/default/datepicker.css
+ core/html/themes/default/dialog.css
+ core/html/themes/default/form.css
+ core/html/themes/default/lists.css
+ core/html/themes/default/login.css
+ core/html/themes/default/menu.css
+ core/html/themes/default/password-style.css
+ core/html/themes/default/plugin.css
+ core/html/themes/default/printer.css
+ core/html/themes/default/setup.css
+ core/html/themes/default/sieve.css
+ core/html/themes/default/style.css
+ core/html/themes/default/tabs.css
+ core/html/themes/default/theme.css
+ core/html/themes/default/icons/16/actions/add.png
+ core/html/themes/default/icons/16/actions/document-edit.png
+ core/html/themes/default/icons/16/actions/document-import.png
+ core/html/themes/default/icons/16/actions/document-new.png
+ core/html/themes/default/icons/16/actions/document-restore.png
+ core/html/themes/default/icons/16/actions/down.png
+ core/html/themes/default/icons/16/actions/edit-copy.png
+ core/html/themes/default/icons/16/actions/edit-cut.png
+ core/html/themes/default/icons/16/actions/edit-delete.png
+ core/html/themes/default/icons/16/actions/edit-paste.png
+ core/html/themes/default/icons/16/actions/export.png
+ core/html/themes/default/icons/16/actions/go-first.png
+ core/html/themes/default/icons/16/actions/go-home.png
+ core/html/themes/default/icons/16/actions/go-previous.png
+ core/html/themes/default/icons/16/actions/next.png
+ core/html/themes/default/icons/16/actions/previous.png
+ core/html/themes/default/icons/16/actions/process-stop.png
+ core/html/themes/default/icons/16/actions/remove.png
+ core/html/themes/default/icons/16/actions/save.png
+ core/html/themes/default/icons/16/actions/snapshot.png
+ core/html/themes/default/icons/16/actions/system-reinstall.png
+ core/html/themes/default/icons/16/actions/system-search.png
+ core/html/themes/default/icons/16/actions/system-shutdown.png
+ core/html/themes/default/icons/16/actions/system-update.png
+ core/html/themes/default/icons/16/actions/tools-wizard.png
+ core/html/themes/default/icons/16/actions/up.png
+ core/html/themes/default/icons/16/actions/view-refresh.png
+ core/html/themes/default/icons/16/actions/view-sort-ascending.png
+ core/html/themes/default/icons/16/actions/view-sort-descending.png
+ core/html/themes/default/icons/16/apps/antivirus.png
+ core/html/themes/default/icons/16/apps/apache.png
+ core/html/themes/default/icons/16/apps/imap.png
+ core/html/themes/default/icons/16/apps/internet-mail.png
+ core/html/themes/default/icons/16/apps/office-calendar.png
+ core/html/themes/default/icons/16/apps/os-linux.png
+ core/html/themes/default/icons/16/apps/os-windows.png
+ core/html/themes/default/icons/16/apps/smtp.png
+ core/html/themes/default/icons/16/apps/spamassassin.png
+ core/html/themes/default/icons/16/apps/utilities-system-monitor.png
+ core/html/themes/default/icons/16/categories/acl.png
+ core/html/themes/default/icons/16/categories/applications-internet.png
+ core/html/themes/default/icons/16/devices/computer.png
+ core/html/themes/default/icons/16/devices/media-cdrom.png
+ core/html/themes/default/icons/16/devices/network-device.png
+ core/html/themes/default/icons/16/devices/phone.png
+ core/html/themes/default/icons/16/devices/printer.png
+ core/html/themes/default/icons/16/devices/server.png
+ core/html/themes/default/icons/16/devices/telephone.png
+ core/html/themes/default/icons/16/devices/terminal.png
+ core/html/themes/default/icons/16/mimetypes/application-pdf.png
+ core/html/themes/default/icons/16/mimetypes/text-csv.png
+ core/html/themes/default/icons/16/places/folder.png
+ core/html/themes/default/icons/16/status/dialog-error.png
+ core/html/themes/default/icons/16/status/dialog-password.png
+ core/html/themes/default/icons/16/status/dialog-warning.png
+ core/html/themes/default/icons/16/status/locked.png
+ core/html/themes/default/icons/16/status/task-complete.png
+ core/html/themes/default/icons/16/status/task-failure.png
+ core/html/themes/default/icons/16/status/task-running.png
+ core/html/themes/default/icons/16/status/task-stopped.png
+ core/html/themes/default/icons/16/status/unlocked.png
+ core/html/themes/default/icons/16/types/application.png
+ core/html/themes/default/icons/16/types/resource-group.png
+ core/html/themes/default/icons/16/types/role.png
+ core/html/themes/default/icons/16/types/user-group.png
+ core/html/themes/default/icons/16/types/user.png
+ core/html/themes/default/icons/22/actions/application-exit.png
+ core/html/themes/default/icons/22/actions/go-home.png
+ core/html/themes/default/icons/22/status/dialog-error.png
+ core/html/themes/default/icons/22/status/dialog-information.png
+ core/html/themes/default/icons/32/status/dialog-error.png
+ core/html/themes/default/icons/32/status/dialog-warning.png
+ core/html/themes/default/icons/32/status/object-locked.png
+ core/html/themes/default/icons/48/actions/view-task.png
+ core/html/themes/default/icons/48/apps/apache.png
+ core/html/themes/default/icons/48/apps/config-language.png
+ core/html/themes/default/icons/48/apps/config-welcome.png
+ core/html/themes/default/icons/48/apps/internet-mail.png
+ core/html/themes/default/icons/48/apps/os-linux.png
+ core/html/themes/default/icons/48/apps/samba.png
+ core/html/themes/default/icons/48/apps/utilities-system-monitor.png
+ core/html/themes/default/icons/48/categories/acl.png
+ core/html/themes/default/icons/48/categories/applications-development.png
+ core/html/themes/default/icons/48/categories/settings.png
+ core/html/themes/default/icons/48/devices/computer.png
+ core/html/themes/default/icons/48/places/folder.png
+ core/html/themes/default/icons/48/places/network-server.png
+ core/html/themes/default/icons/48/status/dialog-password.png
+ core/html/themes/default/icons/48/types/contact.png
+ core/html/themes/default/icons/48/types/resource-group.png
+ core/html/themes/default/icons/48/types/user-group.png
+ core/html/themes/default/icons/48/types/user.png
+ core/html/themes/default/icons/scalable/apps/fusiondirectory.png
+ core/html/themes/default/images/border.png 
+ core/ihtml/themes/default/acl.tpl
+ core/ihtml/themes/default/colors.txt
+ core/ihtml/themes/default/conflict.tpl
+ core/ihtml/themes/default/copyPasteDialog.tpl
+ core/ihtml/themes/default/css.tpl
+ core/ihtml/themes/default/framework.tpl
+ core/ihtml/themes/default/headers.tpl
+ core/ihtml/themes/default/islocked.tpl
+ core/ihtml/themes/default/login.tpl
+ core/ihtml/themes/default/logout-close.tpl
+ core/ihtml/themes/default/logout.tpl
+ core/ihtml/themes/default/msg_dialog.tpl
+ core/ihtml/themes/default/password.tpl
+ core/ihtml/themes/default/recovery.tpl
+ core/ihtml/themes/default/remove.tpl
+ core/ihtml/themes/default/setup_header.tpl
+ core/ihtml/themes/default/simple-filter.tpl
+ core/ihtml/themes/default/simple-list.tpl
+ core/ihtml/themes/default/simple-remove.tpl
+ core/ihtml/themes/default/simple-select-list.tpl
+ core/ihtml/themes/default/simpleplugin.tpl
+ core/ihtml/themes/default/simpleplugin_section.tpl
+ core/ihtml/themes/default/sizelimit.tpl
+ core/ihtml/themes/default/snapshotdialog.tpl
+ core/include/select/groupSelect/group-filter.tpl
+ core/include/select/groupSelect/group-filter.xml
+ core/include/select/systemSelect/systemSelect-filter.tpl
+ core/include/select/systemSelect/systemSelect-filter.xml
+ core/include/select/systemSelect/systemSelect-list.tpl
+ core/include/select/systemSelect/systemSelect-list.xml
+ core/include/simpleplugin/simple-filter.xml
+ core/include/simpleplugin/simple-list.xml
+ core/include/simpleplugin/simple-select-list.xml
+ core/plugins/admin/acl/remove.tpl
+ core/plugins/admin/aclrole/acl_role.tpl
+ core/plugins/admin/departments/dep-list.xml
+ core/plugins/admin/groups/generic.tpl
+ core/plugins/admin/groups/group-filter.xml
+ core/plugins/admin/groups/group-list.xml
+ core/plugins/admin/groups/paste_generic.tpl
+ core/plugins/admin/groups/trust_machines.tpl
+ core/plugins/admin/ogroups/generic.tpl
+ core/plugins/admin/ogroups/ogroup-filter.tpl
+ core/plugins/admin/ogroups/ogroup-filter.xml
+ core/plugins/admin/ogroups/ogroup-list.xml
+ core/plugins/admin/ogroups/ogroup_objects.tpl
+ core/plugins/admin/ogroups/paste_generic.tpl
+ core/plugins/admin/ogroups/remove.tpl
+ core/plugins/admin/ogroups/trust_machines.tpl
+ core/plugins/admin/password/recoveryConfig.tpl
+ core/plugins/admin/users/password.tpl
+ core/plugins/admin/users/remove.tpl
+ core/plugins/admin/users/template.tpl
+ core/plugins/admin/users/templatize.tpl
+ core/plugins/admin/users/user-filter.tpl
+ core/plugins/admin/users/user-filter.xml
+ core/plugins/admin/users/user-list.xml
+ core/plugins/generic/references/contents.tpl
+ core/plugins/generic/welcome/welcome.tpl
+ core/plugins/personal/generic/changed.tpl
+ core/plugins/personal/generic/generic.tpl
+ core/plugins/personal/generic/generic_certs.tpl
+ core/plugins/personal/generic/generic_picture.tpl
+ core/plugins/personal/generic/nochange.tpl
+ core/plugins/personal/generic/password.tpl
+ core/plugins/personal/generic/paste_generic.tpl
+ core/plugins/personal/password/changed.tpl
+ core/plugins/personal/password/nochange.tpl
+ core/plugins/personal/password/password.tpl
+ core/plugins/personal/posix/trustSelect/trust-filter.tpl
+ core/plugins/personal/posix/trustSelect/trust-filter.xml
+ core/plugins/personal/posix/trustSelect/trust-list.tpl
+ core/plugins/personal/posix/trustSelect/trust-list.xml
+ core/setup/setup.tpl
+ core/setup/setup_checks.tpl
+ core/setup/setup_config1.tpl
+ core/setup/setup_config2.tpl
+ core/setup/setup_config3.tpl
+ core/setup/setup_feedback.tpl
+ core/setup/setup_finish.tpl
+ core/setup/setup_frame.tpl
+ core/setup/setup_language.tpl
+ core/setup/setup_ldap.tpl
+ core/setup/setup_migrate.tpl
+ core/setup/setup_schema.tpl
+ core/setup/setup_welcome.tpl 
+ plugins/addressbook/addons/addressbook/address_edit.tpl
+ plugins/addressbook/addons/addressbook/address_info.tpl
+ plugins/addressbook/addons/addressbook/contents.tpl
+ plugins/addressbook/addons/addressbook/dial.tpl
+ plugins/addressbook/addons/addressbook/remove.tpl
+ plugins/addressbook/html/images/addr_company.png
+ plugins/addressbook/html/images/addr_home.png
+ plugins/addressbook/html/images/addr_personal.png
+ plugins/addressbook/html/images/icon.png
+ plugins/addressbook/html/images/iconMini.png
+ plugins/addressbook/html/images/objects.png
+ plugins/addressbook/html/images/phone.png
+ plugins/alias/contrib/openldap/alias-fd-conf.schema
+ plugins/alias/contrib/openldap/alias-fd.schema
+ plugins/alias/html/images/icon.png
+ plugins/alias/html/images/iconMini.png
+ plugins/alias/html/images/iconMiniMailDistribution.png
+ plugins/alias/html/images/iconMiniMailredirection.png
+ plugins/alias/html/images/iconMiniSympa.png
+ plugins/apache2/admin/systems/services/apache2/remove.tpl
+ plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEdit-filter.tpl
+ plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEdit-filter.xml
+ plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEdit-list.tpl
+ plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEdit-list.xml
+ plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEditFooter.tpl
+ plugins/apache2/contrib/openldap/mod_vhost_ldap.schema
+ plugins/argonaut/addons/argonaut/argonaut_import_file.tpl
+ plugins/argonaut/addons/argonaut/deploy-filter.xml
+ plugins/argonaut/addons/argonaut/deploy-list.tpl
+ plugins/argonaut/addons/argonaut/deploy-list.xml
+ plugins/argonaut/addons/argonaut/events/DaemonEvent.tpl
+ plugins/argonaut/addons/argonaut/events/eventTargetSystems-filter.tpl
+ plugins/argonaut/addons/argonaut/events/eventTargetSystems-filter.xml
+ plugins/argonaut/addons/argonaut/events/eventTargetSystems-list.xml
+ plugins/argonaut/addons/argonaut/events/target_list.tpl
+ plugins/argonaut/addons/argonaut/events/timestamp_select.tpl
+ plugins/argonaut/addons/argonaut/remove.tpl
+ plugins/argonaut/contrib/openldap/argonaut-fd.schema
+ plugins/argonaut/html/images/iconMini.png
+ plugins/argonaut/html/images/iconMiniDnsConfig.png
+ plugins/argonaut/html/images/iconMiniFuseConfig.png
+ plugins/argonaut/html/images/iconMiniMirrorConfig.png
+ plugins/asterisk/addons/fonreports/contents.tpl
+ plugins/asterisk/admin/conference/conf-filter.tpl
+ plugins/asterisk/admin/conference/conf-filter.xml
+ plugins/asterisk/admin/conference/conf-list.xml
+ plugins/asterisk/admin/conference/generic.tpl
+ plugins/asterisk/admin/conference/paste_generic.tpl
+ plugins/asterisk/admin/conference/remove.tpl
+ plugins/asterisk/admin/macro/generic.tpl
+ plugins/asterisk/admin/macro/macro-filter.tpl
+ plugins/asterisk/admin/macro/macro-filter.xml
+ plugins/asterisk/admin/macro/macro-list.xml
+ plugins/asterisk/admin/macro/parameter.tpl
+ plugins/asterisk/admin/macro/paste_generic.tpl
+ plugins/asterisk/admin/macro/remove.tpl
+ plugins/asterisk/admin/ogroups/asterisk/phonequeue.tpl
+ plugins/asterisk/admin/systems/asterisk/phone.tpl
+ plugins/asterisk/admin/systems/asterisk/phonesettings.tpl
+ plugins/asterisk/contrib/openldap/asterisk-fd-conf.schema
+ plugins/asterisk/contrib/openldap/asterisk-fd.schema
+ plugins/asterisk/contrib/sql/asteriskcdrdb.sql
+ plugins/asterisk/html/images/hardware.png
+ plugins/asterisk/html/images/icon.png
+ plugins/asterisk/html/images/iconConference.png
+ plugins/asterisk/html/images/iconMacros.png
+ plugins/asterisk/html/images/iconMini.png
+ plugins/asterisk/html/images/iconMiniConference.png
+ plugins/asterisk/html/images/iconMiniMacros.png
+ plugins/asterisk/html/images/iconReport.png
+ plugins/asterisk/html/images/options.png
+ plugins/asterisk/html/images/sound.png
+ plugins/asterisk/personal/phoneaccount/generic.tpl
+ plugins/asterisk/personal/phoneaccount/paste_generic.tpl
+ plugins/autofs/contrib/openldap/autofs-fd-conf.schema
+ plugins/autofs/html/images/folder-remote.png
+ plugins/autofs/html/images/folder.png
+ plugins/autofs/html/images/icon.png
+ plugins/autofs/html/images/iconMini.png
+ plugins/autofs/html/images/iconMiniNisMap.png
+ plugins/autofs/html/images/iconMiniNisObject.png
+ plugins/cyrus/contrib/openldap/cyrus-fd.schema
+ plugins/cyrus/html/images/icon.png
+ plugins/cyrus/html/images/iconMini.png
+ plugins/cyrus/personal/mail/mail-methods/sieve_script.tpl
+ plugins/dashboard/addons/dashboard/contents.tpl
+ plugins/dashboard/addons/dashboard/main_stats.tpl
+ plugins/dashboard/addons/dashboard/network_dhcp.tpl
+ plugins/dashboard/addons/dashboard/systems_pcids.tpl
+ plugins/dashboard/addons/dashboard/systems_stats.tpl
+ plugins/dashboard/addons/dashboard/users_accounts.tpl
+ plugins/dashboard/addons/dashboard/users_stats.tpl
+ plugins/dashboard/contrib/openldap/dashboard-fd-conf.schema
+ plugins/debconf/admin/debconfProfile/debconfProfile-filter.tpl
+ plugins/debconf/admin/debconfProfile/debconfProfile-filter.xml
+ plugins/debconf/contrib/openldap/debconf-fd.schema
+ plugins/debconf/contrib/openldap/debconf.schema
+ plugins/debconf/contrib/openldap/example.ldif
+ plugins/debconf/html/images/icon.png
+ plugins/debconf/html/images/iconMini.png
+ plugins/desktop-management/admin/applications/parameters.tpl
+ plugins/desktop-management/admin/groups/apps/app_list.tpl
+ plugins/desktop-management/admin/groups/apps/edit_entry.tpl
+ plugins/desktop-management/admin/mimetypes/generic.tpl
+ plugins/desktop-management/contrib/openldap/application-fd.schema
+ plugins/desktop-management/contrib/openldap/desktop-fd-conf.schema
+ plugins/desktop-management/contrib/openldap/mime-fd.schema
+ plugins/desktop-management/html/images/default_icon.png
+ plugins/desktop-management/html/images/iconApplication.png
+ plugins/desktop-management/html/images/iconMimetypes.png
+ plugins/desktop-management/html/images/iconMiniApplications.png
+ plugins/desktop-management/html/images/iconMiniMimetypes.png
+ plugins/desktop-management/html/images/list_mime.png
+ plugins/desktop-management/html/images/list_new_mime.png
+ plugins/desktop-management/html/images/mime_embedding.png
+ plugins/desktop-management/html/images/mime_leftclick.png
+ plugins/desktop-management/html/images/select_application.png
+ plugins/desktop-management/html/images/select_mimetype.png
+ plugins/developers/FDStandard/ruleset.xml
+ plugins/developers/debug-help/addons/debug-help/debughelp.tpl
+ plugins/developers/debug-help/html/images/icon.png
+ plugins/developers/filter.xsd
+ plugins/developers/list.xsd
+ plugins/developers/simple-plugin/demoPlugin/demoplugin.ldif
+ plugins/developers/simple-plugin/demoPlugin/demoplugin.schema
+ plugins/developers/simple-plugin/screenshots/base.png
+ plugins/developers/simple-plugin/screenshots/boolean-false.png
+ plugins/developers/simple-plugin/screenshots/boolean-true.png
+ plugins/developers/simple-plugin/screenshots/date1.png
+ plugins/developers/simple-plugin/screenshots/demoPlugin.png
+ plugins/developers/simple-plugin/screenshots/file.png
+ plugins/developers/simple-plugin/screenshots/float.png
+ plugins/developers/simple-plugin/screenshots/int.png
+ plugins/developers/simple-plugin/screenshots/orderedarray.png
+ plugins/developers/simple-plugin/screenshots/password.png
+ plugins/developers/simple-plugin/screenshots/select.png
+ plugins/developers/simple-plugin/screenshots/set.png
+ plugins/developers/simple-plugin/screenshots/string.png
+ plugins/developers/simple-plugin/screenshots/users1.png
+ plugins/developers/simple-plugin/screenshots/users2.png
+ plugins/developers/simple-plugin/screenshots/users3.png
+ plugins/dhcp/admin/systems/services/dhcp/dhcpNewSection.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_advanced.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_dnszone.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_group.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_host.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_network.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_pool.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_service.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_sharedNetwork.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_subnet.tpl
+ plugins/dhcp/admin/systems/services/dhcp/dhcp_tsigkey.tpl
+ plugins/dhcp/admin/systems/services/dhcp/remove_dhcp.tpl
+ plugins/dhcp/admin/systems/services/dhcp/serviceDHCP.tpl
+ plugins/dhcp/contrib/openldap/dhcp-fd.schema
+ plugins/dhcp/html/images/icon.png
+ plugins/dhcp/html/images/iconMini.png
+ plugins/dns/admin/systems/services/dns/serviceDNS.tpl
+ plugins/dns/admin/systems/services/dns/serviceDNSeditZone.tpl
+ plugins/dns/admin/systems/services/dns/serviceDNSeditZoneEntries.tpl
+ plugins/dns/contrib/openldap/dns-fd-conf.schema
+ plugins/dns/contrib/openldap/dnszone.schema
+ plugins/dns/html/images/icon.png
+ plugins/dns/html/images/iconMini.png
+ plugins/dovecot/contrib/openldap/dovecot-fd.schema
+ plugins/dovecot/html/images/icon.png
+ plugins/dovecot/html/images/iconMini.png
+ plugins/dsa/contrib/openldap/dsa-fd-conf.schema
+ plugins/dsa/html/images/icon.png
+ plugins/dsa/html/images/iconMini.png
+ plugins/fai/admin/fai/askClassName.tpl
+ plugins/fai/admin/fai/branch_selector.tpl
+ plugins/fai/admin/fai/classSelect/selectClass-filter.tpl
+ plugins/fai/admin/fai/classSelect/selectClass-filter.xml
+ plugins/fai/admin/fai/classSelect/selectClass-list.tpl
+ plugins/fai/admin/fai/classSelect/selectClass-list.xml
+ plugins/fai/admin/fai/fai-filter.tpl
+ plugins/fai/admin/fai/fai-filter.xml
+ plugins/fai/admin/fai/fai-list.tpl
+ plugins/fai/admin/fai/fai-list.xml
+ plugins/fai/admin/fai/faiDiskEntry.tpl
+ plugins/fai/admin/fai/faiGroupHandle.tpl
+ plugins/fai/admin/fai/faiHook.tpl
+ plugins/fai/admin/fai/faiHookEntry.tpl
+ plugins/fai/admin/fai/faiNewBranch.tpl
+ plugins/fai/admin/fai/faiPackage.tpl
+ plugins/fai/admin/fai/faiPackageConfiguration.tpl
+ plugins/fai/admin/fai/faiPartition.tpl
+ plugins/fai/admin/fai/faiPartitionTable.tpl
+ plugins/fai/admin/fai/faiPartitionTableEntry.tpl
+ plugins/fai/admin/fai/faiProfile.tpl
+ plugins/fai/admin/fai/faiProfileEntry.tpl
+ plugins/fai/admin/fai/faiScript.tpl
+ plugins/fai/admin/fai/faiScriptEntry.tpl
+ plugins/fai/admin/fai/faiTemplate.tpl
+ plugins/fai/admin/fai/faiTemplateEdit.tpl
+ plugins/fai/admin/fai/faiTemplateEntry.tpl
+ plugins/fai/admin/fai/faiVariable.tpl
+ plugins/fai/admin/fai/faiVariableEntry.tpl
+ plugins/fai/admin/fai/packageSelect/selectPackage-filter.tpl
+ plugins/fai/admin/fai/packageSelect/selectPackage-filter.xml
+ plugins/fai/admin/fai/packageSelect/selectPackage-list.tpl
+ plugins/fai/admin/fai/packageSelect/selectPackage-list.xml
+ plugins/fai/admin/fai/paste_generic.tpl
+ plugins/fai/admin/fai/remove.tpl
+ plugins/fai/admin/fai/remove_branch.tpl
+ plugins/fai/admin/systems/services/repository/fai_repository.tpl
+ plugins/fai/contrib/openldap/fai-fd-conf.schema
+ plugins/fai/html/images/branch.png
+ plugins/fai/html/images/branch_small.png
+ plugins/fai/html/images/branch_small_grey.png
+ plugins/fai/html/images/fai_hook.png
+ plugins/fai/html/images/fai_new_hook.png
+ plugins/fai/html/images/fai_new_packages.png
+ plugins/fai/html/images/fai_new_partitionTable.png
+ plugins/fai/html/images/fai_new_profile.png
+ plugins/fai/html/images/fai_new_script.png
+ plugins/fai/html/images/fai_new_template.png
+ plugins/fai/html/images/fai_new_variable.png
+ plugins/fai/html/images/fai_packages.png
+ plugins/fai/html/images/fai_partitionTable.png
+ plugins/fai/html/images/fai_profile.png
+ plugins/fai/html/images/fai_script.png
+ plugins/fai/html/images/fai_small.png
+ plugins/fai/html/images/fai_template.png
+ plugins/fai/html/images/fai_variable.png
+ plugins/fai/html/images/freeze.png
+ plugins/fai/html/images/freeze_grey.png
+ plugins/fai/html/images/icon.png
+ plugins/fai/html/images/iconMini.png
+ plugins/fai/html/images/iconMiniRepository.png
+ plugins/fai/html/images/package_configure.png
+ plugins/fai/html/images/raid.png
+ plugins/fai/html/images/removal_mark.png
+ plugins/fax/addons/faxreports/contents.tpl
+ plugins/fax/addons/faxreports/detail.tpl
+ plugins/fax/contrib/openldap/fax-fd-conf.schema
+ plugins/fax/contrib/openldap/fax-fd.schema
+ plugins/fax/contrib/sql/gofax.sql
+ plugins/fax/html/images/icon.png
+ plugins/fax/html/images/iconBlocklists.png
+ plugins/fax/html/images/iconMini.png
+ plugins/fax/html/images/iconMiniBlocklists.png
+ plugins/fax/html/images/iconMiniBlocklistsReceive.png
+ plugins/fax/html/images/iconMiniBlocklistsSend.png
+ plugins/fax/html/images/iconReport.png
+ plugins/fax/html/images/printer.png
+ plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-filter.tpl
+ plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-filter.xml
+ plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-list.tpl
+ plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-list.xml
+ plugins/fax/personal/faxaccount/generic.tpl
+ plugins/fax/personal/faxaccount/lists.tpl
+ plugins/fax/personal/faxaccount/locals.tpl
+ plugins/fax/personal/faxaccount/paste_generic.tpl
+ plugins/freeradius/contrib/openldap/freeradius.schema
+ plugins/freeradius/html/images/icon.png
+ plugins/freeradius/html/images/iconMini.png
+ plugins/fusioninventory/admin/inventory/inventory-list.xml
+ plugins/fusioninventory/admin/systems/fusioninventory/inventory.tpl
+ plugins/fusioninventory/contrib/openldap/fusioninventory-fd-conf.schema
+ plugins/fusioninventory/contrib/openldap/fusioninventory-fd.schema
+ plugins/fusioninventory/contrib/openldap/inventory-fd.schema
+ plugins/fusioninventory/html/images/icon.png
+ plugins/fusioninventory/html/images/iconMini.png
+ plugins/fusioninventory/html/plugins/inventory.css
+ plugins/game/addons/game/game.tpl
+ plugins/game/html/images/game_logo.png
+ plugins/game/html/images/icon.png
+ plugins/game/html/images/iconMini.png
+ plugins/game/html/images/mission_complete.png
+ plugins/game/html/images/win.png
+ plugins/gpg/contrib/openldap/gpg-fd.schema
+ plugins/gpg/html/images/icon.png
+ plugins/gpg/html/images/iconMini.png
+ plugins/gpg/personal/gpg/pgpKeySelect/pgpKeySelect-filter.xml
+ plugins/gpg/personal/gpg/pgpKeySelect/pgpKeySelect-list.tpl
+ plugins/gpg/personal/gpg/pgpKeySelect/pgpKeySelect-list.xml
+ plugins/ipmi/contrib/openldap/ipmi-fd.schema
+ plugins/kolab/admin/ogroups/kolab/mail.tpl
+ plugins/kolab/admin/ogroups/kolab/paste_mail.tpl
+ plugins/kolab/html/images/icon.png
+ plugins/kolab/html/images/iconMini.png
+ plugins/ldapdump/addons/ldapdump/ldapdump.tpl
+ plugins/ldapmanager/addons/ldapmanager/contentcsv.tpl
+ plugins/ldapmanager/html/images/icon.png
+ plugins/ldapmanager/html/images/iconMini.png
+ plugins/mail/contrib/openldap/mail-fd-conf.schema
+ plugins/mail/contrib/openldap/mail-fd.schema
+ plugins/mail/html/images/sieve_add_new_bottom.png
+ plugins/mail/html/images/sieve_add_new_top.png
+ plugins/mail/html/images/sieve_add_test.png
+ plugins/mail/personal/mail/sieve/templates/add_element.tpl
+ plugins/mail/personal/mail/sieve/templates/block_indent_start.tpl
+ plugins/mail/personal/mail/sieve/templates/block_indent_stop.tpl
+ plugins/mail/personal/mail/sieve/templates/create_script.tpl
+ plugins/mail/personal/mail/sieve/templates/edit_frame_base.tpl
+ plugins/mail/personal/mail/sieve/templates/element_address.tpl
+ plugins/mail/personal/mail/sieve/templates/element_allof.tpl
+ plugins/mail/personal/mail/sieve/templates/element_anyof.tpl
+ plugins/mail/personal/mail/sieve/templates/element_block_end.tpl
+ plugins/mail/personal/mail/sieve/templates/element_block_start.tpl
+ plugins/mail/personal/mail/sieve/templates/element_boolean.tpl
+ plugins/mail/personal/mail/sieve/templates/element_comment.tpl
+ plugins/mail/personal/mail/sieve/templates/element_discard.tpl
+ plugins/mail/personal/mail/sieve/templates/element_else.tpl
+ plugins/mail/personal/mail/sieve/templates/element_elsif.tpl
+ plugins/mail/personal/mail/sieve/templates/element_envelope.tpl
+ plugins/mail/personal/mail/sieve/templates/element_exists.tpl
+ plugins/mail/personal/mail/sieve/templates/element_fileinto.tpl
+ plugins/mail/personal/mail/sieve/templates/element_header.tpl
+ plugins/mail/personal/mail/sieve/templates/element_if.tpl
+ plugins/mail/personal/mail/sieve/templates/element_keep.tpl
+ plugins/mail/personal/mail/sieve/templates/element_redirect.tpl
+ plugins/mail/personal/mail/sieve/templates/element_reject.tpl
+ plugins/mail/personal/mail/sieve/templates/element_require.tpl
+ plugins/mail/personal/mail/sieve/templates/element_size.tpl
+ plugins/mail/personal/mail/sieve/templates/element_stop.tpl
+ plugins/mail/personal/mail/sieve/templates/element_vacation.tpl
+ plugins/mail/personal/mail/sieve/templates/import_script.tpl
+ plugins/mail/personal/mail/sieve/templates/management.tpl
+ plugins/mail/personal/mail/sieve/templates/object_container.tpl
+ plugins/mail/personal/mail/sieve/templates/object_container_clear.tpl
+ plugins/mail/personal/mail/sieve/templates/object_test_container.tpl
+ plugins/mail/personal/mail/sieve/templates/remove_script.tpl
+ plugins/mail/personal/mail/sieve/templates/select_test_type.tpl
+ plugins/nagios/contrib/openldap/nagios-fd-conf.schema
+ plugins/nagios/contrib/openldap/netways.schema
+ plugins/nagios/html/images/icon.png
+ plugins/nagios/html/images/iconMini.png
+ plugins/nagios/personal/nagios/nagios.tpl
+ plugins/netgroups/contrib/openldap/netgroups-fd-conf.schema
+ plugins/netgroups/html/images/icon.png
+ plugins/netgroups/html/images/iconMini.png
+ plugins/openstack-compute/contrib/openldap/nova_openldap.schema
+ plugins/openstack-compute/html/images/icon.png
+ plugins/openstack-compute/html/images/iconMini.png
+ plugins/opsi/addons/opsi/opsiimport.tpl
+ plugins/opsi/contrib/openldap/opsi-fd-conf.schema
+ plugins/opsi/contrib/openldap/opsi-fd.schema
+ plugins/opsi/html/images/icon.png
+ plugins/opsi/html/images/iconMini.png
+ plugins/opsi/html/images/iconMiniSoftwareList.png
+ plugins/opsi/html/images/iconMiniSoftwareOnDemand.png
+ plugins/opsi/html/images/iconSoftwareList.png
+ plugins/opsi/html/images/iconSoftwareOnDemand.png
+ plugins/puppet/contrib/openldap/puppet-fd.schema
+ plugins/puppet/contrib/openldap/puppet.schema
+ plugins/puppet/html/images/icon.png
+ plugins/puppet/html/images/iconMini.png
+ plugins/pureftpd/contrib/openldap/pureftpd.schema
+ plugins/pureftpd/html/images/icon.png
+ plugins/pureftpd/html/images/iconMini.png
+ plugins/quota/admin/systems/services/quota/service_quota_parameters.tpl
+ plugins/quota/contrib/openldap/quota-fd.schema
+ plugins/quota/contrib/openldap/quota.schema
+ plugins/quota/html/images/icon.png
+ plugins/quota/html/images/iconMini.png
+ plugins/quota/personal/quota/quota_section.tpl
+ plugins/repository/contrib/openldap/repository-fd-conf.schema
+ plugins/repository/contrib/openldap/repository-fd.schema
+ plugins/repository/html/images/icon.png
+ plugins/repository/html/images/iconDistribution.png
+ plugins/repository/html/images/iconMini.png
+ plugins/repository/html/images/iconSection.png
+ plugins/rsyslog/addons/rsyslog/rSyslog.tpl
+ plugins/rsyslog/html/images/clock.png
+ plugins/rsyslog/html/images/icon.png
+ plugins/rsyslog/html/images/iconMini.png
+ plugins/rsyslog/html/images/server.png
+ plugins/rsyslog/html/images/workstation.png
+ plugins/samba/contrib/openldap/samba-fd-conf.schema
+ plugins/samba/personal/samba/sambaLogonHours.tpl
+ plugins/sogo/contrib/openldap/calEntry.schema
+ plugins/sogo/contrib/openldap/calRessources.schema
+ plugins/sogo/contrib/openldap/sogo-fd-conf.schema
+ plugins/sogo/html/images/icon.png
+ plugins/sogo/html/images/iconMini.png
+ plugins/squid/contrib/openldap/proxy-fd.schema
+ plugins/squid/html/images/icon.png
+ plugins/squid/html/images/iconMini.png
+ plugins/squid/personal/squid/proxyAccount.tpl
+ plugins/ssh/contrib/openldap/openssh-lpk.schema
+ plugins/ssh/html/images/icon.png
+ plugins/ssh/html/images/iconMini.png
+ plugins/sudo/admin/sudo/usedoptions_section.tpl
+ plugins/sudo/contrib/openldap/sudo-fd-conf.schema
+ plugins/sudo/contrib/openldap/sudo.schema
+ plugins/sudo/html/images/icon.png
+ plugins/sudo/html/images/iconMini.png
+ plugins/sudo/html/images/iconMiniDefault.png
+ plugins/sudo/html/images/iconMiniRole.png
+ plugins/sudo/html/images/negate.png
+ plugins/sudo/html/images/select_workstation.png
+ plugins/supann/contrib/openldap/internet2.schema
+ plugins/supann/contrib/openldap/supann-fd-conf.schema
+ plugins/supann/contrib/openldap/supann_2009.schema
+ plugins/supann/contrib/supann/activite_CNU
+ plugins/supann/contrib/supann/activite_REFERENS
+ plugins/supann/contrib/supann/affiliation
+ plugins/supann/contrib/supann/corps
+ plugins/supann/contrib/supann/diplome_EXAMPLE
+ plugins/supann/contrib/supann/diplome_SISE
+ plugins/supann/contrib/supann/discipline_EXAMPLE
+ plugins/supann/contrib/supann/discipline_SISE
+ plugins/supann/contrib/supann/entite
+ plugins/supann/contrib/supann/etablissement_SUPANN
+ plugins/supann/contrib/supann/etuelementpedagogique_EXAMPLE
+ plugins/supann/contrib/supann/etuetape_EXAMPLE
+ plugins/supann/contrib/supann/eturegimeinscription_EXAMPLE
+ plugins/supann/contrib/supann/eturegimeinscription_SISE
+ plugins/supann/contrib/supann/role
+ plugins/supann/contrib/supann/typediplome_EXAMPLE
+ plugins/supann/contrib/supann/typediplome_SISE
+ plugins/supann/html/images/affiliation.png
+ plugins/supann/html/images/icon.png
+ plugins/supann/html/images/iconMini.png
+ plugins/supann/html/images/iconMiniEntite.png
+ plugins/supann/html/images/iconMiniEtablissement.png
+ plugins/supann/html/images/profil.png
+ plugins/supann/personal/supann/student_subscription.tpl
+ plugins/sympa/contrib/openldap/sympa-fd.schema
+ plugins/sympa/html/images/icon.png
+ plugins/sympa/html/images/iconMini.png
+ plugins/systems/admin/ogroups/goto/termgroup.tpl
+ plugins/systems/admin/systems/SelectDeviceType.tpl
+ plugins/systems/admin/systems/gencd.tpl
+ plugins/systems/admin/systems/gencd_frame.tpl
+ plugins/systems/admin/systems/network.tpl
+ plugins/systems/admin/systems/network_section.tpl
+ plugins/systems/admin/systems/password.tpl
+ plugins/systems/admin/systems/phoneSelect/phoneSelect-filter.tpl
+ plugins/systems/admin/systems/phoneSelect/phoneSelect-filter.xml
+ plugins/systems/admin/systems/phoneSelect/phoneSelect-list.tpl
+ plugins/systems/admin/systems/phoneSelect/phoneSelect-list.xml
+ plugins/systems/admin/systems/ppd/printerPPDDialog.tpl
+ plugins/systems/admin/systems/ppd/printerPPDSelectionDialog.tpl
+ plugins/systems/admin/systems/ppd/remove_ppd.tpl
+ plugins/systems/admin/systems/printer.tpl
+ plugins/systems/admin/systems/remove.tpl
+ plugins/systems/admin/systems/serverService-filter.tpl
+ plugins/systems/admin/systems/serverService-filter.xml
+ plugins/systems/admin/systems/serverService-list.tpl
+ plugins/systems/admin/systems/serverService-list.xml
+ plugins/systems/admin/systems/server_import.tpl
+ plugins/systems/admin/systems/services/ServiceAddDialog.tpl
+ plugins/systems/admin/systems/services/cups/serviceCUPS.tpl
+ plugins/systems/admin/systems/services/shares/service_share.tpl
+ plugins/systems/admin/systems/system-filter.tpl
+ plugins/systems/admin/systems/system-filter.xml
+ plugins/systems/admin/systems/system-list.xml
+ plugins/systems/contrib/openldap/service-fd.schema
+ plugins/systems/contrib/openldap/systems-fd-conf.schema
+ plugins/systems/contrib/openldap/systems-fd.schema
+ plugins/systems/html/images/branch.png
+ plugins/systems/html/images/clock.png
+ plugins/systems/html/images/display.png
+ plugins/systems/html/images/drives.png
+ plugins/systems/html/images/edit_share.png
+ plugins/systems/html/images/fai_settings.png
+ plugins/systems/html/images/freeze.png
+ plugins/systems/html/images/hardware.png
+ plugins/systems/html/images/hotplug.png
+ plugins/systems/html/images/iconHotplugDevices.png
+ plugins/systems/html/images/iconMiniHotPlugDevices.png
+ plugins/systems/html/images/keyboard.png
+ plugins/systems/html/images/kiosk.png
+ plugins/systems/html/images/list_new_app.png
+ plugins/systems/html/images/list_new_device.png
+ plugins/systems/html/images/list_reset_password.png
+ plugins/systems/html/images/localboot.png
+ plugins/systems/html/images/logon_script.png
+ plugins/systems/html/images/memcheck.png
+ plugins/systems/html/images/mouse.png
+ plugins/systems/html/images/notify.png
+ plugins/systems/html/images/prio_decrease.png
+ plugins/systems/html/images/prio_increase.png
+ plugins/systems/html/images/reinstall.png
+ plugins/systems/html/images/rescan.png
+ plugins/systems/html/images/scanner.png
+ plugins/systems/html/images/select_default.png
+ plugins/systems/html/images/select_device.png
+ plugins/systems/html/images/select_new_server.png
+ plugins/systems/html/images/select_new_terminal.png
+ plugins/systems/html/images/select_new_workstation.png
+ plugins/systems/html/images/select_newsystem.png
+ plugins/systems/html/images/server_busy.png
+ plugins/systems/html/images/server_error.png
+ plugins/systems/html/images/server_locked.png
+ plugins/systems/html/images/service_apache.png
+ plugins/systems/html/images/service_file.png
+ plugins/systems/html/images/service_imap.png
+ plugins/systems/html/images/service_ldap.png
+ plugins/systems/html/images/service_ntp.png
+ plugins/systems/html/images/service_print.png
+ plugins/systems/html/images/service_terminal.png
+ plugins/systems/html/images/status_pause.png
+ plugins/systems/html/images/status_restart_all.png
+ plugins/systems/html/images/status_restarting.png
+ plugins/systems/html/images/status_start.png
+ plugins/systems/html/images/status_start_all.png
+ plugins/systems/html/images/status_stop.png
+ plugins/systems/html/images/status_stop_all.png
+ plugins/systems/html/images/sysinfo.png
+ plugins/systems/html/images/terminal_error.png
+ plugins/systems/html/images/terminal_locked.png
+ plugins/systems/html/images/view_logs.png
+ plugins/systems/html/images/workstation_busy.png
+ plugins/systems/html/images/workstation_error.png
+ plugins/systems/html/images/workstation_locked.png
+ plugins/uw-imap/personal/mail/uw-imap/procmail_script.tpl
+ plugins/weblink/contrib/openldap/weblink-fd.schema
+ plugins/webservice/contrib/bin/fusiondirectory-shell
+ plugins/webservice/contrib/docs/jsonrpc.php.doc
+ plugins/webservice/contrib/man/fusiondirectory-shell.1
+ plugins/webservice/contrib/openldap/webservice-fd-conf.schema
+Copyright: *No copyright*
+License: GPL-2+
+Comment:
+ Assuming license from core/COPYING.
+
+Files: plugins/fai/contrib/openldap/fai.schema
+Copyright: 2005-2009, Cajus Pollmeier
+           2005-2009, Thomas Lange
 License: GPL-2+
 
-Files: pulldown.js
-Copyright: 2004 Knallgrau New Medias Solutions GmbH, BSD
+Files: plugins/gpg/contrib/openldap/pgp-keyserver.schema
+ plugins/gpg/contrib/openldap/pgp-keyserver.schema
+ plugins/gpg/contrib/openldap/pgp-recon.schema
+ plugins/gpg/contrib/openldap/pgp-remte-prefs.schema
+Copyright: 2001-2003, PGP Corporation
+License: BSD-3-clause
+
+Files: plugins/kolab/contrib/openldap/kolab2.schema
+Copyright: 2003-2004, Tassilo Erlewein
+           2003-2007, Martin Konold
+           2003, Achim Frank
+License: BSD-3-clause
+
+Files: plugins/samba/contrib/fix_munged
+Copyright: 2003, Achim Frank    
+           2006, Jan Wenzel
+           2011, FusionDirectory
+License: GPL-2+
+
+Files: plugins/developers/FDStandard/Sniffs/Foreach/ReferenceSniff.php
+ plugins/developers/FDStandard/Sniffs/Returns/ParenthesisSniff.php
+ plugins/developers/FDStandard/Sniffs/WhiteSpace/AssignmentSpacingSniff.php
+ plugins/developers/FDStandard/Sniffs/WhiteSpace/ConditionSpacingSniff.php
+ plugins/developers/FDStandard/Sniffs/WhiteSpace/FunctionCallArgumentSpacingSniff.php
+Copyright: Come Bernigaud
+License: BSD-3-clause
+
+Files: plugins/argonaut/addons/argonaut/events/class_DaemonEvent.inc
+ core/include/class_log.inc
+ core/setup/class_setupStep.inc
+ core/setup/class_setupStep_Config1.inc
+ core/setup/class_setupStep_Config2.inc
+ core/setup/class_setupStep_Config3.inc
+ core/setup/class_setupStep_Finish.inc
+ core/setup/class_setupStep_Language.inc
+ core/setup/class_setupStep_Ldap.inc
+ core/setup/class_setupStep_Migrate.inc
+ core/setup/class_setupStep_Schema.inc
+ core/setup/class_setupStep_Welcome.inc
+ core/setup/main.inc
+Copyright: 2006, Fabian Hickert
+  2007, Fabian Hickert
+  2011-2013, FusionDirectory
+  2011-2014, FusionDirectory
+License: GPL-2+
+
+Files: plugins/alias/admin/alias/class_aliasManagement.inc
+ plugins/kolab/personal/kolab/main.inc
+ plugins/quota/admin/systems/services/quota/class_serviceQuota.inc
+ plugins/quota/personal/quota/class_quotaAccount.inc
+ plugins/supann/personal/supann/class_supannAccount.inc
+Copyright: 2010, Antoine Gallavardin
+  2010-2012, Antoine Gallavardin
+  2011-2013, FusionDirectory
+  2012-2013, FusionDirectory
+  2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/dashboard/addons/dashboard/class_dashBoard.inc
+ plugins/dashboard/addons/dashboard/class_dashBoardNetwork.inc
+ plugins/dashboard/addons/dashboard/class_dashBoardSystems.inc
+ plugins/dashboard/addons/dashboard/class_dashBoardUsers.inc
+ plugins/opsi/addons/opsi/class_opsiImport.inc
+Copyright: 2010, Antoine Gallavardin
+  2011-2013, FusionDirectory project
+License: GPL-2+
+
+Files: plugins/netgroups/admin/netgroups/class_filterNetGroupLDAP.inc
+ plugins/netgroups/admin/netgroups/class_netgroup.inc
+ plugins/netgroups/personal/netgroups/class_netgroupMembership.inc
+Copyright: 2011, Alejandro Escanero Blanco (aescanero@gmail.com)
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/addressbook/html/getvcard.php
+ plugins/freeradius/admin/freeradius/class_freeradiusGroup.inc
+ plugins/freeradius/personal/freeradius/class_freeradiusAccount.inc
+Copyright: 2003-2008, GONICUS GmbH
+  2003-2009, GONICUS GmbH
+  2011, FusionDirectory
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/argonaut/include/jsonRPCClient.php
+ plugins/webservice/include/jsonrpcphp/jsonRPCServer.php
+Copyright: 2007, Sergio Vaccaro <sergio@inservibile.org>
+  2012-2013, FusionDirectory
+  2013, FusionDirectory
+License: GPL-2+
+
+Files: core/include/class_ldap.inc
+Copyright: 1998, Eric Kilfoil <eric@ipass.net>
+  2003, Alejandro Escanero Blanco <aescanero@chaosdimension.org>
+  2003-2010, Cajus Pollmeier
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/mail/admin/groups/mail/class_groupMail.inc
+Copyright: 2009-2010, Bas Tichelaar
+  2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/nagios/personal/nagios/main.inc
+Copyright: 2005, Benoit Mortier
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/nagios/personal/nagios/class_nagiosAccount.inc
+Copyright: 2005, Guillame Delecourt
+  2006, Benoit Mortier
+  2006, Vincent Seynhaeve
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/uw-imap/personal/mail/uw-imap/class_mail-methods-uwimap.inc
+Copyright: 2003, Cajus Pollmeier
+  2008, Fabian Hickert
+  2008, Gero Kuhlmann
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/mail/personal/mail/class_mailAccount.inc
+Copyright: 2007, Fabian Hicker
+  2011-2014, FusionDirectory
+License: GPL-2+
+
+Files: plugins/mail/personal/mail/sieve/class_sieveManagement.inc
+Copyright: 2003-2007, - Fabian Hickert <hickert@gonicus.de>
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: plugins/openstack-compute/personal/openstack-compute/class_novaAccount.inc
+Copyright: 2011, Yuriy Taraday
+  2011-2013, FusionDirectory
+License: GPL-2+
+
+Files: core/include/class_smbHash.inc
+Copyright: 2004, - 2006, Roland Gruber
+  2013, FusionDirectory Project
+License: GPL-2+
+
+Files: core/include/accept-to-gettext.inc
+Copyright: 2003, Wouter Verhelst <wouter@debian.org>
+  2012-2013, FusionDirectory project <contact@fusiondirectory.org>
+License: GPL-2+
+
+Files: core/html/include/pulldown.js
+Copyright: 2004, Knallgrau New Medias Solutions GmbH
 License: BSD-4-clause
 
-Files: pwdStrength.js
-Copyright: 2006 Steve Moitozo <god at zilla dot us>
+Files: core/html/include/pwdStrength.js
+Copyright: 2006, Steve Moitozo <god at zilla dot us>
 License: Expat
 
-Files: datepicker.js
-Copyright: 2007 Mathieu Jondet
+Files: core/html/include/datepicker.js
+Copyright: 2007, Mathieu Jondet
 License: Expat
+
+Files: core/html/include/fusiondirectory.js
+Copyright: 2003-2010, Cajus Pollmeier
+           2011, FusionDirectory
+License: GPL-2+
+
+Files: plugins/autofs/admin/autofs/main.inc
+Copyright: 2013, FusionDirectory
+License: GPL-3+
+
+Files: plugins/mail/personal/mail/sieve/class_sieve.inc
+Copyright: 2001, Dan Ellis
+  2001, Dan Ellis <danellis@rushmore.com>
+License: GPL-2+
+Comment:
+ Assuming license from core/COPYING.
+
+Files: plugins/supann/html/images/user-student.png
+ plugins/supann/html/images/user-employee.png
+ plugins/supann/html/images/user-enrolee.png
+ plugins/argonaut/html/images/icon.png
+Copyright: *No copyright*
+License: CC-BY-SA
 
 Files: debian/*
-Copyright: 2010-2014, Benoit Mortier <benoit.mortier@opensides.be>
-License: GPL-2+
+ README.multi-orig-tarball-package
+Copyright: 2010, Benoit Mortier <benoit.mortier@opensides.be>
+           2014, Mike Gabriel <sunweaver@debian.org>
+License: GPL-2+ or GPL-3+ or LGPL-2.1+ or Expat or BSD-4-clause
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -65,6 +1491,44 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ MA  02110-1301  USA
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 2,1 can be found in the file
+ `/usr/share/common-licenses/LGPL-2.1'.
+
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
@@ -83,6 +1547,31 @@ License: Expat
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+   - Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+   - Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+   - Neither the name of the copyright holder nor the names of its contributors
+     may be used to endorse or promote products derived from this software
+     without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;  OR BUSINESS 
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY 
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: BSD-4-clause
  Redistribution and use in source and binary forms, with or without
@@ -111,3 +1600,327 @@ License: BSD-4-clause
  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
  OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC-BY-SA
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+ COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
+ COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+ AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ .
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
+ TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
+ BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
+ CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
+ CONDITIONS.
+ .
+ 1. Definitions
+ .
+  a. "Adaptation" means a work based upon the Work, or upon the Work and
+     other pre-existing works, such as a translation, adaptation,
+     derivative work, arrangement of music or other alterations of a
+     literary or artistic work, or phonogram or performance and includes
+     cinematographic adaptations or any other form in which the Work may be
+     recast, transformed, or adapted including in any form recognizably
+     derived from the original, except that a work that constitutes a
+     Collection will not be considered an Adaptation for the purpose of
+     this License. For the avoidance of doubt, where the Work is a musical
+     work, performance or phonogram, the synchronization of the Work in
+     timed-relation with a moving image ("synching") will be considered an
+     Adaptation for the purpose of this License.
+  b. "Collection" means a collection of literary or artistic works, such as
+     encyclopedias and anthologies, or performances, phonograms or
+     broadcasts, or other works or subject matter other than works listed
+     in Section 1(f) below, which, by reason of the selection and
+     arrangement of their contents, constitute intellectual creations, in
+     which the Work is included in its entirety in unmodified form along
+     with one or more other contributions, each constituting separate and
+     independent works in themselves, which together are assembled into a
+     collective whole. A work that constitutes a Collection will not be
+     considered an Adaptation (as defined below) for the purposes of this
+     License.
+  c. "Creative Commons Compatible License" means a license that is listed
+     at http://creativecommons.org/compatiblelicenses that has been
+     approved by Creative Commons as being essentially equivalent to this
+     License, including, at a minimum, because that license: (i) contains
+     terms that have the same purpose, meaning and effect as the License
+     Elements of this License; and, (ii) explicitly permits the relicensing
+     of adaptations of works made available under that license under this
+     License or a Creative Commons jurisdiction license with the same
+     License Elements as this License.
+  d. "Distribute" means to make available to the public the original and
+     copies of the Work or Adaptation, as appropriate, through sale or
+     other transfer of ownership.
+  e. "License Elements" means the following high-level license attributes
+     as selected by Licensor and indicated in the title of this License:
+     Attribution, ShareAlike.
+  f. "Licensor" means the individual, individuals, entity or entities that
+     offer(s) the Work under the terms of this License.
+  g. "Original Author" means, in the case of a literary or artistic work,
+     the individual, individuals, entity or entities who created the Work
+     or if no individual or entity can be identified, the publisher; and in
+     addition (i) in the case of a performance the actors, singers,
+     musicians, dancers, and other persons who act, sing, deliver, declaim,
+     play in, interpret or otherwise perform literary or artistic works or
+     expressions of folklore; (ii) in the case of a phonogram the producer
+     being the person or legal entity who first fixes the sounds of a
+     performance or other sounds; and, (iii) in the case of broadcasts, the
+     organization that transmits the broadcast.
+  h. "Work" means the literary and/or artistic work offered under the terms
+     of this License including without limitation any production in the
+     literary, scientific and artistic domain, whatever may be the mode or
+     form of its expression including digital form, such as a book,
+     pamphlet and other writing; a lecture, address, sermon or other work
+     of the same nature; a dramatic or dramatico-musical work; a
+     choreographic work or entertainment in dumb show; a musical
+     composition with or without words; a cinematographic work to which are
+     assimilated works expressed by a process analogous to cinematography;
+     a work of drawing, painting, architecture, sculpture, engraving or
+     lithography; a photographic work to which are assimilated works
+     expressed by a process analogous to photography; a work of applied
+     art; an illustration, map, plan, sketch or three-dimensional work
+     relative to geography, topography, architecture or science; a
+     performance; a broadcast; a phonogram; a compilation of data to the
+     extent it is protected as a copyrightable work; or a work performed by
+     a variety or circus performer to the extent it is not otherwise
+     considered a literary or artistic work.
+  i. "You" means an individual or entity exercising rights under this
+     License who has not previously violated the terms of this License with
+     respect to the Work, or who has received express permission from the
+     Licensor to exercise rights under this License despite a previous
+     violation.
+  j. "Publicly Perform" means to perform public recitations of the Work and
+     to communicate to the public those public recitations, by any means or
+     process, including by wire or wireless means or public digital
+     performances; to make available to the public Works in such a way that
+     members of the public may access these Works from a place and at a
+     place individually chosen by them; to perform the Work to the public
+     by any means or process and the communication to the public of the
+     performances of the Work, including by public digital performance; to
+     broadcast and rebroadcast the Work by any means including signs,
+     sounds or images.
+  k. "Reproduce" means to make copies of the Work by any means including
+     without limitation by sound or visual recordings and the right of
+     fixation and reproducing fixations of the Work, including storage of a
+     protected performance or phonogram in digital form or other electronic
+     medium.
+ .
+ 2. Fair Dealing Rights. Nothing in this License is intended to reduce,
+ limit, or restrict any uses free from copyright or rights arising from
+ limitations or exceptions that are provided for in connection with the
+ copyright protection under copyright law or other applicable laws.
+ .
+ 3. License Grant. Subject to the terms and conditions of this License,
+ Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+ perpetual (for the duration of the applicable copyright) license to
+ exercise the rights in the Work as stated below:
+ .
+  a. to Reproduce the Work, to incorporate the Work into one or more
+     Collections, and to Reproduce the Work as incorporated in the
+     Collections;
+  b. to create and Reproduce Adaptations provided that any such Adaptation,
+     including any translation in any medium, takes reasonable steps to
+     clearly label, demarcate or otherwise identify that changes were made
+     to the original Work. For example, a translation could be marked "The
+     original work was translated from English to Spanish," or a
+     modification could indicate "The original work has been modified.";
+  c. to Distribute and Publicly Perform the Work including as incorporated
+     in Collections; and,
+  d. to Distribute and Publicly Perform Adaptations.
+  e. For the avoidance of doubt:
+ . 
+      i. Non-waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme cannot be waived, the Licensor
+         reserves the exclusive right to collect such royalties for any
+         exercise by You of the rights granted under this License;
+     ii. Waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme can be waived, the Licensor waives the
+         exclusive right to collect such royalties for any exercise by You
+         of the rights granted under this License; and,
+    iii. Voluntary License Schemes. The Licensor waives the right to
+         collect royalties, whether individually or, in the event that the
+         Licensor is a member of a collecting society that administers
+         voluntary licensing schemes, via that society, from any exercise
+         by You of the rights granted under this License.
+ .
+ The above rights may be exercised in all media and formats whether now
+ known or hereafter devised. The above rights include the right to make
+ such modifications as are technically necessary to exercise the rights in
+ other media and formats. Subject to Section 8(f), all rights not expressly
+ granted by Licensor are hereby reserved.
+ .
+ 4. Restrictions. The license granted in Section 3 above is expressly made
+ subject to and limited by the following restrictions:
+ .
+  a. You may Distribute or Publicly Perform the Work only under the terms
+     of this License. You must include a copy of, or the Uniform Resource
+     Identifier (URI) for, this License with every copy of the Work You
+     Distribute or Publicly Perform. You may not offer or impose any terms
+     on the Work that restrict the terms of this License or the ability of
+     the recipient of the Work to exercise the rights granted to that
+     recipient under the terms of the License. You may not sublicense the
+     Work. You must keep intact all notices that refer to this License and
+     to the disclaimer of warranties with every copy of the Work You
+     Distribute or Publicly Perform. When You Distribute or Publicly
+     Perform the Work, You may not impose any effective technological
+     measures on the Work that restrict the ability of a recipient of the
+     Work from You to exercise the rights granted to that recipient under
+     the terms of the License. This Section 4(a) applies to the Work as
+     incorporated in a Collection, but this does not require the Collection
+     apart from the Work itself to be made subject to the terms of this
+     License. If You create a Collection, upon notice from any Licensor You
+     must, to the extent practicable, remove from the Collection any credit
+     as required by Section 4(c), as requested. If You create an
+     Adaptation, upon notice from any Licensor You must, to the extent
+     practicable, remove from the Adaptation any credit as required by
+     Section 4(c), as requested.
+  b. You may Distribute or Publicly Perform an Adaptation only under the
+     terms of: (i) this License; (ii) a later version of this License with
+     the same License Elements as this License; (iii) a Creative Commons
+     jurisdiction license (either this or a later license version) that
+     contains the same License Elements as this License (e.g.,
+     Attribution-ShareAlike 3.0 US)); (iv) a Creative Commons Compatible
+     License. If you license the Adaptation under one of the licenses
+     mentioned in (iv), you must comply with the terms of that license. If
+     you license the Adaptation under the terms of any of the licenses
+     mentioned in (i), (ii) or (iii) (the "Applicable License"), you must
+     comply with the terms of the Applicable License generally and the
+     following provisions: (I) You must include a copy of, or the URI for,
+     the Applicable License with every copy of each Adaptation You
+     Distribute or Publicly Perform; (II) You may not offer or impose any
+     terms on the Adaptation that restrict the terms of the Applicable
+     License or the ability of the recipient of the Adaptation to exercise
+     the rights granted to that recipient under the terms of the Applicable
+     License; (III) You must keep intact all notices that refer to the
+     Applicable License and to the disclaimer of warranties with every copy
+     of the Work as included in the Adaptation You Distribute or Publicly
+     Perform; (IV) when You Distribute or Publicly Perform the Adaptation,
+     You may not impose any effective technological measures on the
+     Adaptation that restrict the ability of a recipient of the Adaptation
+     from You to exercise the rights granted to that recipient under the
+     terms of the Applicable License. This Section 4(b) applies to the
+     Adaptation as incorporated in a Collection, but this does not require
+     the Collection apart from the Adaptation itself to be made subject to
+     the terms of the Applicable License.
+  c. If You Distribute, or Publicly Perform the Work or any Adaptations or
+     Collections, You must, unless a request has been made pursuant to
+     Section 4(a), keep intact all copyright notices for the Work and
+     provide, reasonable to the medium or means You are utilizing: (i) the
+     name of the Original Author (or pseudonym, if applicable) if supplied,
+     and/or if the Original Author and/or Licensor designate another party
+     or parties (e.g., a sponsor institute, publishing entity, journal) for
+     attribution ("Attribution Parties") in Licensor's copyright notice,
+     terms of service or by other reasonable means, the name of such party
+     or parties; (ii) the title of the Work if supplied; (iii) to the
+     extent reasonably practicable, the URI, if any, that Licensor
+     specifies to be associated with the Work, unless such URI does not
+     refer to the copyright notice or licensing information for the Work;
+     and (iv) , consistent with Ssection 3(b), in the case of an
+     Adaptation, a credit identifying the use of the Work in the Adaptation
+     (e.g., "French translation of the Work by Original Author," or
+     "Screenplay based on original Work by Original Author"). The credit
+     required by this Section 4(c) may be implemented in any reasonable
+     manner; provided, however, that in the case of a Adaptation or
+     Collection, at a minimum such credit will appear, if a credit for all
+     contributing authors of the Adaptation or Collection appears, then as
+     part of these credits and in a manner at least as prominent as the
+     credits for the other contributing authors. For the avoidance of
+     doubt, You may only use the credit required by this Section for the
+     purpose of attribution in the manner set out above and, by exercising
+     Your rights under this License, You may not implicitly or explicitly
+     assert or imply any connection with, sponsorship or endorsement by the
+     Original Author, Licensor and/or Attribution Parties, as appropriate,
+     of You or Your use of the Work, without the separate, express prior
+     written permission of the Original Author, Licensor and/or Attribution
+     Parties.
+  d. Except as otherwise agreed in writing by the Licensor or as may be
+     otherwise permitted by applicable law, if You Reproduce, Distribute or
+     Publicly Perform the Work either by itself or as part of any
+     Adaptations or Collections, You must not distort, mutilate, modify or
+     take other derogatory action in relation to the Work which would be
+     prejudicial to the Original Author's honor or reputation. Licensor
+     agrees that in those jurisdictions (e.g. Japan), in which any exercise
+     of the right granted in Section 3(b) of this License (the right to
+     make Adaptations) would be deemed to be a distortion, mutilation,
+     modification or other derogatory action prejudicial to the Original
+     Author's honor and reputation, the Licensor will waive or not assert,
+     as appropriate, this Section, to the fullest extent permitted by the
+     applicable national law, to enable You to reasonably exercise Your
+     right under Section 3(b) of this License (right to make Adaptations)
+     but not otherwise.
+ .
+ 5. Representations, Warranties and Disclaimer
+ .
+ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
+ OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
+ KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
+ INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF
+ LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
+ WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION
+ OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+ .
+ 6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+ LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR
+ ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES
+ ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS
+ BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ 7. Termination
+ .
+  a. This License and the rights granted hereunder will terminate
+     automatically upon any breach by You of the terms of this License.
+     Individuals or entities who have received Adaptations or Collections
+     from You under this License, however, will not have their licenses
+     terminated provided such individuals or entities remain in full
+     compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
+     survive any termination of this License.
+  b. Subject to the above terms and conditions, the license granted here is
+     perpetual (for the duration of the applicable copyright in the Work).
+     Notwithstanding the above, Licensor reserves the right to release the
+     Work under different license terms or to stop distributing the Work at
+     any time; provided, however that any such election will not serve to
+     withdraw this License (or any other license that has been, or is
+     required to be, granted under the terms of this License), and this
+     License will continue in full force and effect unless terminated as
+     stated above.
+ .
+ 8. Miscellaneous
+ .
+  a. Each time You Distribute or Publicly Perform the Work or a Collection,
+     the Licensor offers to the recipient a license to the Work on the same
+     terms and conditions as the license granted to You under this License.
+  b. Each time You Distribute or Publicly Perform an Adaptation, Licensor
+     offers to the recipient a license to the original Work on the same
+     terms and conditions as the license granted to You under this License.
+  c. If any provision of this License is invalid or unenforceable under
+     applicable law, it shall not affect the validity or enforceability of
+     the remainder of the terms of this License, and without further action
+     by the parties to this agreement, such provision shall be reformed to
+     the minimum extent necessary to make such provision valid and
+     enforceable.
+  d. No term or provision of this License shall be deemed waived and no
+     breach consented to unless such waiver or consent shall be in writing
+     and signed by the party to be charged with such waiver or consent.
+  e. This License constitutes the entire agreement between the parties with
+     respect to the Work licensed here. There are no understandings,
+     agreements or representations with respect to the Work not specified
+     here. Licensor shall not be bound by any additional provisions that
+     may appear in any communication from You. This License may not be
+     modified without the mutual written agreement of the Licensor and You.
+  f. The rights granted under, and the subject matter referenced, in this
+     License were drafted utilizing the terminology of the Berne Convention
+     for the Protection of Literary and Artistic Works (as amended on
+     September 28, 1979), the Rome Convention of 1961, the WIPO Copyright
+     Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996
+     and the Universal Copyright Convention (as revised on July 24, 1971).
+     These rights and subject matter take effect in the relevant
+     jurisdiction in which the License terms are sought to be enforced
+     according to the corresponding provisions of the implementation of
+     those treaty provisions in the applicable national law. If the
+     standard suite of rights granted under applicable copyright law
+     includes additional rights not granted under this License, such
+     additional rights are deemed to be included in the License; this
+     License is not intended to restrict the license of any rights under
+     applicable law.

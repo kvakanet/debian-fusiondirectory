@@ -11,7 +11,7 @@ Vcs-Browser: http://git.fusiondirectory.org/gitweb/
 
 Package: fusiondirectory
 Architecture: all
-Depends: ${misc:Depends}, php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty3-i18n, fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, schema2ldif
+Depends: ${misc:Depends}, php5, php5-gd, php5-imap, php5-ldap, php5-mcrypt, php5-recode, php5-curl, php5-cli, php5-imagick, php-fpdf, libjs-prototype, libjs-scriptaculous, javascript-common, smarty3 , smarty3-i18n | smarty-gettext (>= 1.1.0-1), fusiondirectory-smarty3-acl-render, gettext, libcrypt-passwdmd5-perl, libnet-ldap-perl, libpath-class-perl, libfile-copy-recursive-perl, libxml-twig-perl, libcrypt-cbc-perl, libterm-readkey-perl, schema2ldif
 Recommends: apache2 | lighttpd | httpd | nginx
 Conflicts: gosa
 Description: Web Based LDAP Administration Program
@@ -37,7 +37,7 @@ Package: fusiondirectory-smarty3-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty3
 Suggests: fusiondirectory
-Conflicts: smarty-acl-render, smarty-gettext, fusiondirectory-smarty-acl-render
+Conflicts: smarty-acl-render, smarty-gettext (<= 1.0b1-7), fusiondirectory-smarty-acl-render
 Description: Provide FusionDirectory ACL based rendering for Smarty3
  This package provides acl based rendering support for Smarty3,
  the popular PHP templating engine (http://smarty.php.net/). This
@@ -185,30 +185,6 @@ Conflicts: gosa-plugin-fai-schema
 Description: LDAP schema for FusionDirectory asterisk plugin
  This package includes the LDAP schema needed by the FusionDirectory
  asterisk plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-dashboard
-Architecture: all
-Depends: ${misc:Depends}, fusiondirectory
-Conflicts: gosa
-Replaces: fusiondirectory-plugin-board
-Description: board plugin for FusionDirectory
- Dashboard allow you to see important information in one click.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-dashboard-schema
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: slapd
-Conflicts: gosa
-Replaces: fusiondirectory-plugin-board-schema
-Description: LDAP schema for FusionDirectory board plugin
- This package includes the LDAP schema needed by the FusionDirectory
- dashboard plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -688,13 +664,34 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: slapd
 Conflicts: gosa
-Description: LDAP schema for FusionDirectory ppolicy Plugin
+Description: LDAP schema for FusionDirectory personal Plugin
  This package includes the LDAP schema needed by the FusionDirectory
  personal Plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user
  web interface, designed to handle LDAP-based setups.
 
+Package: fusiondirectory-plugin-ppolicy
+Architecture: all
+Depends: ${misc:Depends}, fusiondirectory
+Conflicts: gosa
+Description: ppolicy overlay module plugin for FusionDirectory
+ PPolicy overlay module plugin for FusionDirectory.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures. 
+
+Package: fusiondirectory-plugin-ppolicy-schema
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: slapd
+Conflicts: gosa
+Description: LDAP schema for FusionDirectory ppolicy Plugin
+ This package includes the LDAP schema needed by the FusionDirectory
+ ppolicy Plugin.
+ .
+ FusionDirectory is a combination of system-administrator and end-user
+ web interface, designed to handle LDAP-based setups.
 
 Package: fusiondirectory-plugin-puppet
 Architecture: all
