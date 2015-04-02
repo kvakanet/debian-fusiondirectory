@@ -37,7 +37,7 @@ Package: fusiondirectory-smarty3-acl-render
 Architecture: all
 Depends: ${misc:Depends}, smarty3
 Suggests: fusiondirectory
-Conflicts: smarty-acl-render, smarty-gettext (< 1.1.0-1), fusiondirectory-smarty-acl-render
+Conflicts: smarty-acl-render, smarty-gettext (<= 1.0b1-7), fusiondirectory-smarty-acl-render
 Description: Provide FusionDirectory ACL based rendering for Smarty3
  This package provides acl based rendering support for Smarty3,
  the popular PHP templating engine (http://smarty.php.net/). This
