@@ -1,4 +1,0 @@
-plugins-extra/openstack-compute/personal        /usr/share/fusiondirectory/plugins
-plugins-extra/openstack-compute/locale          /usr/share/fusiondirectory/locale/plugins/openstack-compute
-plugins-extra/openstack-compute/html/images     /usr/share/fusiondirectory/html/plugins/openstack-compute
-
