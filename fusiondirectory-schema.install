@@ -1,5 +1,4 @@
 contrib/openldap/core-fd.schema               /etc/ldap/schema/fusiondirectory
-contrib/openldap/rfc2307bis.schema            /etc/ldap/schema/fusiondirectory
 contrib/openldap/ldapns.schema                /etc/ldap/schema/fusiondirectory
 contrib/openldap/samba.schema                 /etc/ldap/schema/fusiondirectory
 contrib/openldap/recovery-fd.schema           /etc/ldap/schema/fusiondirectory
