@@ -1,2 +1,4 @@
-fusiondirectory: license-problem-non-free-RFC plugins-extra/kolab/contrib/openldap/rfc2739.schema
+# false-positive, we ship an LDAP schema, not an RFC document...
+fusiondirectory: license-problem-non-free-RFC plugins/kolab/contrib/openldap/rfc2739.schema
+# we actually have two watch files in this multi-tarball src:package
 fusiondirectory: debian-watch-file-is-missing 

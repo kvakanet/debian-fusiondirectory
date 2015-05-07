@@ -1,9 +1,9 @@
-plugins-extra/developers/CODING                    /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/Doxyfile                  /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/FDStandard                /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/filter.xsd                /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/list.xsd                  /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/simple-plugin             /usr/share/doc/fusiondirectory-developers/
-plugins-extra/developers/debug-help/addons         /usr/share/fusiondirectory/plugins
-plugins-extra/developers/debug-help/html/images    /usr/share/fusiondirectory/html/plugins/debug-help
+plugins/developers/CODING                    /usr/share/doc/fusiondirectory-developers/
+plugins/developers/Doxyfile                  /usr/share/doc/fusiondirectory-developers/
+plugins/developers/FDStandard                /usr/share/doc/fusiondirectory-developers/
+plugins/developers/filter.xsd                /usr/share/doc/fusiondirectory-developers/
+plugins/developers/list.xsd                  /usr/share/doc/fusiondirectory-developers/
+plugins/developers/simple-plugin             /usr/share/doc/fusiondirectory-developers/
+plugins/developers/debug-help/addons         /usr/share/fusiondirectory/plugins
+plugins/developers/debug-help/html/images    /usr/share/fusiondirectory/html/plugins/debug-help
 

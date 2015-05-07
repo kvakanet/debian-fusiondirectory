@@ -1,3 +1,3 @@
-plugins-extra/weblink/contrib/openldap/weblink-fd.schema               /etc/ldap/schema/fusiondirectory
+plugins/weblink/contrib/openldap/weblink-fd.schema               /etc/ldap/schema/fusiondirectory
 
 

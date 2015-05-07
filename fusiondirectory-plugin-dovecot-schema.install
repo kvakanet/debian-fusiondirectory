@@ -1,1 +1,1 @@
-plugins-extra/dovecot/contrib/openldap/dovecot-fd.schema  /etc/ldap/schema/fusiondirectory
+plugins/dovecot/contrib/openldap/dovecot-fd.schema  /etc/ldap/schema/fusiondirectory

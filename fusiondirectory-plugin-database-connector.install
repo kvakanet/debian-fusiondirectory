@@ -1,1 +1,1 @@
-include/class_databaseManagement.inc      /usr/share/fusiondirectory/include
+core/include/class_databaseManagement.inc      /usr/share/fusiondirectory/include

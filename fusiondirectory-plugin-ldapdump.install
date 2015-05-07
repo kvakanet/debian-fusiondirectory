@@ -1,2 +1,2 @@
-plugins-extra/ldapdump/addons          /usr/share/fusiondirectory/plugins
-plugins-extra/ldapdump/locale          /usr/share/fusiondirectory/locale/plugins/ldapdump
+plugins/ldapdump/addons          /usr/share/fusiondirectory/plugins
+plugins/ldapdump/locale          /usr/share/fusiondirectory/locale/plugins/ldapdump

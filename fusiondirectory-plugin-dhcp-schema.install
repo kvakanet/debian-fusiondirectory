@@ -1,1 +1,1 @@
-plugins-extra/dhcp/contrib/openldap/dhcp-fd.schema /etc/ldap/schema/fusiondirectory
+plugins/dhcp/contrib/openldap/dhcp-fd.schema /etc/ldap/schema/fusiondirectory

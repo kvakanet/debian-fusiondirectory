@@ -1,1 +1,1 @@
-plugins-extra/sympa/contrib/openldap/sympa-fd.schema       /etc/ldap/schema/fusiondirectory
+plugins/sympa/contrib/openldap/sympa-fd.schema       /etc/ldap/schema/fusiondirectory

@@ -1,5 +1,5 @@
-plugins-extra/mail/admin            /usr/share/fusiondirectory/plugins
-plugins-extra/mail/config            /usr/share/fusiondirectory/plugins
-plugins-extra/mail/personal         /usr/share/fusiondirectory/plugins
-plugins-extra/mail/locale           /usr/share/fusiondirectory/locale/plugins/mail
-plugins-extra/mail/html/images      /usr/share/fusiondirectory/html/plugins/mail
+plugins/mail/admin            /usr/share/fusiondirectory/plugins
+plugins/mail/config            /usr/share/fusiondirectory/plugins
+plugins/mail/personal         /usr/share/fusiondirectory/plugins
+plugins/mail/locale           /usr/share/fusiondirectory/locale/plugins/mail
+plugins/mail/html/images      /usr/share/fusiondirectory/html/plugins/mail
