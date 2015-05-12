@@ -1,6 +1,4 @@
 plugins/applications/admin                   /usr/share/fusiondirectory/plugins
 plugins/applications/config                  /usr/share/fusiondirectory/plugins
 plugins/applications/locale                  /usr/share/fusiondirectory/locale/plugins/applications
-pluginss/applications/html/images             /usr/share/fusiondirectory/html/plugins/applications
-
-
+plugins/applications/html/images             /usr/share/fusiondirectory/html/plugins/applications
