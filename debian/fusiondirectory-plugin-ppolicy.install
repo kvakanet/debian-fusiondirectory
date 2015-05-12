@@ -1,8 +1,8 @@
-plugins-extra/ppolicy/addons                  /usr/share/fusiondirectory/plugins
-plugins-extra/ppolicy/admin                   /usr/share/fusiondirectory/plugins
-plugins-extra/ppolicy/config                  /usr/share/fusiondirectory/plugins
-plugins-extra/ppolicy/personal                /usr/share/fusiondirectory/plugins
-plugins-extra/ppolicy/locale                  /usr/share/fusiondirectory/locale/plugins/ppolicy
-plugins-extra/ppolicy/html/themes             /usr/share/fusiondirectory/html
+plugins/ppolicy/addons                  /usr/share/fusiondirectory/plugins
+plugins/ppolicy/admin                   /usr/share/fusiondirectory/plugins
+plugins/ppolicy/config                  /usr/share/fusiondirectory/plugins
+plugins/ppolicy/personal                /usr/share/fusiondirectory/plugins
+plugins/ppolicy/locale                  /usr/share/fusiondirectory/locale/plugins/ppolicy
+plugins/ppolicy/html/themes             /usr/share/fusiondirectory/html
 
 
