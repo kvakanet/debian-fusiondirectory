@@ -1,10 +1,10 @@
 Author: Benoit Mortier
 Description: put the Debian directory for scriptaculous into the script tag
 
-Index: pkg/ihtml/themes/default/headers.tpl
+Index: pkg/core/ihtml/themes/default/headers.tpl
 ===================================================================
---- pkg.orig/ihtml/themes/default/headers.tpl	2013-11-16 18:44:27.000000000 +0100
-+++ pkg/ihtml/themes/default/headers.tpl	2013-11-16 18:47:18.145142151 +0100
+--- pkg.orig/core/ihtml/themes/default/headers.tpl	2013-11-16 18:44:27.000000000 +0100
++++ pkg/core/ihtml/themes/default/headers.tpl	2013-11-16 18:47:18.145142151 +0100
 @@ -15,14 +15,14 @@
  
    <link rel="shortcut icon" href="favicon.ico"/>
