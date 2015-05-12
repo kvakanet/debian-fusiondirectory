@@ -1,3 +1,2 @@
 plugins/debconf/contrib/openldap/debconf.schema    /etc/ldap/schema/fusiondirectory
 plugins/debconf/contrib/openldap/debconf-fd.schema /etc/ldap/schema/fusiondirectory
-plugins/debconf/contrib/openldap/example.ldif      /etc/ldap/schema/fusiondirectory
