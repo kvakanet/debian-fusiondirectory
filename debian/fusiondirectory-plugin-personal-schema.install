@@ -1,2 +1,2 @@
-plugins-extra/personal/contrib/openldap/personal-fd.schema              /etc/ldap/schema/fusiondirectory
-plugins-extra/personal/contrib/openldap/personal-fd-conf.schema         /etc/ldap/schema/fusiondirectory
+plugins/personal/contrib/openldap/personal-fd.schema              /etc/ldap/schema/fusiondirectory
+plugins/personal/contrib/openldap/personal-fd-conf.schema         /etc/ldap/schema/fusiondirectory

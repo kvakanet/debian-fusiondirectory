@@ -1,4 +1,4 @@
-plugins-extra/ssh/personal    /usr/share/fusiondirectory/plugins
-plugins-extra/ssh/locale      /usr/share/fusiondirectory/locale/plugins/ssh
-plugins-extra/ssh/html/images /usr/share/fusiondirectory/html/plugins/ssh
+plugins/ssh/personal    /usr/share/fusiondirectory/plugins
+plugins/ssh/locale      /usr/share/fusiondirectory/locale/plugins/ssh
+plugins/ssh/html/images /usr/share/fusiondirectory/html/plugins/ssh
 

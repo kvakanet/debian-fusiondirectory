@@ -1,1 +1,1 @@
-plugins-extra/netgroups/contrib/openldap/netgroups-fd-conf.schema       /etc/ldap/schema/fusiondirectory
+plugins/netgroups/contrib/openldap/netgroups-fd-conf.schema       /etc/ldap/schema/fusiondirectory

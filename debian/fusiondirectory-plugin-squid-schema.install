@@ -1,2 +1,2 @@
-plugins-extra/squid/contrib/openldap/proxy-fd.schema        /etc/ldap/schema/fusiondirectory
+plugins/squid/contrib/openldap/proxy-fd.schema        /etc/ldap/schema/fusiondirectory
 

@@ -1,5 +1,5 @@
-plugins-extra/repository/admin            /usr/share/fusiondirectory/plugins
-plugins-extra/repository/config           /usr/share/fusiondirectory/plugins
-plugins-extra/repository/html/images      /usr/share/fusiondirectory/html/plugins/repository
-plugins-extra/repository/locale           /usr/share/fusiondirectory/locale/plugins/repository
+plugins/repository/admin            /usr/share/fusiondirectory/plugins
+plugins/repository/config           /usr/share/fusiondirectory/plugins
+plugins/repository/html/images      /usr/share/fusiondirectory/html/plugins/repository
+plugins/repository/locale           /usr/share/fusiondirectory/locale/plugins/repository
 

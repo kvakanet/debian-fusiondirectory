@@ -5,4 +5,5 @@ var/cache/fusiondirectory
 var/cache/fusiondirectory/tmp
 var/cache/fusiondirectory/fai
 var/cache/fusiondirectory/template
+var/cache/fusiondirectory/locale
 var/spool/fusiondirectory

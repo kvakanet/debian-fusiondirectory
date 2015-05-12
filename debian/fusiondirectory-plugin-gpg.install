@@ -1,5 +1,5 @@
-plugins-extra/gpg/addons           /usr/share/fusiondirectory/plugins
-plugins-extra/gpg/html/images      /usr/share/fusiondirectory/html/plugins/gpg
-plugins-extra/gpg/locale           /usr/share/fusiondirectory/locale/plugins/gpg
-plugins-extra/gpg/personal         /usr/share/fusiondirectory/plugins
+plugins/gpg/addons           /usr/share/fusiondirectory/plugins
+plugins/gpg/html/images      /usr/share/fusiondirectory/html/plugins/gpg
+plugins/gpg/locale           /usr/share/fusiondirectory/locale/plugins/gpg
+plugins/gpg/personal         /usr/share/fusiondirectory/plugins
 

@@ -1,5 +1,5 @@
-plugins-extra/weblink/admin       /usr/share/fusiondirectory/plugins
-plugins-extra/weblink/locale      /usr/share/fusiondirectory/locale/plugins/weblink
+plugins/weblink/admin       /usr/share/fusiondirectory/plugins
+plugins/weblink/locale      /usr/share/fusiondirectory/locale/plugins/weblink
 
 
 
