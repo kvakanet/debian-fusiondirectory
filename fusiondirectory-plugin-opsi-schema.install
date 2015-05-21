@@ -1,2 +1,0 @@
-plugins-extra/opsi/contrib/openldap/opsi-fd.schema      /etc/ldap/schema/fusiondirectory
-plugins-extra/opsi/contrib/openldap/opsi-fd-conf.schema /etc/ldap/schema/fusiondirectory

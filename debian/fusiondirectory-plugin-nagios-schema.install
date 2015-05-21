@@ -1,0 +1,2 @@
+plugins/nagios/contrib/openldap/netways.schema          /etc/ldap/schema/fusiondirectory
+plugins/nagios/contrib/openldap/nagios-fd-conf.schema   /etc/ldap/schema/fusiondirectory

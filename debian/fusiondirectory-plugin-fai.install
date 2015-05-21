@@ -1,0 +1,4 @@
+plugins/fai/admin           /usr/share/fusiondirectory/plugins
+plugins/fai/config          /usr/share/fusiondirectory/plugins
+plugins/fai/locale          /usr/share/fusiondirectory/locale/plugins/fai
+plugins/fai/html/images     /usr/share/fusiondirectory/html/plugins/fai

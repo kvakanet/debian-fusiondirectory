@@ -1,0 +1,6 @@
+plugins/ejbca/admin                     /usr/share/fusiondirectory/plugins
+plugins/ejbca/config                    /usr/share/fusiondirectory/plugins
+plugins/ejbca/locale                    /usr/share/fusiondirectory/locale/plugins/ejbca
+plugins/ejbca/html/themes               /usr/share/fusiondirectory/html
+
+

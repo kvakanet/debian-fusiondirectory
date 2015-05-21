@@ -1,5 +1,0 @@
-plugins-extra/dovecot/admin            /usr/share/fusiondirectory/plugins
-plugins-extra/dovecot/html/images      /usr/share/fusiondirectory/html/plugins/dovecot
-plugins-extra/dovecot/locale           /usr/share/fusiondirectory/locale/plugins/dovecot
-plugins-extra/dovecot/personal         /usr/share/fusiondirectory/plugins
-

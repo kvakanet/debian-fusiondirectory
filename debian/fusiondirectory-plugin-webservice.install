@@ -1,0 +1,5 @@
+plugins/webservice/config             /usr/share/fusiondirectory/plugins
+plugins/webservice/html/jsonrpc.php   /usr/share/fusiondirectory/html
+plugins/webservice/include            /usr/share/fusiondirectory
+plugins/webservice/locale      	      /usr/share/fusiondirectory/locale/plugins/webservice
+

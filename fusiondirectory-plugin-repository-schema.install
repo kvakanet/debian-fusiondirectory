@@ -1,2 +1,0 @@
-plugins-extra/repository/contrib/openldap/repository-fd-conf.schema        /etc/ldap/schema/fusiondirectory
-plugins-extra/repository/contrib/openldap/repository-fd.schema             /etc/ldap/schema/fusiondirectory

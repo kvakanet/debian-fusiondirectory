@@ -1,0 +1,3 @@
+plugins/dhcp/admin        /usr/share/fusiondirectory/plugins
+plugins/dhcp/html/images  /usr/share/fusiondirectory/html/plugins/dhcp
+plugins/dhcp/locale       /usr/share/fusiondirectory/locale/plugins/dhcp

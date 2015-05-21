@@ -1,5 +1,0 @@
-plugins-extra/cyrus/admin            /usr/share/fusiondirectory/plugins
-plugins-extra/cyrus/html/images      /usr/share/fusiondirectory/html/plugins/cyrus
-plugins-extra/cyrus/locale           /usr/share/fusiondirectory/locale/plugins/cyrus
-plugins-extra/cyrus/personal         /usr/share/fusiondirectory/plugins
-

@@ -1,0 +1,3 @@
+plugins/ldapmanager/addons          /usr/share/fusiondirectory/plugins
+plugins/ldapmanager/locale          /usr/share/fusiondirectory/locale/plugins/ldapmanager
+plugins/ldapmanager/html/images     /usr/share/fusiondirectory/html/plugins/ldapmanager

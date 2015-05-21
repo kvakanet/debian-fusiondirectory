@@ -1,7 +1,0 @@
-plugins-extra/systems/addons                  /usr/share/fusiondirectory/plugins
-plugins-extra/systems/admin                   /usr/share/fusiondirectory/plugins
-plugins-extra/systems/config                  /usr/share/fusiondirectory/plugins
-plugins-extra/systems/locale                  /usr/share/fusiondirectory/locale/plugins/systems
-plugins-extra/systems/html/images             /usr/share/fusiondirectory/html/plugins/systems
-
-

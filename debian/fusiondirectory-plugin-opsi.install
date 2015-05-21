@@ -1,0 +1,5 @@
+plugins/opsi/addons          /usr/share/fusiondirectory/plugins
+plugins/opsi/admin           /usr/share/fusiondirectory/plugins
+plugins/opsi/config          /usr/share/fusiondirectory/plugins
+plugins/opsi/locale          /usr/share/fusiondirectory/locale/plugins/opsi
+plugins/opsi/html/images     /usr/share/fusiondirectory/html/plugins/opsi

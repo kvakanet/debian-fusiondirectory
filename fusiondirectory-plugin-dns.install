@@ -1,5 +1,0 @@
-plugins-extra/dns/admin       /usr/share/fusiondirectory/plugins
-plugins-extra/dns/html/images /usr/share/fusiondirectory/html/plugins/dns
-plugins-extra/dns/locale      /usr/share/fusiondirectory/locale/plugins/dns
-plugins-extra/dns/config      /usr/share/fusiondirectory/plugins
-

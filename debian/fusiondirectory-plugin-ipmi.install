@@ -1,0 +1,5 @@
+plugins/ipmi/admin       /usr/share/fusiondirectory/plugins
+plugins/ipmi/locale      /usr/share/fusiondirectory/locale/plugins/ipmi
+
+
+

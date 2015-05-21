@@ -1,6 +1,0 @@
-plugins-extra/applications/admin                   /usr/share/fusiondirectory/plugins
-plugins-extra/applications/config                  /usr/share/fusiondirectory/plugins
-plugins-extra/applications/locale                  /usr/share/fusiondirectory/locale/plugins/applications
-plugins-extra/applications/html/images             /usr/share/fusiondirectory/html/plugins/applications
-
-

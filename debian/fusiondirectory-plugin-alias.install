@@ -1,0 +1,4 @@
+plugins/alias/admin       /usr/share/fusiondirectory/plugins
+plugins/alias/config      /usr/share/fusiondirectory/plugins
+plugins/alias/html/images /usr/share/fusiondirectory/html/plugins/alias
+plugins/alias/locale      /usr/share/fusiondirectory/locale/plugins/alias/

@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+
+PKD   = $(word 1,$(abspath $(dir $(MAKEFILE_LIST))))
+PKG   = $(word 2,$(shell dpkg-parsechangelog -l$(PKD)/changelog | grep ^Source))
+UVER  = $(shell dpkg-parsechangelog -l$(PKD)/changelog | perl -ne 'print $$1 if m{^Version:\s+(?:\d+:)?(\d.*)(?:\-\d+.*)};')
+DTYPE =
+VER  ?= $(subst $(DTYPE),,$(UVER))
+PLUGINS = $(shell ls debian/watch.* | cut -d "." -f2 | sed -e 's/fusiondirectory-//')
+
+
+%:
+	dh $@
+
+override_dh_installchangelogs:
+	dh_installchangelogs -k core/Changelog
+
+get-orig-source: $(patsubst %,$(PKG)-%_$(VER)$(DTYPE).orig.tar.gz,$(PLUGINS))
+	cd $(PKD) && XZ_OPT=-6v tar -caf "../$(PKG)_$(VER)$(DTYPE).orig.tar.gz" --owner=root --group=root --mode=a+rX README.multi-orig-tarball-package
+	cd $(PKD)/.. && mv *.tar.gz ..
+
+$(PKG)-%_$(VER)$(DTYPE).orig.tar.gz:
+	cd $(PKD)/..
+	@echo "# Downloading..."
+	uscan --noconf --force-download --package $(PKG)-$* --watchfile debian/watch.fusiondirectory-$* --upstream-version $(UVER) --download-version $(VER) --rename --destdir=.
+	@echo "# Renaming..."
+	mv -v $(PKG)-$*_$(VER).orig.tar.gz $(PKG)_$(VER)$(DTYPE).orig-$(shell echo $* | sed -e 's/plugin-//').tar.gz

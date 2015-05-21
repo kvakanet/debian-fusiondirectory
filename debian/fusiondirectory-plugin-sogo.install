@@ -1,0 +1,5 @@
+plugins/sogo/admin            /usr/share/fusiondirectory/plugins
+plugins/sogo/config           /usr/share/fusiondirectory/plugins
+plugins/sogo/html/images      /usr/share/fusiondirectory/html/plugins/sogo
+plugins/sogo/locale           /usr/share/fusiondirectory/locale/plugins/sogo
+

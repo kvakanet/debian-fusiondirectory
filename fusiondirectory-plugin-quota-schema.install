@@ -1,2 +1,0 @@
-plugins-extra/quota/contrib/openldap/quota.schema                 /etc/ldap/schema/fusiondirectory
-plugins-extra/quota/contrib/openldap/quota-fd.schema              /etc/ldap/schema/fusiondirectory

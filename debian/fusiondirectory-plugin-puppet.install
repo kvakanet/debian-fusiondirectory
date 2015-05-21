@@ -1,0 +1,4 @@
+plugins/puppet/admin          /usr/share/fusiondirectory/plugins
+plugins/puppet/locale         /usr/share/fusiondirectory/locale/plugins/puppet
+plugins/puppet/html/images    /usr/share/fusiondirectory/html/plugins/puppet
+

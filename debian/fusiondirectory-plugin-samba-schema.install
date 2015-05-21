@@ -1,0 +1,1 @@
+plugins/samba/contrib/openldap/samba-fd-conf.schema  /etc/ldap/schema/fusiondirectory

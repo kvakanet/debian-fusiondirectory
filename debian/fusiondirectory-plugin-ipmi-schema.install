@@ -1,0 +1,3 @@
+plugins/ipmi/contrib/openldap/ipmi-fd.schema               /etc/ldap/schema/fusiondirectory
+
+

@@ -1,5 +1,0 @@
-plugins-extra/samba/admin                     /usr/share/fusiondirectory/plugins
-plugins-extra/samba/config                    /usr/share/fusiondirectory/plugins
-plugins-extra/samba/personal                  /usr/share/fusiondirectory/plugins
-plugins-extra/samba/locale                    /usr/share/fusiondirectory/locale/plugins/samba
-plugins-extra/samba/contrib/fix_munged        /usr/share/doc/fusiondirectory-plugin-samba

@@ -1,0 +1,3 @@
+plugins/systems/contrib/openldap/service-fd.schema            /etc/ldap/schema/fusiondirectory
+plugins/systems/contrib/openldap/systems-fd.schema            /etc/ldap/schema/fusiondirectory
+plugins/systems/contrib/openldap/systems-fd-conf.schema       /etc/ldap/schema/fusiondirectory

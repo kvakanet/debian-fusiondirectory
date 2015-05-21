@@ -1,4 +1,0 @@
-plugins-extra/sudo/admin        /usr/share/fusiondirectory/plugins
-plugins-extra/sudo/config       /usr/share/fusiondirectory/plugins
-plugins-extra/sudo/locale       /usr/share/fusiondirectory/locale/plugins/sudo
-plugins-extra/sudo/html/images  /usr/share/fusiondirectory/html/plugins/sudo

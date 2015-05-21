@@ -1,0 +1,4 @@
+plugins/fusioninventory/contrib/openldap/fusioninventory-fd-conf.schema	/etc/ldap/schema/fusiondirectory
+plugins/fusioninventory/contrib/openldap/fusioninventory-fd.schema			/etc/ldap/schema/fusiondirectory
+plugins/fusioninventory/contrib/openldap/inventory-fd.schema						/etc/ldap/schema/fusiondirectory
+

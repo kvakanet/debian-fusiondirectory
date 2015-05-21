@@ -1,5 +1,0 @@
-plugins-extra/kolab/admin         /usr/share/fusiondirectory/plugins
-plugins-extra/kolab/personal      /usr/share/fusiondirectory/plugins
-plugins-extra/kolab/locale        /usr/share/fusiondirectory/locale/plugins/kolab
-plugins-extra/kolab/html/images   /usr/share/fusiondirectory/html/plugins/kolab
-

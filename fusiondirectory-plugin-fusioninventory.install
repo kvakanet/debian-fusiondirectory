@@ -1,6 +1,0 @@
-plugins-extra/fusioninventory/admin                       /usr/share/fusiondirectory/plugins
-plugins-extra/fusioninventory/config                      /usr/share/fusiondirectory/plugins
-plugins-extra/fusioninventory/html/images                 /usr/share/fusiondirectory/html/plugins/fusioninventory
-plugins-extra/fusioninventory/html/plugins/inventory.css  /usr/share/fusiondirectory/html/plugins/fusioninventory
-plugins-extra/fusioninventory/html/collect.php            /usr/share/fusiondirectory/html/
-plugins-extra/fusioninventory/locale                      /usr/share/fusiondirectory/locale/plugins/fusioninventory

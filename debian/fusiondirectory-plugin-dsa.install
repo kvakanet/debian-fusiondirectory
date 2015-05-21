@@ -1,0 +1,4 @@
+plugins/dsa/admin       /usr/share/fusiondirectory/plugins
+plugins/dsa/config      /usr/share/fusiondirectory/plugins
+plugins/dsa/html/images /usr/share/fusiondirectory/html/plugins/dsa
+plugins/dsa/locale      /usr/share/fusiondirectory/locale/plugins/dsa/

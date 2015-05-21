@@ -1,2 +1,0 @@
-plugins-extra/dns/contrib/openldap/dnszone.schema       /etc/ldap/schema/fusiondirectory
-plugins-extra/dns/contrib/openldap/dns-fd-conf.schema   /etc/ldap/schema/fusiondirectory
