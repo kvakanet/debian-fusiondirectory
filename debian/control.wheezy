@@ -30,7 +30,7 @@ Depends:
  libjs-scriptaculous,
  javascript-common,
  smarty3,
- smarty-gettext (>= 1.1),
+ smarty3-i18n | smarty-gettext (>= 1.1.0-1),
  fusiondirectory-smarty3-acl-render,
  gettext,
  libcrypt-passwdmd5-perl,
@@ -40,7 +40,6 @@ Depends:
  libxml-twig-perl,
  libcrypt-cbc-perl,
  libterm-readkey-perl,
- libarchive-extract-perl,
  schema2ldif
 Recommends: ${misc:Recommends},
 Suggests:
@@ -76,6 +75,8 @@ Architecture: all
 Depends:
  ${misc:Depends},
  smarty3,
+Suggests: fusiondirectory
+Conflicts: smarty-acl-render, smarty-gettext (<= 1.0b1-7), fusiondirectory-smarty-acl-render
 Description: Provide FusionDirectory ACL based rendering for Smarty3
  This package provides acl based rendering support for Smarty3,
  the popular PHP templating engine (http://smarty.php.net/). This
@@ -328,14 +329,14 @@ Description: LDAP schema for FusionDirectory Debconf Plugin
  FusionDirectory is a combination of system-administrator and end-user
  web interface, designed to handle LDAP-based setups.
 
-Package: fusiondirectory-plugin-developers
+Package: fusiondirectory-plugin-developpers
 Architecture: all
 Depends:
  ${misc:Depends},
 Suggests: fusiondirectory
 Conflicts: gosa
-Breaks: fusiondirectory-plugin-developpers (<< 1.0.8.5-1),
-Replaces: fusiondirectory-plugin-developpers (<< 1.0.8.5-1),
+Breaks: fusiondirectory-plugin-developpers (<< 1.0.8-1),
+Replaces: fusiondirectory-plugin-developpers (<< 1.0.8-1),
 Description: Provide doc and tools for FusionDirectory development
  This package provides codesniffer templates for code conformity,
  a plugin to show reference between classes, and a simple plugin
