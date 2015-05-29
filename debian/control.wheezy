@@ -259,6 +259,18 @@ Description: LDAP schema for FusionDirectory asterisk plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-certificates
+Architecture: all
+Depends:
+ ${misc:Depends},
+ fusiondirectory (= ${binary:Version}),
+Conflicts: gosa
+Description: certificates plugin for FusionDirectory
+ allow storage of ssl certificates in the user entries.
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-cyrus
 Architecture: all
 Depends:
