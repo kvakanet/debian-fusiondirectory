@@ -1,3 +1,6 @@
-plugins/fai/admin           /usr/share/fusiondirectory/plugins
-plugins/fai/config          /usr/share/fusiondirectory/plugins
-plugins/fai/locale          /usr/share/fusiondirectory/locale/plugins/fai
+plugins/fai/admin                             /usr/share/fusiondirectory/plugins
+plugins/fai/config                            /usr/share/fusiondirectory/plugins
+plugins/fai/locale                            /usr/share/fusiondirectory/locale/plugins/fai
+plugins/fai/themes/default/icons/16/actions   /usr/share/fusiondirectory/html/themes/default/icons/16/actions/
+plugins/fai/themes/default/icons/16/apps      /usr/share/fusiondirectory/html/themes/default/icons/16/apps/
+plugins/fai/themes/default/icons/48/apps      /usr/share/fusiondirectory/html/themes/default/icons/48/apps/
