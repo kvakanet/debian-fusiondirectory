@@ -30,7 +30,7 @@ Depends:
  libjs-scriptaculous,
  javascript-common,
  smarty3,
- smarty3-i18n | smarty-gettext (>= 1.1.0-1),
+ smarty3-i18n | smarty-gettext (>= 1.1),
  fusiondirectory-smarty3-acl-render,
  gettext,
  libcrypt-passwdmd5-perl,
@@ -40,14 +40,19 @@ Depends:
  libxml-twig-perl,
  libcrypt-cbc-perl,
  libterm-readkey-perl,
- schema2ldif
-Recommends: ${misc:Recommends},
+ schema2ldif,
 Suggests:
  argonaut-server,
  slapd,
  fusiondirectory-schema (= ${binary:Version}),
 Conflicts:
  gosa,
+Breaks:
+ fusiondirectory-plugin-dashboard (<< 1.0.8.7),
+ fusiondirectory-plugin-dashboard-schema (<< 1.0.8.7),
+Replaces:
+ fusiondirectory-plugin-dashboard (<< 1.0.8.7),
+ fusiondirectory-plugin-dashboard-schema (<< 1.0.8.7),
 Description: Web Based LDAP Administration Program
  Provided is access to posix, shadow, samba, proxy, fax, pureftp and
  kerberos accounts. It is able to manage the postfix/cyrus server
@@ -341,7 +346,7 @@ Description: LDAP schema for FusionDirectory Debconf Plugin
  FusionDirectory is a combination of system-administrator and end-user
  web interface, designed to handle LDAP-based setups.
 
-Package: fusiondirectory-plugin-developpers
+Package: fusiondirectory-plugin-developers
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -869,7 +874,7 @@ Description: ppolicy overlay module plugin for FusionDirectory
  PPolicy overlay module plugin for FusionDirectory.
  .
  FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures. 
+ interface, designed to handle LDAP based network infrastructures.
 
 Package: fusiondirectory-plugin-ppolicy-schema
 Architecture: all
