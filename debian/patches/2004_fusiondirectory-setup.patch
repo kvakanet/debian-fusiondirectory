@@ -1,9 +1,9 @@
 Author: Benoit Mortier
 Description: put the FusionDirectory Debian directory in the fd_home variable
 
---- a/core/contrib/bin/fusiondirectory-setup	2013-11-16 18:44:27.473137888 +0100
-+++ b/core/contrib/bin/fusiondirectory-setup	2013-11-16 18:52:49.701150748 +0100
-@@ -31,7 +31,7 @@
+--- a/core/contrib/bin/fusiondirectory-setup
++++ b/core/contrib/bin/fusiondirectory-setup
+@@ -34,7 +34,7 @@
  
  # fd's directory and class.cache file's path declaration
  my %vars = (
