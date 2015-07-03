@@ -755,6 +755,19 @@ Description: LDAP schema for FusionDirectory mail plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
+Package: fusiondirectory-plugin-mixedgroups
+Architecture: all
+Depends:
+ ${misc:Depends},
+ fusiondirectory (= ${binary:Version}),
+Conflicts: gosa
+Description: plugin to manage groups mixing memberuid and member
+ Member and memberuid mixed in the same groups, this need specific
+ modified core ldap schema 
+ .
+ FusionDirectory is a combination of system-administrator and end-user web
+ interface, designed to handle LDAP based network infrastructures.
+
 Package: fusiondirectory-plugin-nagios
 Architecture: all
 Depends:
