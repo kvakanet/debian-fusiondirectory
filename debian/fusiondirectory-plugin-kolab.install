@@ -1,5 +1,5 @@
 plugins/kolab/admin         /usr/share/fusiondirectory/plugins
 plugins/kolab/personal      /usr/share/fusiondirectory/plugins
-plugins/kolab/locale        /usr/share/fusiondirectory/locale/plugins/kolab
 plugins/kolab/html/images   /usr/share/fusiondirectory/html/plugins/kolab
+plugins/kolab/locale        /usr/share/fusiondirectory/locale/plugins/kolab
 

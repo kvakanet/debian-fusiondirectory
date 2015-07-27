@@ -1,3 +1,3 @@
 plugins/pureftpd/personal       /usr/share/fusiondirectory/plugins
-plugins/pureftpd/locale         /usr/share/fusiondirectory/locale/plugins/pureftpd
 plugins/pureftpd/html/images    /usr/share/fusiondirectory/html/plugins/pureftpd
+plugins/pureftpd/locale         /usr/share/fusiondirectory/locale/plugins/pureftpd
