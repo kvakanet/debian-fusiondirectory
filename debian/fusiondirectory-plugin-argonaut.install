@@ -1,6 +1,6 @@
-plugins/argonaut/admin                      /usr/share/fusiondirectory/plugins
-plugins/argonaut/addons                     /usr/share/fusiondirectory/plugins
-plugins/argonaut/include                    /usr/share/fusiondirectory
-plugins/argonaut/locale                     /usr/share/fusiondirectory/locale/plugins/argonaut/
-plugins/argonaut/html/images                /usr/share/fusiondirectory/html/plugins/argonaut
 
+plugins/argonaut/addons                     /usr/share/fusiondirectory/plugins
+plugins/argonaut/admin                      /usr/share/fusiondirectory/plugins
+plugins/argonaut/include                    /usr/share/fusiondirectory
+plugins/argonaut/html/images                /usr/share/fusiondirectory/html/plugins/argonaut
+plugins/argonaut/locale                     /usr/share/fusiondirectory/locale/plugins/argonaut

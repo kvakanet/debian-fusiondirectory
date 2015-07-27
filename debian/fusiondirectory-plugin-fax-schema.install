@@ -1,3 +1,3 @@
-plugins/fax/contrib/openldap/fax-fd.schema        /etc/ldap/schema/fusiondirectory
 plugins/fax/contrib/openldap/fax-fd-conf.schema   /etc/ldap/schema/fusiondirectory
+plugins/fax/contrib/openldap/fax-fd.schema        /etc/ldap/schema/fusiondirectory
 plugins/fax/contrib/sql/gofax.sql                 /usr/share/doc/fusiondirectory-plugin-fax-schema
