@@ -38,7 +38,7 @@ Depends:
  libpath-class-perl,
  libfile-copy-recursive-perl,
  libxml-twig-perl,
- libdigest-sha-perl,
+ libcrypt-cbc-perl,
  libarchive-extract-perl,
  libterm-readkey-perl,
  schema2ldif,
