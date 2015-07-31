@@ -9,6 +9,7 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  plugins/apache2/admin/systems/services/apache2/class_serviceApacheVhostEdit.inc
  plugins/apache2/admin/systems/services/apache2/class_serviceApacheVhostManagement.inc
  plugins/apache2/admin/systems/services/apache2/tabs_serviceApacheVhostEdit.inc
+ plugins/applications/admin/applications/class_applicationGeneric.inc
  plugins/argonaut/addons/argonaut/class_argonautImportFile.inc
  plugins/argonaut/addons/argonaut/class_argonautQueue.inc
  plugins/argonaut/addons/argonaut/class_filterArgonautEvents.inc
@@ -86,6 +87,7 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  core/include/simpleplugin/class_simpleService.inc
  core/include/variables.inc
  core/include/variables_common.inc
+ core/plugins/addons/dashboard/tabs_dashBoard.inc
  core/plugins/admin/acl/class_aclManagement.inc
  core/plugins/admin/aclrole/class_aclRole.inc
  core/plugins/admin/departments/class_department.inc
@@ -110,16 +112,13 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  core/plugins/personal/password/main.inc
  core/plugins/personal/posix/class_posixAccount.inc
  core/plugins/personal/posix/trustSelect/class_trustSelect.inc
+ core/plugins/personal/roles/class_userRoles.inc
+ core/plugins/personal/roles/main.inc
  core/setup/class_setup.inc
  core/setup/class_setupStep_Checks.inc
  plugins/cyrus/admin/systems/services/cyrus/class_serviceCyrus.inc
  plugins/cyrus/personal/mail/mail-methods/class_mail-methods-cyrus.inc
  plugins/cyrus/personal/mail/mail-methods/class_mail-methods-sendmail-cyrus.inc
- plugins/dashboard/addons/dashboard/tabs_dashBoard.inc
- plugins/desktop-management/admin/applications/class_applicationGeneric.inc
- plugins/desktop-management/admin/applications/class_applicationParameters.inc
- plugins/desktop-management/admin/groups/apps/class_groupApplication.inc
- plugins/desktop-management/admin/mimetypes/class_mimetypeGeneric.inc
  plugins/dhcp/admin/systems/services/dhcp/class_dhcpAdvanced.inc
  plugins/dhcp/admin/systems/services/dhcp/class_dhcpClass.inc
  plugins/dhcp/admin/systems/services/dhcp/class_dhcpDnsZone.inc
@@ -192,12 +191,6 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  plugins/mail/admin/systems/services/spam/class_serviceSpamAssassin.inc
  plugins/mail/admin/systems/services/virus/class_serviceAntiVirus.inc
  plugins/mail/personal/mail/class_mail-methods.inc
- plugins/mail/personal/mail/sieve/class_My_Parser.inc
- plugins/mail/personal/mail/sieve/class_My_Scanner.inc
- plugins/mail/personal/mail/sieve/class_My_Tree.inc
- plugins/mail/personal/mail/sieve/class_parser.inc
- plugins/mail/personal/mail/sieve/class_scanner.inc
- plugins/mail/personal/mail/sieve/class_semantics.inc
  plugins/pureftpd/personal/pureftpd/class_pureftpdAccount.inc
  plugins/rsyslog/addons/rsyslog/class_rsyslog.inc
  plugins/rsyslog/addons/rsyslog/main.inc
@@ -242,16 +235,23 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
 Copyright: 2003, Cajus Pollmeier
   2003-2010, Cajus Pollmeier
   2011, FusionDirectory
-  2011-2012, FusionDirectory
   2011-2013, FusionDirectory
   2011-2014, FusionDirectory
-  2012-2013, FusionDirectory
+  2011-2015, FusionDirectory
+  2012-2015, FusionDirectory
+  2014-2015, FusionDirectory
+  2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/alias/admin/alias/class_mailAliasRedirection.inc
  plugins/alias/admin/alias/main.inc
  plugins/alias/config/alias/class_aliasConfig.inc
+ plugins/applications/admin/applications/class_applicationManagement.inc
+ plugins/applications/admin/applications/class_webApplication.inc
+ plugins/applications/admin/applications/main.inc
+ plugins/applications/admin/roles/class_applicationRights.inc
+ plugins/applications/config/applications/class_applicationsPluginConfig.inc
  plugins/argonaut/addons/argonaut/main.inc
  plugins/argonaut/admin/systems/argonaut/class_argonautClient.inc
  plugins/argonaut/admin/systems/services/argonaut/class_argonautDNSConfig.inc
@@ -267,6 +267,7 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/autofs/admin/autofs/class_autofsManagement.inc
  plugins/autofs/admin/autofs/class_nisMap.inc
  plugins/autofs/admin/autofs/class_nisObject.inc
+ plugins/autofs/admin/autofs/main.inc
  plugins/autofs/config/autofs/class_autofsConfig.inc
  core/contrib/smarty/plugins/function.filePath.php
  core/contrib/smarty/plugins/function.iconPath.php
@@ -288,6 +289,7 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  core/include/simpleplugin/class_simplePlugin.inc
  core/include/simpleplugin/class_simpleSelectManagement.inc
  core/include/simpleplugin/class_simpleTabs.inc
+ core/plugins/addons/dashboard/main.inc
  core/plugins/admin/acl/class_aclAssignment.inc
  core/plugins/admin/acl/main.inc
  core/plugins/admin/aclrole/class_aclRoleManagement.inc
@@ -300,6 +302,7 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  core/plugins/admin/password/class_recoveryConfig.inc
  core/plugins/admin/password/main.inc
  core/plugins/config/class_configInLdap.inc
+ core/plugins/config/class_dashBoardConfig.inc
  core/plugins/config/class_mainPluginsConfig.inc
  core/plugins/config/class_pluginsConfigInLdap.inc
  core/plugins/config/main.inc
@@ -307,17 +310,12 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  core/plugins/generic/references/class_reference.inc
  core/plugins/personal/generic/main.inc
  core/plugins/personal/posix/main.inc
- plugins/dashboard/addons/dashboard/main.inc
- plugins/dashboard/config/dashboard/class_dashBoardConfig.inc
+ plugins/certificates/personal/certificates/class_userCertificates.inc
+ plugins/certificates/personal/certificates/main.inc
  plugins/debconf/admin/debconfProfile/class_debconfProfileGeneric.inc
  plugins/debconf/admin/debconfProfile/class_debconfProfileManagement.inc
  plugins/debconf/admin/debconfProfile/main.inc
  plugins/debconf/admin/systems/debconf/class_debconfStartup.inc
- plugins/desktop-management/admin/applications/class_applicationManagement.inc
- plugins/desktop-management/admin/applications/main.inc
- plugins/desktop-management/admin/mimetypes/class_mimetypeManagement.inc
- plugins/desktop-management/admin/mimetypes/main.inc
- plugins/desktop-management/config/desktop-management/class_desktopPluginConfig.inc
  plugins/developers/FDStandard/example_badcode.php
  plugins/developers/debug-help/addons/debug-help/class_debugHelp.inc
  plugins/developers/debug-help/addons/debug-help/main.inc
@@ -330,6 +328,13 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/dsa/admin/dsa/class_simpleSecurityObject.inc
  plugins/dsa/admin/dsa/main.inc
  plugins/dsa/config/dsa/class_dsaConfig.inc
+ plugins/ejbca/admin/ejbca/certificates/class_ejbcaCertificates.inc
+ plugins/ejbca/admin/ejbca/certificates/main.inc
+ plugins/ejbca/admin/ejbca/class_ejbcaCertSelect.inc
+ plugins/ejbca/admin/ejbca/class_ejbcaCertificate.inc
+ plugins/ejbca/admin/ejbca/class_ejbcaManagement.inc
+ plugins/ejbca/admin/ejbca/main.inc
+ plugins/ejbca/config/ejbca/class_ejbcaConfig.inc
  plugins/fai/admin/fai/packageSelect/class_filterFAIcustoms.inc
  plugins/fai/config/fai/class_faiConfig.inc
  plugins/fax/admin/blocklists/class_blocklistManagement.inc
@@ -372,6 +377,16 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/opsi/admin/systems/opsi/class_opsiClient.inc
  plugins/opsi/admin/systems/services/opsi/class_serviceOPSI.inc
  plugins/opsi/config/opsi/class_opsiConfig.inc
+ plugins/personal/config/personal/class_personalConfig.inc
+ plugins/personal/personal/personal/class_personalInfo.inc
+ plugins/personal/personal/personal/class_socialHandlers.inc
+ plugins/personal/personal/personal/main.inc
+ plugins/ppolicy/admin/ppolicy/class_ppolicy.inc
+ plugins/ppolicy/admin/ppolicy/class_ppolicyManagement.inc
+ plugins/ppolicy/admin/ppolicy/main.inc
+ plugins/ppolicy/config/ppolicy/class_ppolicyConfig.inc
+ plugins/ppolicy/personal/ppolicy/class_ppolicyAccount.inc
+ plugins/ppolicy/personal/ppolicy/main.inc
  plugins/puppet/admin/systems/puppet/class_puppetNode.inc
  plugins/puppet/admin/systems/services/puppet/class_servicePuppet.inc
  plugins/pureftpd/personal/pureftpd/main.inc
@@ -397,6 +412,7 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/sudo/config/sudo/class_sudoConfig.inc
  plugins/supann/admin/supannStructures/class_entite.inc
  plugins/supann/admin/supannStructures/class_etablissement.inc
+ plugins/supann/admin/supannStructures/class_supann.inc
  plugins/supann/admin/supannStructures/class_supannStructuresManagement.inc
  plugins/supann/admin/supannStructures/main.inc
  plugins/supann/config/supann/class_supannConfig.inc
@@ -415,11 +431,12 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/webservice/html/jsonrpc.php
 Copyright: 2011-2013, FusionDirectory
   2011-2014, FusionDirectory
-  2012, FusionDirectory
-  2012-2013, FusionDirectory
-  2012-2014, FusionDirectory
+  2011-2015, FusionDirectory
+  2012-2015, FusionDirectory
   2013, FusionDirectory
-  2014, FusionDirectory
+  2013-2015, FusionDirectory
+  2014-2015, FusionDirectory
+  2015, FusionDirectory
 License: GPL-2+
 
 Files:
@@ -427,18 +444,19 @@ Files:
  plugins/addressbook/locale/*/fusiondirectory.po
  plugins/alias/locale/*/fusiondirectory.po
  plugins/apache2/locale/*/fusiondirectory.po
+ plugins/applications/locale/*/fusiondirectory.po
  plugins/argonaut/locale/*/fusiondirectory.po
  plugins/asterisk/locale/*/fusiondirectory.po
  plugins/autofs/locale/*/fusiondirectory.po
+ plugins/certificates/locale/*/fusiondirectory.po
  plugins/cyrus/locale/*/fusiondirectory.po
- plugins/dashboard/locale/*/fusiondirectory.po
  plugins/debconf/locale/*/fusiondirectory.po
- plugins/desktop-management/locale/*/fusiondirectory.po
  plugins/developers/locale/*/fusiondirectory.po
  plugins/dhcp/locale/*/fusiondirectory.po
  plugins/dns/locale/*/fusiondirectory.po
  plugins/dovecot/locale/*/fusiondirectory.po
  plugins/dsa/locale/*/fusiondirectory.po
+ plugins//ejbca/locale/*/fusiondirectory.po
  plugins/fai/locale/*/fusiondirectory.po
  plugins/fax/locale/*/fusiondirectory.po
  plugins/freeradius/locale/*/fusiondirectory.po
@@ -454,6 +472,8 @@ Files:
  plugins/netgroups/locale/*/fusiondirectory.po
  plugins/openstack-compute/locale/*/fusiondirectory.po
  plugins/opsi/locale/*/fusiondirectory.po
+ plugins/personal/locale/*/fusiondirectory.po
+ plugins/ppolicy/locale/*/fusiondirectory.po
  plugins/puppet/locale/*/fusiondirectory.po
  plugins/pureftpd/locale/*/fusiondirectory.po
  plugins/quota/locale/*/fusiondirectory.po
@@ -475,7 +495,7 @@ License: GPL-2+
 Comment:
  This file is distributed under the same license as the PACKAGE package.
 
-Files: 
+Files:
  core/.tx/config
  core/AUTHORS
  core/COPYING
@@ -492,33 +512,12 @@ Files:
  core/html/robots.txt
  plugins/.tx/config
  plugins/README.md
- plugins/autofs/AUTHORS.rst
- plugins/autofs/LICENSE.txt
  plugins/developers/CODING
  plugins/developers/Doxyfile
  plugins/developers/FDStandard/GUIDELINES
  plugins/kolab/contrib/openldap/rfc2739.schema
- plugins/mail/contrib/openldap/update-from-1.0.6-to-1.0.7/update-mail-fd.ldif
- plugins/systems/contrib/openldap/update-from-1.0.6-to-1.0.7/update-service-fd.ldif
- plugins/systems/contrib/openldap/update-from-1.0.6-to-1.0.7/update-systems-fd-conf.ldif
  core/include/functions_debug.inc
- plugins/developers/simple-plugin/demoSection.php
  plugins/fusioninventory/html/collect.php
- plugins/mail/personal/mail/sieve/class_sieveElement_Block_End.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Block_Start.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Comment.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Discard.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Else_Elsif.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Fileinto.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_If.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Keep.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Redirect.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Reject.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Require.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Stop.inc
- plugins/mail/personal/mail/sieve/class_sieveElement_Vacation.inc
- plugins/mail/personal/mail/sieve/class_tree.inc
- plugins/mail/personal/mail/sieve/libsieve.inc
  core/contrib/apache/fusiondirectory-apache.conf
  core/contrib/bin/fusiondirectory-insert-schema
  core/contrib/bin/fusiondirectory-setup
@@ -532,7 +531,7 @@ Files:
  core/contrib/openldap/recovery-fd.schema
  core/contrib/openldap/rfc2307bis.schema
  core/contrib/openldap/samba.schema
- core/contrib/openldap/slapd.conf 
+ core/contrib/openldap/slapd.conf
  core/html/images/date_active.png
  core/html/images/down-arrow.png
  core/html/images/dtree.png
@@ -621,6 +620,7 @@ Files:
  core/html/themes/default/icons/16/apps/utilities-system-monitor.png
  core/html/themes/default/icons/16/categories/acl.png
  core/html/themes/default/icons/16/categories/applications-internet.png
+ core/html/themes/default/icons/16/categories/settings.png
  core/html/themes/default/icons/16/devices/computer.png
  core/html/themes/default/icons/16/devices/media-cdrom.png
  core/html/themes/default/icons/16/devices/network-device.png
@@ -629,10 +629,14 @@ Files:
  core/html/themes/default/icons/16/devices/server.png
  core/html/themes/default/icons/16/devices/telephone.png
  core/html/themes/default/icons/16/devices/terminal.png
+ core/html/themes/default/icons/16/mimetypes/application-certificate.png
  core/html/themes/default/icons/16/mimetypes/application-pdf.png
+ core/html/themes/default/icons/16/mimetypes/application-x-executable.png
+ core/html/themes/default/icons/16/mimetypes/package-x-generic.png
  core/html/themes/default/icons/16/mimetypes/text-csv.png
  core/html/themes/default/icons/16/places/folder.png
  core/html/themes/default/icons/16/status/dialog-error.png
+ core/html/themes/default/icons/16/status/dialog-information.png
  core/html/themes/default/icons/16/status/dialog-password.png
  core/html/themes/default/icons/16/status/dialog-warning.png
  core/html/themes/default/icons/16/status/locked.png
@@ -651,6 +655,7 @@ Files:
  core/html/themes/default/icons/22/status/dialog-error.png
  core/html/themes/default/icons/22/status/dialog-information.png
  core/html/themes/default/icons/32/status/dialog-error.png
+ core/html/themes/default/icons/32/status/dialog-information.png
  core/html/themes/default/icons/32/status/dialog-warning.png
  core/html/themes/default/icons/32/status/object-locked.png
  core/html/themes/default/icons/48/actions/view-task.png
@@ -663,17 +668,20 @@ Files:
  core/html/themes/default/icons/48/apps/utilities-system-monitor.png
  core/html/themes/default/icons/48/categories/acl.png
  core/html/themes/default/icons/48/categories/applications-development.png
+ core/html/themes/default/icons/48/categories/applications-other.png
  core/html/themes/default/icons/48/categories/settings.png
  core/html/themes/default/icons/48/devices/computer.png
+ core/html/themes/default/icons/48/mimetypes/application-certificate.png
  core/html/themes/default/icons/48/places/folder.png
  core/html/themes/default/icons/48/places/network-server.png
  core/html/themes/default/icons/48/status/dialog-password.png
  core/html/themes/default/icons/48/types/contact.png
  core/html/themes/default/icons/48/types/resource-group.png
+ core/html/themes/default/icons/48/types/role.png
  core/html/themes/default/icons/48/types/user-group.png
  core/html/themes/default/icons/48/types/user.png
  core/html/themes/default/icons/scalable/apps/fusiondirectory.png
- core/html/themes/default/images/border.png 
+ core/html/themes/default/images/border.png
  core/ihtml/themes/default/acl.tpl
  core/ihtml/themes/default/colors.txt
  core/ihtml/themes/default/conflict.tpl
@@ -707,6 +715,10 @@ Files:
  core/include/simpleplugin/simple-filter.xml
  core/include/simpleplugin/simple-list.xml
  core/include/simpleplugin/simple-select-list.xml
+ core/plugins/addons/dashboard/groups_stats.tpl
+ core/plugins/addons/dashboard/main_stats.tpl
+ core/plugins/addons/dashboard/users_accounts.tpl
+ core/plugins/addons/dashboard/users_stats.tpl
  core/plugins/admin/acl/remove.tpl
  core/plugins/admin/aclrole/acl_role.tpl
  core/plugins/admin/departments/dep-list.xml
@@ -714,15 +726,12 @@ Files:
  core/plugins/admin/groups/group-filter.xml
  core/plugins/admin/groups/group-list.xml
  core/plugins/admin/groups/paste_generic.tpl
- core/plugins/admin/groups/trust_machines.tpl
  core/plugins/admin/ogroups/generic.tpl
  core/plugins/admin/ogroups/ogroup-filter.tpl
  core/plugins/admin/ogroups/ogroup-filter.xml
  core/plugins/admin/ogroups/ogroup-list.xml
- core/plugins/admin/ogroups/ogroup_objects.tpl
  core/plugins/admin/ogroups/paste_generic.tpl
  core/plugins/admin/ogroups/remove.tpl
- core/plugins/admin/ogroups/trust_machines.tpl
  core/plugins/admin/password/recoveryConfig.tpl
  core/plugins/admin/users/password.tpl
  core/plugins/admin/users/remove.tpl
@@ -738,7 +747,6 @@ Files:
  core/plugins/personal/generic/generic_certs.tpl
  core/plugins/personal/generic/generic_picture.tpl
  core/plugins/personal/generic/nochange.tpl
- core/plugins/personal/generic/password.tpl
  core/plugins/personal/generic/paste_generic.tpl
  core/plugins/personal/password/changed.tpl
  core/plugins/personal/password/nochange.tpl
@@ -752,14 +760,13 @@ Files:
  core/setup/setup_config1.tpl
  core/setup/setup_config2.tpl
  core/setup/setup_config3.tpl
- core/setup/setup_feedback.tpl
  core/setup/setup_finish.tpl
  core/setup/setup_frame.tpl
  core/setup/setup_language.tpl
  core/setup/setup_ldap.tpl
  core/setup/setup_migrate.tpl
  core/setup/setup_schema.tpl
- core/setup/setup_welcome.tpl 
+ core/setup/setup_welcome.tpl
  plugins/addressbook/addons/addressbook/address_edit.tpl
  plugins/addressbook/addons/addressbook/address_info.tpl
  plugins/addressbook/addons/addressbook/contents.tpl
@@ -786,6 +793,9 @@ Files:
  plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEdit-list.xml
  plugins/apache2/admin/systems/services/apache2/serviceApacheVhostEditFooter.tpl
  plugins/apache2/contrib/openldap/mod_vhost_ldap.schema
+ plugins/applications/contrib/openldap/applications-fd-conf.schema
+ plugins/applications/contrib/openldap/applications-fd.schema
+ plugins/applications/html/images/default_icon.png
  plugins/argonaut/addons/argonaut/argonaut_import_file.tpl
  plugins/argonaut/addons/argonaut/deploy-filter.xml
  plugins/argonaut/addons/argonaut/deploy-list.tpl
@@ -845,39 +855,12 @@ Files:
  plugins/cyrus/html/images/icon.png
  plugins/cyrus/html/images/iconMini.png
  plugins/cyrus/personal/mail/mail-methods/sieve_script.tpl
- plugins/dashboard/addons/dashboard/contents.tpl
- plugins/dashboard/addons/dashboard/main_stats.tpl
- plugins/dashboard/addons/dashboard/network_dhcp.tpl
- plugins/dashboard/addons/dashboard/systems_pcids.tpl
- plugins/dashboard/addons/dashboard/systems_stats.tpl
- plugins/dashboard/addons/dashboard/users_accounts.tpl
- plugins/dashboard/addons/dashboard/users_stats.tpl
- plugins/dashboard/contrib/openldap/dashboard-fd-conf.schema
  plugins/debconf/admin/debconfProfile/debconfProfile-filter.tpl
  plugins/debconf/admin/debconfProfile/debconfProfile-filter.xml
  plugins/debconf/contrib/openldap/debconf-fd.schema
  plugins/debconf/contrib/openldap/debconf.schema
- plugins/debconf/contrib/openldap/example.ldif
  plugins/debconf/html/images/icon.png
  plugins/debconf/html/images/iconMini.png
- plugins/desktop-management/admin/applications/parameters.tpl
- plugins/desktop-management/admin/groups/apps/app_list.tpl
- plugins/desktop-management/admin/groups/apps/edit_entry.tpl
- plugins/desktop-management/admin/mimetypes/generic.tpl
- plugins/desktop-management/contrib/openldap/application-fd.schema
- plugins/desktop-management/contrib/openldap/desktop-fd-conf.schema
- plugins/desktop-management/contrib/openldap/mime-fd.schema
- plugins/desktop-management/html/images/default_icon.png
- plugins/desktop-management/html/images/iconApplication.png
- plugins/desktop-management/html/images/iconMimetypes.png
- plugins/desktop-management/html/images/iconMiniApplications.png
- plugins/desktop-management/html/images/iconMiniMimetypes.png
- plugins/desktop-management/html/images/list_mime.png
- plugins/desktop-management/html/images/list_new_mime.png
- plugins/desktop-management/html/images/mime_embedding.png
- plugins/desktop-management/html/images/mime_leftclick.png
- plugins/desktop-management/html/images/select_application.png
- plugins/desktop-management/html/images/select_mimetype.png
  plugins/developers/FDStandard/ruleset.xml
  plugins/developers/debug-help/addons/debug-help/debughelp.tpl
  plugins/developers/debug-help/html/images/icon.png
@@ -885,22 +868,6 @@ Files:
  plugins/developers/list.xsd
  plugins/developers/simple-plugin/demoPlugin/demoplugin.ldif
  plugins/developers/simple-plugin/demoPlugin/demoplugin.schema
- plugins/developers/simple-plugin/screenshots/base.png
- plugins/developers/simple-plugin/screenshots/boolean-false.png
- plugins/developers/simple-plugin/screenshots/boolean-true.png
- plugins/developers/simple-plugin/screenshots/date1.png
- plugins/developers/simple-plugin/screenshots/demoPlugin.png
- plugins/developers/simple-plugin/screenshots/file.png
- plugins/developers/simple-plugin/screenshots/float.png
- plugins/developers/simple-plugin/screenshots/int.png
- plugins/developers/simple-plugin/screenshots/orderedarray.png
- plugins/developers/simple-plugin/screenshots/password.png
- plugins/developers/simple-plugin/screenshots/select.png
- plugins/developers/simple-plugin/screenshots/set.png
- plugins/developers/simple-plugin/screenshots/string.png
- plugins/developers/simple-plugin/screenshots/users1.png
- plugins/developers/simple-plugin/screenshots/users2.png
- plugins/developers/simple-plugin/screenshots/users3.png
  plugins/dhcp/admin/systems/services/dhcp/dhcpNewSection.tpl
  plugins/dhcp/admin/systems/services/dhcp/dhcp_advanced.tpl
  plugins/dhcp/admin/systems/services/dhcp/dhcp_dnszone.tpl
@@ -930,6 +897,11 @@ Files:
  plugins/dsa/contrib/openldap/dsa-fd-conf.schema
  plugins/dsa/html/images/icon.png
  plugins/dsa/html/images/iconMini.png
+ plugins/ejbca/contrib/openldap/ejbca-fd-conf.schema
+ plugins/ejbca/contrib/openldap/ejbca-fd.schema
+ plugins/ejbca/contrib/resources/ejbca.svg
+ plugins/ejbca/html/themes/default/icons/16/apps/ejbca.png
+ plugins/ejbca/html/themes/default/icons/48/apps/ejbca.png
  plugins/fai/admin/fai/askClassName.tpl
  plugins/fai/admin/fai/branch_selector.tpl
  plugins/fai/admin/fai/classSelect/selectClass-filter.tpl
@@ -1052,40 +1024,6 @@ Files:
  plugins/mail/html/images/sieve_add_new_bottom.png
  plugins/mail/html/images/sieve_add_new_top.png
  plugins/mail/html/images/sieve_add_test.png
- plugins/mail/personal/mail/sieve/templates/add_element.tpl
- plugins/mail/personal/mail/sieve/templates/block_indent_start.tpl
- plugins/mail/personal/mail/sieve/templates/block_indent_stop.tpl
- plugins/mail/personal/mail/sieve/templates/create_script.tpl
- plugins/mail/personal/mail/sieve/templates/edit_frame_base.tpl
- plugins/mail/personal/mail/sieve/templates/element_address.tpl
- plugins/mail/personal/mail/sieve/templates/element_allof.tpl
- plugins/mail/personal/mail/sieve/templates/element_anyof.tpl
- plugins/mail/personal/mail/sieve/templates/element_block_end.tpl
- plugins/mail/personal/mail/sieve/templates/element_block_start.tpl
- plugins/mail/personal/mail/sieve/templates/element_boolean.tpl
- plugins/mail/personal/mail/sieve/templates/element_comment.tpl
- plugins/mail/personal/mail/sieve/templates/element_discard.tpl
- plugins/mail/personal/mail/sieve/templates/element_else.tpl
- plugins/mail/personal/mail/sieve/templates/element_elsif.tpl
- plugins/mail/personal/mail/sieve/templates/element_envelope.tpl
- plugins/mail/personal/mail/sieve/templates/element_exists.tpl
- plugins/mail/personal/mail/sieve/templates/element_fileinto.tpl
- plugins/mail/personal/mail/sieve/templates/element_header.tpl
- plugins/mail/personal/mail/sieve/templates/element_if.tpl
- plugins/mail/personal/mail/sieve/templates/element_keep.tpl
- plugins/mail/personal/mail/sieve/templates/element_redirect.tpl
- plugins/mail/personal/mail/sieve/templates/element_reject.tpl
- plugins/mail/personal/mail/sieve/templates/element_require.tpl
- plugins/mail/personal/mail/sieve/templates/element_size.tpl
- plugins/mail/personal/mail/sieve/templates/element_stop.tpl
- plugins/mail/personal/mail/sieve/templates/element_vacation.tpl
- plugins/mail/personal/mail/sieve/templates/import_script.tpl
- plugins/mail/personal/mail/sieve/templates/management.tpl
- plugins/mail/personal/mail/sieve/templates/object_container.tpl
- plugins/mail/personal/mail/sieve/templates/object_container_clear.tpl
- plugins/mail/personal/mail/sieve/templates/object_test_container.tpl
- plugins/mail/personal/mail/sieve/templates/remove_script.tpl
- plugins/mail/personal/mail/sieve/templates/select_test_type.tpl
  plugins/nagios/contrib/openldap/nagios-fd-conf.schema
  plugins/nagios/contrib/openldap/netways.schema
  plugins/nagios/html/images/icon.png
@@ -1106,6 +1044,16 @@ Files:
  plugins/opsi/html/images/iconMiniSoftwareOnDemand.png
  plugins/opsi/html/images/iconSoftwareList.png
  plugins/opsi/html/images/iconSoftwareOnDemand.png
+ plugins/personal/contrib/openldap/personal-fd-conf.schema
+ plugins/personal/contrib/openldap/personal-fd.schema
+ plugins/ppolicy/addons/dashboard/ppolicy_locked_accounts.tpl
+ plugins/ppolicy/contrib/images/ppolicy.svg
+ plugins/ppolicy/contrib/openldap/ppolicy-fd-conf.schema
+ plugins/ppolicy/contrib/openldap/ppolicyconfig.ldif
+ plugins/ppolicy/contrib/openldap/ppolicydefault.ldif
+ plugins/ppolicy/contrib/openldap/ppolicymodule.ldif
+ plugins/ppolicy/html/themes/default/icons/16/apps/ppolicy.png
+ plugins/ppolicy/html/themes/default/icons/48/apps/ppolicy.png
  plugins/puppet/contrib/openldap/puppet-fd.schema
  plugins/puppet/contrib/openldap/puppet.schema
  plugins/puppet/html/images/icon.png
@@ -1184,6 +1132,9 @@ Files:
  plugins/sympa/contrib/openldap/sympa-fd.schema
  plugins/sympa/html/images/icon.png
  plugins/sympa/html/images/iconMini.png
+ plugins/systems/addons/dashboard/network_dhcp.tpl
+ plugins/systems/addons/dashboard/systems_pcids.tpl
+ plugins/systems/addons/dashboard/systems_stats.tpl
  plugins/systems/admin/ogroups/goto/termgroup.tpl
  plugins/systems/admin/systems/SelectDeviceType.tpl
  plugins/systems/admin/systems/gencd.tpl
@@ -1300,7 +1251,7 @@ Copyright: 2003-2004, Tassilo Erlewein
 License: BSD-3-clause
 
 Files: plugins/samba/contrib/fix_munged
-Copyright: 2003, Achim Frank    
+Copyright: 2003, Achim Frank
            2006, Jan Wenzel
            2011, FusionDirectory
 License: GPL-2+
@@ -1328,8 +1279,7 @@ Files: plugins/argonaut/addons/argonaut/events/class_DaemonEvent.inc
  core/setup/main.inc
 Copyright: 2006, Fabian Hickert
   2007, Fabian Hickert
-  2011-2013, FusionDirectory
-  2011-2014, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/alias/admin/alias/class_aliasManagement.inc
@@ -1339,25 +1289,25 @@ Files: plugins/alias/admin/alias/class_aliasManagement.inc
  plugins/supann/personal/supann/class_supannAccount.inc
 Copyright: 2010, Antoine Gallavardin
   2010-2012, Antoine Gallavardin
-  2011-2013, FusionDirectory
-  2012-2013, FusionDirectory
-  2013, FusionDirectory
+  2011-2015, FusionDirectory
+  2012-2015, FusionDirectory
+  2013-2015, FusionDirectory
 License: GPL-2+
 
-Files: plugins/dashboard/addons/dashboard/class_dashBoard.inc
- plugins/dashboard/addons/dashboard/class_dashBoardNetwork.inc
- plugins/dashboard/addons/dashboard/class_dashBoardSystems.inc
- plugins/dashboard/addons/dashboard/class_dashBoardUsers.inc
+Files: core/plugins/addons/dashboard/class_dashBoard.inc
+ core/plugins/addons/dashboard/class_dashBoardUsers.inc
  plugins/opsi/addons/opsi/class_opsiImport.inc
+ plugins/systems/addons/dashboard/class_dashBoardNetwork.inc
+ plugins/systems/addons/dashboard/class_dashBoardSystems.inc
 Copyright: 2010, Antoine Gallavardin
-  2011-2013, FusionDirectory project
+  2011-2015, FusionDirectory project
 License: GPL-2+
 
 Files: plugins/netgroups/admin/netgroups/class_filterNetGroupLDAP.inc
  plugins/netgroups/admin/netgroups/class_netgroup.inc
  plugins/netgroups/personal/netgroups/class_netgroupMembership.inc
 Copyright: 2011, Alejandro Escanero Blanco (aescanero@gmail.com)
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/addressbook/html/getvcard.php
@@ -1366,7 +1316,7 @@ Files: plugins/addressbook/html/getvcard.php
 Copyright: 2003-2008, GONICUS GmbH
   2003-2009, GONICUS GmbH
   2011, FusionDirectory
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/argonaut/include/jsonRPCClient.php
@@ -1380,56 +1330,51 @@ Files: core/include/class_ldap.inc
 Copyright: 1998, Eric Kilfoil <eric@ipass.net>
   2003, Alejandro Escanero Blanco <aescanero@chaosdimension.org>
   2003-2010, Cajus Pollmeier
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/mail/admin/groups/mail/class_groupMail.inc
 Copyright: 2009-2010, Bas Tichelaar
-  2013, FusionDirectory
+  2013-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/nagios/personal/nagios/main.inc
 Copyright: 2005, Benoit Mortier
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/nagios/personal/nagios/class_nagiosAccount.inc
 Copyright: 2005, Guillame Delecourt
   2006, Benoit Mortier
   2006, Vincent Seynhaeve
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/uw-imap/personal/mail/uw-imap/class_mail-methods-uwimap.inc
 Copyright: 2003, Cajus Pollmeier
   2008, Fabian Hickert
   2008, Gero Kuhlmann
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/mail/personal/mail/class_mailAccount.inc
-Copyright: 2007, Fabian Hicker
-  2011-2014, FusionDirectory
-License: GPL-2+
-
-Files: plugins/mail/personal/mail/sieve/class_sieveManagement.inc
-Copyright: 2003-2007, - Fabian Hickert <hickert@gonicus.de>
-  2011-2013, FusionDirectory
+Copyright: 2003-2007, Fabian Hickert <hickert@gonicus.de>
+  2007, Fabian Hicker
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: plugins/openstack-compute/personal/openstack-compute/class_novaAccount.inc
 Copyright: 2011, Yuriy Taraday
-  2011-2013, FusionDirectory
+  2011-2015, FusionDirectory
 License: GPL-2+
 
 Files: core/include/class_smbHash.inc
 Copyright: 2004, - 2006, Roland Gruber
-  2013, FusionDirectory Project
+  2013-2015, FusionDirectory Project
 License: GPL-2+
 
-Files: core/include/accept-to-gettext.inc
-Copyright: 2003, Wouter Verhelst <wouter@debian.org>
-  2012-2013, FusionDirectory project <contact@fusiondirectory.org>
+Files: plugins/ppolicy/addons/dashboard/class_dashBoardPPolicy.inc
+Copyright: 2015, FusionDirectory project
 License: GPL-2+
 
 Files: core/html/include/pulldown.js
@@ -1449,11 +1394,12 @@ Copyright: 2003-2010, Cajus Pollmeier
            2011, FusionDirectory
 License: GPL-2+
 
-Files: plugins/autofs/admin/autofs/main.inc
-Copyright: 2013, FusionDirectory
-License: GPL-3+
+Files: core/include/accept-to-gettext.inc
+Copyright: 2003, Wouter Verhelst <wouter@debian.org>
+  2012-2015, FusionDirectory project <contact@fusiondirectory.org>
+License: GPL-2+
 
-Files: plugins/mail/personal/mail/sieve/class_sieve.inc
+Files: plugins/mail/personal/mail/class_sieve.inc
 Copyright: 2001, Dan Ellis
   2001, Dan Ellis <danellis@rushmore.com>
 License: GPL-2+
@@ -1464,6 +1410,7 @@ Files: plugins/supann/html/images/user-student.png
  plugins/supann/html/images/user-employee.png
  plugins/supann/html/images/user-enrolee.png
  plugins/argonaut/html/images/icon.png
+ plugins/ppolicy/contrib/images/ppolicy.svg
 Copyright: *No copyright*
 License: CC-BY-SA
 
@@ -1562,15 +1509,15 @@ License: BSD-3-clause
      may be used to endorse or promote products derived from this software
      without specific prior written permission.
  .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;  OR BUSINESS 
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;  OR BUSINESS
  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
- STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY 
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: BSD-4-clause
@@ -1727,7 +1674,7 @@ License: CC-BY-SA
      in Collections; and,
   d. to Distribute and Publicly Perform Adaptations.
   e. For the avoidance of doubt:
- . 
+ .
       i. Non-waivable Compulsory License Schemes. In those jurisdictions in
          which the right to collect royalties through any statutory or
          compulsory licensing scheme cannot be waived, the Licensor

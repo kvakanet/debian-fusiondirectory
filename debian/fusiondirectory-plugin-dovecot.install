@@ -1,5 +1,5 @@
 plugins/dovecot/admin            /usr/share/fusiondirectory/plugins
+plugins/dovecot/personal         /usr/share/fusiondirectory/plugins
 plugins/dovecot/html/images      /usr/share/fusiondirectory/html/plugins/dovecot
 plugins/dovecot/locale           /usr/share/fusiondirectory/locale/plugins/dovecot
-plugins/dovecot/personal         /usr/share/fusiondirectory/plugins
 

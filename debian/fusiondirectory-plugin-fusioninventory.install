@@ -1,6 +1,6 @@
 plugins/fusioninventory/admin                       /usr/share/fusiondirectory/plugins
 plugins/fusioninventory/config                      /usr/share/fusiondirectory/plugins
+plugins/fusioninventory/html/collect.php            /usr/share/fusiondirectory/html/
 plugins/fusioninventory/html/images                 /usr/share/fusiondirectory/html/plugins/fusioninventory
 plugins/fusioninventory/html/plugins/inventory.css  /usr/share/fusiondirectory/html/plugins/fusioninventory
-plugins/fusioninventory/html/collect.php            /usr/share/fusiondirectory/html/
 plugins/fusioninventory/locale                      /usr/share/fusiondirectory/locale/plugins/fusioninventory

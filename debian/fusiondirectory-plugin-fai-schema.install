@@ -1,2 +1,2 @@
-plugins/fai/contrib/openldap/fai.schema           /etc/ldap/schema/fusiondirectory
 plugins/fai/contrib/openldap/fai-fd-conf.schema   /etc/ldap/schema/fusiondirectory
+plugins/fai/contrib/openldap/fai.schema           /etc/ldap/schema/fusiondirectory

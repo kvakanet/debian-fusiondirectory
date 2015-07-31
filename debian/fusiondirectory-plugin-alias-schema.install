@@ -1,2 +1,2 @@
-plugins/alias/contrib/openldap/alias-fd.schema            /etc/ldap/schema/fusiondirectory
 plugins/alias/contrib/openldap/alias-fd-conf.schema       /etc/ldap/schema/fusiondirectory
+plugins/alias/contrib/openldap/alias-fd.schema            /etc/ldap/schema/fusiondirectory
