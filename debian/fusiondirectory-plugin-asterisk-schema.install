@@ -1,3 +1,0 @@
-plugins/asterisk/contrib/openldap/asterisk-fd.schema       /etc/ldap/schema/fusiondirectory
-plugins/asterisk/contrib/openldap/asterisk-fd-conf.schema  /etc/ldap/schema/fusiondirectory
-plugins/asterisk/contrib/sql/asteriskcdrdb.sql             /usr/share/doc/fusiondirectory-plugin-asterisk-schema
