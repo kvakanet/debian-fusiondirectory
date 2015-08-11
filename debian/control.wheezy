@@ -49,7 +49,7 @@ Suggests:
 Conflicts:
  gosa,
 Description: Web Based LDAP Administration Program
- Provided is access to posix, shadow, samba, proxy, fax, pureftp and
+ Provided is access to posix, shadow, samba, proxy, pureftp and
  kerberos accounts. It is able to manage the postfix/cyrus server
  combination and can write user adapted sieve scripts.
  .
@@ -490,34 +490,6 @@ Conflicts: gosa-plugin-fai-schema
 Description: LDAP schema for FusionDirectory fai plugin
  This package includes the LDAP schema needed by the FusionDirectory
  fai plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-fax
-Architecture: all
-Depends:
- ${misc:Depends},
- fusiondirectory (= ${binary:Version}),
- fusiondirectory-plugin-systems (= ${binary:Version}),
- fusiondirectory-plugin-database-connector (= ${binary:Version}),
-Conflicts: gosa-plugin-gofax
-Description: fax plugin for FusionDirectory
- fax management with report functionality
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-fax-schema
-Architecture: all
-Depends:
- ${misc:Depends},
- fusiondirectory-plugin-systems-schema (= ${binary:Version}),
-Recommends: slapd
-Conflicts: gosa-plugin-fax-schema
-Description: LDAP schema for FusionDirectory fax plugin
- This package includes the LDAP schema needed by the FusionDirectory
- fax plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
