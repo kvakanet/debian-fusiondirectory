@@ -686,7 +686,6 @@ Files:
  core/ihtml/themes/default/logout-close.tpl
  core/ihtml/themes/default/logout.tpl
  core/ihtml/themes/default/msg_dialog.tpl
- core/ihtml/themes/default/password.tpl
  core/ihtml/themes/default/recovery.tpl
  core/ihtml/themes/default/remove.tpl
  core/ihtml/themes/default/setup_header.tpl
