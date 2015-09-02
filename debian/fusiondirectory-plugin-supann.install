@@ -8,7 +8,7 @@ plugins/supann/contrib/supann/typediplome_SISE            /etc/fusiondirectory/s
 plugins/supann/contrib/supann/affiliation                 /etc/fusiondirectory/supann/
 plugins/supann/contrib/supann/corps                       /etc/fusiondirectory/supann/
 plugins/supann/contrib/supann/entite                      /etc/fusiondirectory/supann/
-plugins/supann/contrib/supann/role                        /etc/fusiondirectory/supann/
+plugins/supann/contrib/supann/role_SUPANN                     /etc/fusiondirectory/supann/
 plugins/supann/contrib/supann/diplome_EXAMPLE                 /usr/share/doc/fusiondirectory-plugin-supann/example
 plugins/supann/contrib/supann/discipline_EXAMPLE              /usr/share/doc/fusiondirectory-plugin-supann/example
 plugins/supann/contrib/supann/etuelementpedagogique_EXAMPLE   /usr/share/doc/fusiondirectory-plugin-supann/example
