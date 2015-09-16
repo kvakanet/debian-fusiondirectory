@@ -55,5 +55,4 @@ core/locale                                        /usr/share/fusiondirectory
 core/plugins                                       /usr/share/fusiondirectory
 core/setup                                         /usr/share/fusiondirectory
 core/contrib/apache/fusiondirectory-apache.conf    /etc/fusiondirectory
-core/contrib/openldap/slapd.conf                   /usr/share/doc/fusiondirectory/slapd.conf-example
 core/contrib/fusiondirectory.conf                  /usr/share/doc/fusiondirectory
