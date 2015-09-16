@@ -615,7 +615,8 @@ Description: LDAP schema for FusionDirectory ipmi plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugin-kolab
+Package: fusiondirectory-plugin-kolab2
+Replaces: fusiondirectory-plugin-kolab 
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -623,13 +624,14 @@ Depends:
  fusiondirectory-plugin-mail (= ${binary:Version}),
  fusiondirectory-plugin-cyrus (= ${binary:Version}),
 Conflicts: gosa-plugin-kolab
-Description: kolab plugin for FusionDirectory
- Kolab2 account management plugin
+Description: kolab 2 plugin for FusionDirectory
+ Kolab 2 account management plugin
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-kolab-schema
+Package: fusiondirectory-plugin-kolab2-schema
+Replaces: fusiondirectory-plugin-kolab-schema
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -637,9 +639,9 @@ Depends:
  fusiondirectory-plugin-cyrus-schema (= ${binary:Version}),
 Recommends: slapd
 Conflicts: gosa-plugin-kolab-schema
-Description: LDAP schema for FusionDirectory kolab plugin
+Description: LDAP schema for FusionDirectory Kolab 2 plugin
  This package includes the LDAP schema needed by the FusionDirectory
- kolab plugin.
+ Kolab 2 plugin.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
