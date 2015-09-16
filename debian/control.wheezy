@@ -1186,6 +1186,7 @@ Architecture: all
 Depends:
  ${misc:Depends},
  fusiondirectory (= ${binary:Version}),
+ fusiondirectory-plugin-argonaut (= ${binary:Version}),
 Conflicts: gosa-plugin-systems
 Description: systems plugin for FusionDirectory
  Systems management base plugin.
