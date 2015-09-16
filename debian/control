@@ -1277,6 +1277,7 @@ Architecture: all
 Depends:
  ${misc:Depends},
  libterm-shellui-perl,
+ libterm-readline-gnu-perl,
  libjson-perl (>= 2.07-1),
  libjson-rpc-perl,
 Conflicts: gosa
