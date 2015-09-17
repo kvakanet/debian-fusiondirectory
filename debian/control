@@ -764,32 +764,6 @@ Description: LDAP schema for FusionDirectory netgroups plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-openstack-compute
-Architecture: all
-Depends:
- ${misc:Depends},
- fusiondirectory (= ${binary:Version}),
-Conflicts: gosa
-Description: Openstack compute plugin for FusionDirectory
- Openstack compute also called "nova" user management plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-openstack-compute-schema
-Architecture: all
-Depends:
- ${misc:Depends},
- fusiondirectory-schema (= ${binary:Version}),
-Recommends: slapd
-Conflicts: gosa
-Description: LDAP schema for FusionDirectory Openstack compute plugin
- This package includes the LDAP schema needed by the FusionDirectory
- Openstack compute plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-personal
 Architecture: all
 Depends: 
