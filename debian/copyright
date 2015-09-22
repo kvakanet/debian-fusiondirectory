@@ -361,7 +361,6 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/netgroups/admin/systems/netgroups/class_netgroupSystem.inc
  plugins/netgroups/config/netgroups/class_netgroupConfig.inc
  plugins/netgroups/personal/netgroups/main.inc
- plugins/openstack-compute/personal/openstack-compute/main.inc
  plugins/opsi/addons/opsi/main.inc
  plugins/opsi/admin/opsi/class_opsiOnDemandList.inc
  plugins/opsi/admin/opsi/class_opsiProductProperties.inc
@@ -452,7 +451,6 @@ Files:
  plugins/mail/locale/*/fusiondirectory.po
  plugins/nagios/locale/*/fusiondirectory.po
  plugins/netgroups/locale/*/fusiondirectory.po
- plugins/openstack-compute/locale/*/fusiondirectory.po
  plugins/opsi/locale/*/fusiondirectory.po
  plugins/puppet/locale/*/fusiondirectory.po
  plugins/pureftpd/locale/*/fusiondirectory.po
@@ -1092,9 +1090,6 @@ Files:
  plugins/netgroups/contrib/openldap/netgroups-fd-conf.schema
  plugins/netgroups/html/images/icon.png
  plugins/netgroups/html/images/iconMini.png
- plugins/openstack-compute/contrib/openldap/nova_openldap.schema
- plugins/openstack-compute/html/images/icon.png
- plugins/openstack-compute/html/images/iconMini.png
  plugins/opsi/addons/opsi/opsiimport.tpl
  plugins/opsi/contrib/openldap/opsi-fd-conf.schema
  plugins/opsi/contrib/openldap/opsi-fd.schema
@@ -1404,11 +1399,6 @@ License: GPL-2+
 
 Files: plugins/mail/personal/mail/sieve/class_sieveManagement.inc
 Copyright: 2003-2007, - Fabian Hickert <hickert@gonicus.de>
-  2011-2013, FusionDirectory
-License: GPL-2+
-
-Files: plugins/openstack-compute/personal/openstack-compute/class_novaAccount.inc
-Copyright: 2011, Yuriy Taraday
   2011-2013, FusionDirectory
 License: GPL-2+
 

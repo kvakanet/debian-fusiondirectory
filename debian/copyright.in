@@ -363,7 +363,6 @@ Files: alias/admin/alias/class_mailAliasDistribution.inc
  netgroups/admin/systems/netgroups/class_netgroupSystem.inc
  netgroups/config/netgroups/class_netgroupConfig.inc
  netgroups/personal/netgroups/main.inc
- openstack-compute/personal/openstack-compute/main.inc
  opsi/addons/opsi/main.inc
  opsi/admin/opsi/class_opsiOnDemandList.inc
  opsi/admin/opsi/class_opsiProductProperties.inc
@@ -557,12 +556,6 @@ License: GPL-2+
 
 Files: mail/personal/mail/sieve/class_sieveManagement.inc
 Copyright: 2003-2007, - Fabian Hickert <hickert@gonicus.de>
-  2011-2013, FusionDirectory
-License: GPL-2+
- FIXME
-
-Files: openstack-compute/personal/openstack-compute/class_novaAccount.inc
-Copyright: 2011, Yuriy Taraday
   2011-2013, FusionDirectory
 License: GPL-2+
  FIXME
