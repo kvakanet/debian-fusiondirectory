@@ -171,14 +171,6 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  plugins/fai/admin/systems/class_faiLogView.inc
  plugins/fai/admin/systems/class_faiStartup.inc
  plugins/fai/admin/systems/services/repository/class_serviceRepository.inc
- plugins/fax/addons/faxreports/class_faxreport.inc
- plugins/fax/addons/faxreports/main.inc
- plugins/fax/admin/blocklists/class_blocklistGeneric.inc
- plugins/fax/admin/systems/services/fax/class_serviceFax.inc
- plugins/fax/html/getfax.php
- plugins/fax/personal/faxaccount/class_gofaxAccount.inc
- plugins/fax/personal/faxaccount/faxNumberSelect/class_faxNumberSelect.inc
- plugins/fax/personal/faxaccount/main.inc
  plugins/kolab/admin/ogroups/kolab/class_mailogroup.inc
  plugins/kolab/admin/systems/services/kolab/class_serviceKolab.inc
  plugins/kolab/personal/kolab/class_kolabAccount.inc
@@ -332,9 +324,6 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/dsa/config/dsa/class_dsaConfig.inc
  plugins/fai/admin/fai/packageSelect/class_filterFAIcustoms.inc
  plugins/fai/config/fai/class_faiConfig.inc
- plugins/fax/admin/blocklists/class_blocklistManagement.inc
- plugins/fax/admin/blocklists/main.inc
- plugins/fax/config/fax/class_faxConfig.inc
  plugins/freeradius/personal/freeradius/main.inc
  plugins/fusioninventory/admin/inventory/class_inventoryManagement.inc
  plugins/fusioninventory/admin/inventory/main.inc
@@ -439,7 +428,6 @@ Files:
  plugins/dovecot/locale/*/fusiondirectory.po
  plugins/dsa/locale/*/fusiondirectory.po
  plugins/fai/locale/*/fusiondirectory.po
- plugins/fax/locale/*/fusiondirectory.po
  plugins/freeradius/locale/*/fusiondirectory.po
  plugins/fusioninventory/locale/*/fusiondirectory.po
  plugins/game/locale/*/fusiondirectory.po
@@ -990,27 +978,6 @@ Files:
  plugins/fai/html/images/package_configure.png
  plugins/fai/html/images/raid.png
  plugins/fai/html/images/removal_mark.png
- plugins/fax/addons/faxreports/contents.tpl
- plugins/fax/addons/faxreports/detail.tpl
- plugins/fax/contrib/openldap/fax-fd-conf.schema
- plugins/fax/contrib/openldap/fax-fd.schema
- plugins/fax/contrib/sql/gofax.sql
- plugins/fax/html/images/icon.png
- plugins/fax/html/images/iconBlocklists.png
- plugins/fax/html/images/iconMini.png
- plugins/fax/html/images/iconMiniBlocklists.png
- plugins/fax/html/images/iconMiniBlocklistsReceive.png
- plugins/fax/html/images/iconMiniBlocklistsSend.png
- plugins/fax/html/images/iconReport.png
- plugins/fax/html/images/printer.png
- plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-filter.tpl
- plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-filter.xml
- plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-list.tpl
- plugins/fax/personal/faxaccount/faxNumberSelect/faxNumberSelect-list.xml
- plugins/fax/personal/faxaccount/generic.tpl
- plugins/fax/personal/faxaccount/lists.tpl
- plugins/fax/personal/faxaccount/locals.tpl
- plugins/fax/personal/faxaccount/paste_generic.tpl
  plugins/freeradius/contrib/openldap/freeradius.schema
  plugins/freeradius/html/images/icon.png
  plugins/freeradius/html/images/iconMini.png

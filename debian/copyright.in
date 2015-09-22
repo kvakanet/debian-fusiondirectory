@@ -172,14 +172,6 @@ Files: addressbook/addons/addressbook/class_addressbook.inc
  fai/admin/systems/class_faiLogView.inc
  fai/admin/systems/class_faiStartup.inc
  fai/admin/systems/services/repository/class_serviceRepository.inc
- fax/addons/faxreports/class_faxreport.inc
- fax/addons/faxreports/main.inc
- fax/admin/blocklists/class_blocklistGeneric.inc
- fax/admin/systems/services/fax/class_serviceFax.inc
- fax/html/getfax.php
- fax/personal/faxaccount/class_gofaxAccount.inc
- fax/personal/faxaccount/faxNumberSelect/class_faxNumberSelect.inc
- fax/personal/faxaccount/main.inc
  kolab/admin/ogroups/kolab/class_mailogroup.inc
  kolab/admin/systems/services/kolab/class_serviceKolab.inc
  kolab/personal/kolab/class_kolabAccount.inc
@@ -334,9 +326,6 @@ Files: alias/admin/alias/class_mailAliasDistribution.inc
  dsa/config/dsa/class_dsaConfig.inc
  fai/admin/fai/packageSelect/class_filterFAIcustoms.inc
  fai/config/fai/class_faiConfig.inc
- fax/admin/blocklists/class_blocklistManagement.inc
- fax/admin/blocklists/main.inc
- fax/config/fax/class_faxConfig.inc
  freeradius/personal/freeradius/main.inc
  fusioninventory/admin/inventory/class_inventoryManagement.inc
  fusioninventory/admin/inventory/main.inc
