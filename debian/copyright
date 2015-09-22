@@ -467,7 +467,6 @@ Files:
  plugins/supann/locale/*/fusiondirectory.po
  plugins/sympa/locale/*/fusiondirectory.po
  plugins/systems/locale/*/fusiondirectory.po
- plugins/uw-imap/locale/*/fusiondirectory.po
  plugins/weblink/locale/*/fusiondirectory.po
  plugins/webservice/locale/*/fusiondirectory.po
 Copyright: FusionDirectory Project
@@ -1269,7 +1268,6 @@ Files:
  plugins/systems/html/images/workstation_busy.png
  plugins/systems/html/images/workstation_error.png
  plugins/systems/html/images/workstation_locked.png
- plugins/uw-imap/personal/mail/uw-imap/procmail_script.tpl
  plugins/weblink/contrib/openldap/weblink-fd.schema
  plugins/webservice/contrib/bin/fusiondirectory-shell
  plugins/webservice/contrib/docs/jsonrpc.php.doc
@@ -1396,13 +1394,6 @@ Files: plugins/nagios/personal/nagios/class_nagiosAccount.inc
 Copyright: 2005, Guillame Delecourt
   2006, Benoit Mortier
   2006, Vincent Seynhaeve
-  2011-2013, FusionDirectory
-License: GPL-2+
-
-Files: plugins/uw-imap/personal/mail/uw-imap/class_mail-methods-uwimap.inc
-Copyright: 2003, Cajus Pollmeier
-  2008, Fabian Hickert
-  2008, Gero Kuhlmann
   2011-2013, FusionDirectory
 License: GPL-2+
 

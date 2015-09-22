@@ -549,14 +549,6 @@ Copyright: 2005, Guillame Delecourt
 License: GPL-2+
  FIXME
 
-Files: uw-imap/personal/mail/uw-imap/class_mail-methods-uwimap.inc
-Copyright: 2003, Cajus Pollmeier
-  2008, Fabian Hickert
-  2008, Gero Kuhlmann
-  2011-2013, FusionDirectory
-License: GPL-2+
- FIXME
-
 Files: mail/personal/mail/class_mailAccount.inc
 Copyright: 2007, Fabian Hicker
   2011-2014, FusionDirectory

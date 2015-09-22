@@ -1186,19 +1186,6 @@ Description: LDAP schema for FusionDirectory systems plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugin-uw-imap
-Architecture: all
-Depends:
- ${misc:Depends},
- fusiondirectory (= ${binary:Version}),
- fusiondirectory-plugin-mail (= ${binary:Version}),
-Conflicts: gosa-plugin-uw-imap
-Description: uw-imap plugin for FusionDirectory
- UW imap mail method.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-weblink
 Architecture: all
 Depends:
