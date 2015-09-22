@@ -15,23 +15,6 @@ Files: plugins/addressbook/addons/addressbook/class_addressbook.inc
  plugins/argonaut/addons/argonaut/events/class_EventAddSystemDialog.inc
  plugins/argonaut/addons/argonaut/events/class_filterSystemByIp.inc
  plugins/argonaut/html/getFAIstatus.php
- plugins/asterisk/addons/fonreports/class_fonreport.inc
- plugins/asterisk/addons/fonreports/main.inc
- plugins/asterisk/admin/conference/class_phoneConferenceGeneric.inc
- plugins/asterisk/admin/conference/class_phoneConferenceManagment.inc
- plugins/asterisk/admin/conference/main.inc
- plugins/asterisk/admin/conference/tabs_conference.inc
- plugins/asterisk/admin/macro/class_gofonMacro.inc
- plugins/asterisk/admin/macro/class_gofonMacroManagement.inc
- plugins/asterisk/admin/macro/class_gofonMacroParameters.inc
- plugins/asterisk/admin/macro/main.inc
- plugins/asterisk/admin/macro/tabs_macros.inc
- plugins/asterisk/admin/ogroups/asterisk/class_phonequeue.inc
- plugins/asterisk/admin/systems/asterisk/class_phoneGeneric.inc
- plugins/asterisk/admin/systems/asterisk/tabs_phone.inc
- plugins/asterisk/admin/systems/services/asterisk/class_serviceAsterisk.inc
- plugins/asterisk/personal/phoneaccount/class_phoneAccount.inc
- plugins/asterisk/personal/phoneaccount/main.inc
  core/contrib/smarty/plugins/block.render.php
  core/contrib/smarty/plugins/function.msgPool.php
  core/html/autocomplete.php
@@ -255,7 +238,6 @@ Files: plugins/alias/admin/alias/class_mailAliasDistribution.inc
  plugins/argonaut/admin/systems/services/argonaut/class_argonautServer.inc
  plugins/argonaut/include/class_supportDaemon.inc
  plugins/argonaut/include/simpleplugin/class_BootKernelAttribute.inc
- plugins/asterisk/config/asterisk/class_asteriskPluginConfig.inc
  plugins/autofs/admin/autofs/class_autofsManagement.inc
  plugins/autofs/admin/autofs/class_nisMap.inc
  plugins/autofs/admin/autofs/class_nisObject.inc
@@ -416,7 +398,6 @@ Files:
  plugins/alias/locale/*/fusiondirectory.po
  plugins/apache2/locale/*/fusiondirectory.po
  plugins/argonaut/locale/*/fusiondirectory.po
- plugins/asterisk/locale/*/fusiondirectory.po
  plugins/autofs/locale/*/fusiondirectory.po
  plugins/cyrus/locale/*/fusiondirectory.po
  plugins/dashboard/locale/*/fusiondirectory.po
@@ -786,38 +767,6 @@ Files:
  plugins/argonaut/html/images/iconMiniDnsConfig.png
  plugins/argonaut/html/images/iconMiniFuseConfig.png
  plugins/argonaut/html/images/iconMiniMirrorConfig.png
- plugins/asterisk/addons/fonreports/contents.tpl
- plugins/asterisk/admin/conference/conf-filter.tpl
- plugins/asterisk/admin/conference/conf-filter.xml
- plugins/asterisk/admin/conference/conf-list.xml
- plugins/asterisk/admin/conference/generic.tpl
- plugins/asterisk/admin/conference/paste_generic.tpl
- plugins/asterisk/admin/conference/remove.tpl
- plugins/asterisk/admin/macro/generic.tpl
- plugins/asterisk/admin/macro/macro-filter.tpl
- plugins/asterisk/admin/macro/macro-filter.xml
- plugins/asterisk/admin/macro/macro-list.xml
- plugins/asterisk/admin/macro/parameter.tpl
- plugins/asterisk/admin/macro/paste_generic.tpl
- plugins/asterisk/admin/macro/remove.tpl
- plugins/asterisk/admin/ogroups/asterisk/phonequeue.tpl
- plugins/asterisk/admin/systems/asterisk/phone.tpl
- plugins/asterisk/admin/systems/asterisk/phonesettings.tpl
- plugins/asterisk/contrib/openldap/asterisk-fd-conf.schema
- plugins/asterisk/contrib/openldap/asterisk-fd.schema
- plugins/asterisk/contrib/sql/asteriskcdrdb.sql
- plugins/asterisk/html/images/hardware.png
- plugins/asterisk/html/images/icon.png
- plugins/asterisk/html/images/iconConference.png
- plugins/asterisk/html/images/iconMacros.png
- plugins/asterisk/html/images/iconMini.png
- plugins/asterisk/html/images/iconMiniConference.png
- plugins/asterisk/html/images/iconMiniMacros.png
- plugins/asterisk/html/images/iconReport.png
- plugins/asterisk/html/images/options.png
- plugins/asterisk/html/images/sound.png
- plugins/asterisk/personal/phoneaccount/generic.tpl
- plugins/asterisk/personal/phoneaccount/paste_generic.tpl
  plugins/autofs/contrib/openldap/autofs-fd-conf.schema
  plugins/autofs/html/images/folder-remote.png
  plugins/autofs/html/images/folder.png

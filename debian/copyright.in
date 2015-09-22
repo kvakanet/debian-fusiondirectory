@@ -16,23 +16,6 @@ Files: addressbook/addons/addressbook/class_addressbook.inc
  argonaut/addons/argonaut/events/class_EventAddSystemDialog.inc
  argonaut/addons/argonaut/events/class_filterSystemByIp.inc
  argonaut/html/getFAIstatus.php
- asterisk/addons/fonreports/class_fonreport.inc
- asterisk/addons/fonreports/main.inc
- asterisk/admin/conference/class_phoneConferenceGeneric.inc
- asterisk/admin/conference/class_phoneConferenceManagment.inc
- asterisk/admin/conference/main.inc
- asterisk/admin/conference/tabs_conference.inc
- asterisk/admin/macro/class_gofonMacro.inc
- asterisk/admin/macro/class_gofonMacroManagement.inc
- asterisk/admin/macro/class_gofonMacroParameters.inc
- asterisk/admin/macro/main.inc
- asterisk/admin/macro/tabs_macros.inc
- asterisk/admin/ogroups/asterisk/class_phonequeue.inc
- asterisk/admin/systems/asterisk/class_phoneGeneric.inc
- asterisk/admin/systems/asterisk/tabs_phone.inc
- asterisk/admin/systems/services/asterisk/class_serviceAsterisk.inc
- asterisk/personal/phoneaccount/class_phoneAccount.inc
- asterisk/personal/phoneaccount/main.inc
  core/contrib/smarty/plugins/block.render.php
  core/contrib/smarty/plugins/function.msgPool.php
  core/html/autocomplete.php
@@ -257,7 +240,6 @@ Files: alias/admin/alias/class_mailAliasDistribution.inc
  argonaut/admin/systems/services/argonaut/class_argonautServer.inc
  argonaut/include/class_supportDaemon.inc
  argonaut/include/simpleplugin/class_BootKernelAttribute.inc
- asterisk/config/asterisk/class_asteriskPluginConfig.inc
  autofs/admin/autofs/class_autofsManagement.inc
  autofs/admin/autofs/class_nisMap.inc
  autofs/admin/autofs/class_nisObject.inc
