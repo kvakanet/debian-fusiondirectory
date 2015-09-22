@@ -41,13 +41,19 @@ Depends:
  libdigest-sha-perl,
  libarchive-extract-perl,
  libterm-readkey-perl,
- schema2ldif
+ schema2ldif,
 Suggests:
  argonaut-server,
  slapd,
  fusiondirectory-schema (= ${binary:Version}),
 Conflicts:
  gosa,
+Breaks:
+ fusiondirectory-plugin-dashboard (<< 1.0.8.7),
+ fusiondirectory-plugin-dashboard-schema (<< 1.0.8.7),
+Replaces:
+ fusiondirectory-plugin-dashboard (<< 1.0.8.7),
+ fusiondirectory-plugin-dashboard-schema (<< 1.0.8.7),
 Description: Web Based LDAP Administration Program
  Provided is access to posix, shadow, samba, proxy, pureftp and
  kerberos accounts. It is able to manage the postfix/cyrus server
