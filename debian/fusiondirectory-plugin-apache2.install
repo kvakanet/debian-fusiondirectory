@@ -1,2 +1,3 @@
 plugins/apache2/admin                      /usr/share/fusiondirectory/plugins
 plugins/apache2/locale                     /usr/share/fusiondirectory/locale/plugins/apache2
+

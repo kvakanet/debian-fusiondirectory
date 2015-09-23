@@ -1,4 +1,4 @@
-plugins/nagios/config       /usr/share/fusiondirectory/plugins
 plugins/nagios/personal     /usr/share/fusiondirectory/plugins
-plugins/nagios/html/images  /usr/share/fusiondirectory/html/plugins/nagios
+plugins/nagios/config       /usr/share/fusiondirectory/plugins
 plugins/nagios/locale       /usr/share/fusiondirectory/locale/plugins/nagios
+plugins/nagios/html/images  /usr/share/fusiondirectory/html/plugins/nagios

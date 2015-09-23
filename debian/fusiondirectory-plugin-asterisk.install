@@ -1,6 +1,0 @@
-plugins/asterisk/addons                           /usr/share/fusiondirectory/plugins
-plugins/asterisk/admin                            /usr/share/fusiondirectory/plugins
-plugins/asterisk/config                           /usr/share/fusiondirectory/plugins
-plugins/asterisk/personal                         /usr/share/fusiondirectory/plugins
-plugins/asterisk/html/images                      /usr/share/fusiondirectory/html/plugins/asterisk
-plugins/asterisk/locale                           /usr/share/fusiondirectory/locale/plugins/asterisk

@@ -1,1 +1,0 @@
-plugins/openstack-compute/contrib/openldap/nova_openldap.schema /etc/ldap/schema/fusiondirectory

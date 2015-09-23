@@ -1,5 +1,5 @@
 plugins/cyrus/admin            /usr/share/fusiondirectory/plugins
-plugins/cyrus/personal         /usr/share/fusiondirectory/plugins
 plugins/cyrus/html/images      /usr/share/fusiondirectory/html/plugins/cyrus
 plugins/cyrus/locale           /usr/share/fusiondirectory/locale/plugins/cyrus
+plugins/cyrus/personal         /usr/share/fusiondirectory/plugins
 
