@@ -985,6 +985,7 @@ Package: fusiondirectory-plugin-quota
 Architecture: all
 Depends:
  fusiondirectory (= ${binary:Version}),
+ fusiondirectory-plugin-systems (= ${binary:Version}),
  ${misc:Depends},
 Conflicts:
  gosa,
