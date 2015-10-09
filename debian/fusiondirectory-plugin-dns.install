@@ -1,5 +1,4 @@
 plugins/dns/admin       /usr/share/fusiondirectory/plugins
-plugins/dns/html/images /usr/share/fusiondirectory/html/plugins/dns
-plugins/dns/locale      /usr/share/fusiondirectory/locale/plugins/dns
 plugins/dns/config      /usr/share/fusiondirectory/plugins
-
+plugins/dns/locale      /usr/share/fusiondirectory/locale/plugins/dns
+plugins/dns/html/themes /usr/share/fusiondirectory/html
