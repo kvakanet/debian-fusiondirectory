@@ -411,6 +411,7 @@ Package: fusiondirectory-plugin-dovecot
 Architecture: all
 Depends:
  fusiondirectory (= ${binary:Version}),
+ fusiondirectory-plugin-mail (= ${binary:Version}),
  fusiondirectory-plugin-systems (= ${binary:Version}),
  ${misc:Depends},
 Conflicts:
