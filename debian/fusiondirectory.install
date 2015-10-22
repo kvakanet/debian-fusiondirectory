@@ -38,7 +38,7 @@ core/include/class_objects.inc                     /usr/share/fusiondirectory/in
 core/include/class_plugin.inc                      /usr/share/fusiondirectory/include
 core/include/class_pluglist.inc                    /usr/share/fusiondirectory/include
 core/include/class_session.inc                     /usr/share/fusiondirectory/include
-core/include/class_SnapShotDialog.inc              /usr/share/fusiondirectory/include
+core/include/class_SnapShotDialogs.inc             /usr/share/fusiondirectory/include
 core/include/class_SnapshotHandler.inc             /usr/share/fusiondirectory/include
 core/include/class_template.inc                    /usr/share/fusiondirectory/include
 core/include/class_tests.inc                       /usr/share/fusiondirectory/include
