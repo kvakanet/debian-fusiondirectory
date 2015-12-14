@@ -1181,6 +1181,7 @@ Package: fusiondirectory-plugin-sudo
 Architecture: all
 Depends:
  fusiondirectory (= ${binary:Version}),
+ fusiondirectory-plugin-systems (= ${binary:Version}),
  ${misc:Depends},
 Conflicts:
  gosa-plugin-sudo,
