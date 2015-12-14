@@ -1257,6 +1257,7 @@ Package: fusiondirectory-plugin-systems-schema
 Architecture: all
 Depends:
  fusiondirectory-schema (= ${binary:Version}),
+ fusiondirectory-plugin-argonaut-schema (= ${binary:Version}),
  ${misc:Depends},
 Recommends:
  slapd,
