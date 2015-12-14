@@ -279,22 +279,6 @@ Description: LDAP schema for FusionDirectory cyrus plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
 
-Package: fusiondirectory-plugin-database-connector
-Architecture: all
-Depends:
- fusiondirectory (= ${binary:Version}),
- php-mdb2,
- php-mdb2-driver-mysql | php-mdb2-driver-pgsql,
- ${misc:Depends},
-Conflicts:
- gosa,
-Description: database plugin for FusionDirectory
- Database abstraction plugin - abstract database call with MDB2 for some
- FusionDirectory plugins.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-debconf
 Architecture: all
 Depends:
