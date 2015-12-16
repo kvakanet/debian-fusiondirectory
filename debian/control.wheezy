@@ -1043,21 +1043,6 @@ Description: LDAP schema for FusionDirectory repository plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugin-rsyslog
-Architecture: all
-Depends:
- fusiondirectory (= ${binary:Version}),
- fusiondirectory-plugin-database-connector (= ${binary:Version}),
- fusiondirectory-plugin-systems (= ${binary:Version}),
- ${misc:Depends},
-Conflicts:
- gosa-plugin-rsyslog,
-Description: rsyslog plugin for FusionDirectory
- Syslog and FusionDirectory logging plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-samba
 Architecture: all
 Depends:
