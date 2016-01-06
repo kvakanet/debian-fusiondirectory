@@ -3,4 +3,3 @@ plugins/samba/config                    /usr/share/fusiondirectory/plugins
 plugins/samba/personal                  /usr/share/fusiondirectory/plugins
 plugins/samba/include                   /usr/share/fusiondirectory
 plugins/samba/locale                    /usr/share/fusiondirectory/locale/plugins/samba
-plugins/samba/contrib/fix_munged        /usr/share/doc/fusiondirectory-plugin-samba
