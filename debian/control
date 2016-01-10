@@ -32,6 +32,7 @@ Depends:
  libxml-twig-perl,
  php-fpdf,
  php5,
+ php-cas,
  php5-cli,
  php5-curl,
  php5-gd,
@@ -274,22 +275,6 @@ Conflicts:
 Description: LDAP schema for FusionDirectory cyrus plugin
  This package includes the LDAP schema needed by the FusionDirectory
  cyrus plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
-Package: fusiondirectory-plugin-database-connector
-Architecture: all
-Depends:
- fusiondirectory (= ${binary:Version}),
- php-mdb2,
- php-mdb2-driver-mysql | php-mdb2-driver-pgsql,
- ${misc:Depends},
-Conflicts:
- gosa,
-Description: database plugin for FusionDirectory
- Database abstraction plugin - abstract database call with MDB2 for some
- FusionDirectory plugins.
  .
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based network infrastructures.
@@ -1043,21 +1028,6 @@ Description: LDAP schema for FusionDirectory repository plugin
  FusionDirectory is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: fusiondirectory-plugin-rsyslog
-Architecture: all
-Depends:
- fusiondirectory (= ${binary:Version}),
- fusiondirectory-plugin-database-connector (= ${binary:Version}),
- fusiondirectory-plugin-systems (= ${binary:Version}),
- ${misc:Depends},
-Conflicts:
- gosa-plugin-rsyslog,
-Description: rsyslog plugin for FusionDirectory
- Syslog and FusionDirectory logging plugin.
- .
- FusionDirectory is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based network infrastructures.
-
 Package: fusiondirectory-plugin-samba
 Architecture: all
 Depends:
@@ -1180,6 +1150,7 @@ Package: fusiondirectory-plugin-sudo
 Architecture: all
 Depends:
  fusiondirectory (= ${binary:Version}),
+ fusiondirectory-plugin-systems (= ${binary:Version}),
  ${misc:Depends},
 Conflicts:
  gosa-plugin-sudo,
@@ -1286,6 +1257,7 @@ Package: fusiondirectory-plugin-systems-schema
 Architecture: all
 Depends:
  fusiondirectory-schema (= ${binary:Version}),
+ fusiondirectory-plugin-argonaut-schema (= ${binary:Version}),
  ${misc:Depends},
 Recommends:
  slapd,
